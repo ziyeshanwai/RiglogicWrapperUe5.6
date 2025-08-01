@@ -1,0 +1,1044 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RigLogicLib\Private\dna\filters\AnimatedMapFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\dna\filters\BlendShapeFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\dna\filters\JointFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\dna\filters\MeshFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\dna\stream\BinaryStreamReaderImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\dna\stream\BinaryStreamWriterImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\dna\stream\FilteredBinaryInputArchive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\dna\stream\JSONStreamReaderImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\dna\stream\JSONStreamWriterImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\dna\stream\StreamReader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\dna\stream\StreamReaderStatus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\dna\stream\StreamWriter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\dna\version\DNAVersionInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\dna\LODConstraint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\dna\LODMapping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\dna\Reader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\dna\Writer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\pma\resources\AlignedMemoryResource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\pma\resources\ArenaMemoryResource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\pma\resources\DefaultMemoryResource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\pma\MemoryResource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMaps.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsImplOutputInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsNull.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsNullOutputInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsOutputInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesImplOutputInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesNull.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesNullOutputInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesOutputInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\conditionaltable\ConditionalTable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\controls\instances\StandardControlsInputInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\controls\psdnet\PSDNet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\controls\Controls.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\controls\ControlsFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\controls\ControlsInputInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\cpu\bpcm\BPCMJointsBuilderFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\cpu\quaternions\QuaternionJointsBuilderFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\cpu\twistswing\TwistSwingJointsBuilderFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\cpu\utils\JointGroupOptimizer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\cpu\CPUJointsBuilder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\cpu\CPUJointsEvaluator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\cpu\CPUJointsOutputInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\JointBehaviorFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\Joints.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\JointsBuilder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\JointsEvaluator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\JointsFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\JointsNullEvaluator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\JointsNullOutputInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\JointsOutputInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\ml\cpu\CPUMachineLearnedBehaviorOutputInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehavior.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorEvaluator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorNullEvaluator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorNullOutputInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorOutputInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\cpu\AdditiveRBFSolver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\cpu\CPURBFBehaviorOutputInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\cpu\InterpolativeRBFSolver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\cpu\RBFSolver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\RBFBehavior.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorEvaluator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorNullEvaluator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorNullOutputInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorOutputInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\riglogic\RigInstanceImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\riglogic\RigLogicImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\riglogic\version\RLVersionInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\status\Provider.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\status\Registry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\status\Status.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\status\Storage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\trio\streams\FileStreamImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\trio\streams\MemoryMappedFileStream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\trio\streams\MemoryMappedFileStreamFallback.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\trio\streams\MemoryMappedFileStreamUnix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\trio\streams\MemoryMappedFileStreamWindows.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\trio\streams\MemoryStreamImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\trio\streams\StreamStatus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\trio\Concepts.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Private\trio\Stream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RigLogicLib\Public\py3dna_wrap.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RigLogicLib\Private\dna\filters\AnimatedMapFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\filters\BlendShapeFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\filters\JointFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\filters\MeshFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\filters\Remap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\stream\BinaryStreamReaderImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\stream\BinaryStreamWriterImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\stream\FilteredBinaryInputArchive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\stream\JSONStreamReaderImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\stream\JSONStreamWriterImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\stream\StreamReaderStatus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\types\Limits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\utils\Extd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\utils\ScopedEnumEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\BaseImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\DataLayerBitmask.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\DenormalizedData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\DNA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\Helpers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\LODConstraint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\LODMapping.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\ReaderImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\SurjectiveMapping.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\TypeDefs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\dna\WriterImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMaps.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsImplOutputInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsNull.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsNullOutputInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsOutputInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesImplOutputInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesNull.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesNullOutputInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesOutputInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\conditionaltable\ConditionalTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\controls\instances\StandardControlsInputInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\controls\psdnet\PSDNet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\controls\Controls.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\controls\ControlsFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\controls\ControlsInputInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\bpcm\BPCMJointsBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\bpcm\BPCMJointsBuilderFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\bpcm\BPCMJointsEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\bpcm\CalculationStrategy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\bpcm\JointGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\bpcm\RotationAdapters.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\bpcm\Storage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\quaternions\CalculationStrategy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\quaternions\JointGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\quaternions\QuaternionJointsBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\quaternions\QuaternionJointsBuilderFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\quaternions\QuaternionJointsEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\quaternions\RotationAdapters.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\twistswing\TwistSwingJointsBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\twistswing\TwistSwingJointsBuilderFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\twistswing\TwistSwingJointsEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\twistswing\TwistSwingSetup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\utils\JointGroupOptimizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\utils\LODRegion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\CPUJointsBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\CPUJointsEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\CPUJointsOutputInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\JointBehaviorFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\Joints.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\JointsBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\JointsEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\JointsFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\JointsNullEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\JointsNullOutputInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\JointsOutputInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\layers\LayerEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\layers\LeakyReLULayerEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\layers\LinearLayerEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\layers\ReLULayerEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\layers\SigmoidLayerEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\layers\TanHLayerEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\layers\Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\CPUMachineLearnedBehaviorEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\CPUMachineLearnedBehaviorFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\CPUMachineLearnedBehaviorOutputInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\Inference.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\NeuralNet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehavior.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorNullEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorNullOutputInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorOutputInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\cpu\AdditiveRBFSolver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\cpu\CPURBFBehaviorEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\cpu\CPURBFBehaviorFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\cpu\CPURBFBehaviorOutputInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\cpu\InterpolativeRBFSolver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\cpu\RBFSolver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\RBFBehavior.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorNullEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorNullOutputInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorOutputInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\riglogic\ConfigurationSerializer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\riglogic\RigInstanceImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\riglogic\RigLogicImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\riglogic\RigMetrics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\system\simd\Detect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\system\simd\SIMD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\system\simd\Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\types\bpcm\Optimizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\types\Extent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\types\LODSpec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\types\PaddedBlockView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\utils\Extd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\utils\Macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\riglogic\TypeDefs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\status\PredefinedCodes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\status\Registry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\status\Storage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\trio\streams\FileStreamImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\trio\streams\MemoryMappedFileStreamFallback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\trio\streams\MemoryMappedFileStreamUnix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\trio\streams\MemoryMappedFileStreamWindows.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\trio\streams\MemoryStreamImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\trio\streams\StreamStatus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\trio\utils\NativeString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\trio\utils\PlatformWindows.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\trio\utils\ScopedEnumEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Private\WindowsPlatformUE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\arrayview\version\Version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\arrayview\ArrayView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\arrayview\StringView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\BehaviorReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\BehaviorWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\DefinitionReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\DefinitionWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\Descriptor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\DescriptorReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\DescriptorWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\Geometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\GeometryReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\GeometryWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\HeaderReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\HeaderWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\JointBehaviorMetadata.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\JointBehaviorMetadataReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\JointBehaviorMetadataWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\MachineLearnedBehavior.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\MachineLearnedBehaviorReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\MachineLearnedBehaviorWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\RBFBehavior.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\RBFBehaviorReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\RBFBehaviorWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\Twist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\TwistSwingBehaviorReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\layers\TwistSwingBehaviorWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\types\Aliases.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\types\Vector3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\version\Version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\version\VersionInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\BinaryStreamReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\BinaryStreamWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\DataLayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\Defs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\JSONStreamReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\JSONStreamWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\Reader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\StreamReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\StreamWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\dna\Writer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\pma\resources\AlignedMemoryResource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\pma\resources\ArenaMemoryResource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\pma\resources\DefaultMemoryResource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\pma\utils\ManagedInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\pma\version\Version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\pma\Defs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\pma\MemoryResource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\pma\PolyAllocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\pma\ScopedPtr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\pma\TypeDefs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\riglogic\riglogic\Configuration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\riglogic\riglogic\RigInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\riglogic\riglogic\RigLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\riglogic\riglogic\Stats.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\riglogic\types\Aliases.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\riglogic\version\Version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\riglogic\version\VersionInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\riglogic\Defs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\riglogic\RigLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\status\version\Version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\status\Defs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\status\Provider.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\status\Status.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\status\StatusCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\tdm\version\Version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\tdm\Ang.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\tdm\AxisAngle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\tdm\Computations.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\tdm\Mat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\tdm\Quat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\tdm\TDM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\tdm\Transforms.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\tdm\Types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\tdm\Vec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\archives\binary\InputArchive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\archives\binary\OutputArchive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\archives\json\InputArchive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\archives\json\OutputArchive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\archives\Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\archives\Traits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\types\Anchor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\types\ArchiveOffset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\types\ArchiveSize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\types\Blob.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\types\CharInputStreamBuf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\types\CharOutputStreamBuf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\types\DynArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\types\Transparent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\types\Versioned.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\utils\Base64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\utils\ByteSwap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\utils\Endianness.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\utils\VirtualSerializerProxy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\version\Version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\terse\Archive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trimd\version\Version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trimd\AVX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trimd\Fallback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trimd\Macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trimd\NEON.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trimd\Platform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trimd\PlatformWindows.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trimd\Polyfill.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trimd\Scalar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trimd\SSE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trimd\TRiMD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trimd\Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trio\streams\FileStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trio\streams\MemoryMappedFileStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trio\streams\MemoryStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trio\types\Aliases.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trio\types\Parameters.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trio\utils\StreamScope.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trio\version\Version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trio\Concepts.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trio\Defs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\trio\Stream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RigLogicLib\Public\FMemoryResource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

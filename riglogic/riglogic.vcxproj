@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RigLogicLib\Private\dna\filters\AnimatedMapFilter.cpp" />
+    <ClCompile Include="RigLogicLib\Private\dna\filters\BlendShapeFilter.cpp" />
+    <ClCompile Include="RigLogicLib\Private\dna\filters\JointFilter.cpp" />
+    <ClCompile Include="RigLogicLib\Private\dna\filters\MeshFilter.cpp" />
+    <ClCompile Include="RigLogicLib\Private\dna\LODConstraint.cpp" />
+    <ClCompile Include="RigLogicLib\Private\dna\LODMapping.cpp" />
+    <ClCompile Include="RigLogicLib\Private\dna\Reader.cpp" />
+    <ClCompile Include="RigLogicLib\Private\dna\stream\BinaryStreamReaderImpl.cpp" />
+    <ClCompile Include="RigLogicLib\Private\dna\stream\BinaryStreamWriterImpl.cpp" />
+    <ClCompile Include="RigLogicLib\Private\dna\stream\FilteredBinaryInputArchive.cpp" />
+    <ClCompile Include="RigLogicLib\Private\dna\stream\JSONStreamReaderImpl.cpp" />
+    <ClCompile Include="RigLogicLib\Private\dna\stream\JSONStreamWriterImpl.cpp" />
+    <ClCompile Include="RigLogicLib\Private\dna\stream\StreamReader.cpp" />
+    <ClCompile Include="RigLogicLib\Private\dna\stream\StreamReaderStatus.cpp" />
+    <ClCompile Include="RigLogicLib\Private\dna\stream\StreamWriter.cpp" />
+    <ClCompile Include="RigLogicLib\Private\dna\version\DNAVersionInfo.cpp" />
+    <ClCompile Include="RigLogicLib\Private\dna\Writer.cpp" />
+    <ClCompile Include="RigLogicLib\Private\pma\MemoryResource.cpp" />
+    <ClCompile Include="RigLogicLib\Private\pma\resources\AlignedMemoryResource.cpp" />
+    <ClCompile Include="RigLogicLib\Private\pma\resources\ArenaMemoryResource.cpp" />
+    <ClCompile Include="RigLogicLib\Private\pma\resources\DefaultMemoryResource.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMaps.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsFactory.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsImpl.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsImplOutputInstance.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsNull.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsNullOutputInstance.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsOutputInstance.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapes.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesFactory.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesImpl.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesImplOutputInstance.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesNull.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesNullOutputInstance.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesOutputInstance.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\conditionaltable\ConditionalTable.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\controls\Controls.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\controls\ControlsFactory.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\controls\ControlsInputInstance.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\controls\instances\StandardControlsInputInstance.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\controls\psdnet\PSDNet.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\cpu\bpcm\BPCMJointsBuilderFactory.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\cpu\CPUJointsBuilder.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\cpu\CPUJointsEvaluator.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\cpu\CPUJointsOutputInstance.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\cpu\quaternions\QuaternionJointsBuilderFactory.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\cpu\twistswing\TwistSwingJointsBuilderFactory.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\cpu\utils\JointGroupOptimizer.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\JointBehaviorFilter.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\Joints.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\JointsBuilder.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\JointsEvaluator.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\JointsFactory.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\JointsNullEvaluator.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\JointsNullOutputInstance.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\joints\JointsOutputInstance.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\ml\cpu\CPUMachineLearnedBehaviorOutputInstance.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehavior.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorEvaluator.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorFactory.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorNullEvaluator.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorNullOutputInstance.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorOutputInstance.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\cpu\AdditiveRBFSolver.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\cpu\CPURBFBehaviorOutputInstance.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\cpu\InterpolativeRBFSolver.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\cpu\RBFSolver.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\RBFBehavior.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorEvaluator.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorFactory.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorNullEvaluator.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorNullOutputInstance.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorOutputInstance.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\riglogic\RigInstanceImpl.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\riglogic\RigLogicImpl.cpp" />
+    <ClCompile Include="RigLogicLib\Private\riglogic\version\RLVersionInfo.cpp" />
+    <ClCompile Include="RigLogicLib\Private\status\Provider.cpp" />
+    <ClCompile Include="RigLogicLib\Private\status\Registry.cpp" />
+    <ClCompile Include="RigLogicLib\Private\status\Status.cpp" />
+    <ClCompile Include="RigLogicLib\Private\status\Storage.cpp" />
+    <ClCompile Include="RigLogicLib\Private\trio\Concepts.cpp" />
+    <ClCompile Include="RigLogicLib\Private\trio\Stream.cpp" />
+    <ClCompile Include="RigLogicLib\Private\trio\streams\FileStreamImpl.cpp" />
+    <ClCompile Include="RigLogicLib\Private\trio\streams\MemoryMappedFileStream.cpp" />
+    <ClCompile Include="RigLogicLib\Private\trio\streams\MemoryMappedFileStreamFallback.cpp" />
+    <ClCompile Include="RigLogicLib\Private\trio\streams\MemoryMappedFileStreamUnix.cpp" />
+    <ClCompile Include="RigLogicLib\Private\trio\streams\MemoryMappedFileStreamWindows.cpp" />
+    <ClCompile Include="RigLogicLib\Private\trio\streams\MemoryStreamImpl.cpp" />
+    <ClCompile Include="RigLogicLib\Private\trio\streams\StreamStatus.cpp" />
+    <ClCompile Include="RigLogicLib\Public\py3dna_wrap.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RigLogicLib\Private\dna\BaseImpl.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\DataLayerBitmask.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\DenormalizedData.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\DNA.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\filters\AnimatedMapFilter.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\filters\BlendShapeFilter.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\filters\JointFilter.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\filters\MeshFilter.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\filters\Remap.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\Helpers.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\LODConstraint.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\LODMapping.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\ReaderImpl.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\stream\BinaryStreamReaderImpl.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\stream\BinaryStreamWriterImpl.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\stream\FilteredBinaryInputArchive.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\stream\JSONStreamReaderImpl.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\stream\JSONStreamWriterImpl.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\stream\StreamReaderStatus.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\SurjectiveMapping.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\TypeDefs.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\types\Limits.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\utils\Extd.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\utils\ScopedEnumEx.h" />
+    <ClInclude Include="RigLogicLib\Private\dna\WriterImpl.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMaps.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsFactory.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsImpl.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsImplOutputInstance.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsNull.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsNullOutputInstance.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\animatedmaps\AnimatedMapsOutputInstance.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapes.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesFactory.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesImpl.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesImplOutputInstance.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesNull.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesNullOutputInstance.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\blendshapes\BlendShapesOutputInstance.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\conditionaltable\ConditionalTable.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\controls\Controls.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\controls\ControlsFactory.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\controls\ControlsInputInstance.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\controls\instances\StandardControlsInputInstance.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\controls\psdnet\PSDNet.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\bpcm\BPCMJointsBuilder.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\bpcm\BPCMJointsBuilderFactory.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\bpcm\BPCMJointsEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\bpcm\CalculationStrategy.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\bpcm\JointGroup.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\bpcm\RotationAdapters.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\bpcm\Storage.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\CPUJointsBuilder.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\CPUJointsEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\CPUJointsOutputInstance.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\quaternions\CalculationStrategy.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\quaternions\JointGroup.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\quaternions\QuaternionJointsBuilder.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\quaternions\QuaternionJointsBuilderFactory.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\quaternions\QuaternionJointsEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\quaternions\RotationAdapters.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\twistswing\TwistSwingJointsBuilder.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\twistswing\TwistSwingJointsBuilderFactory.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\twistswing\TwistSwingJointsEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\twistswing\TwistSwingSetup.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\utils\JointGroupOptimizer.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\cpu\utils\LODRegion.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\JointBehaviorFilter.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\Joints.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\JointsBuilder.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\JointsEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\JointsFactory.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\JointsNullEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\JointsNullOutputInstance.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\joints\JointsOutputInstance.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\CPUMachineLearnedBehaviorEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\CPUMachineLearnedBehaviorFactory.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\CPUMachineLearnedBehaviorOutputInstance.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\Inference.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\layers\LayerEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\layers\LeakyReLULayerEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\layers\LinearLayerEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\layers\ReLULayerEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\layers\SigmoidLayerEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\layers\TanHLayerEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\layers\Utils.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\cpu\NeuralNet.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehavior.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorFactory.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorNullEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorNullOutputInstance.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\ml\MachineLearnedBehaviorOutputInstance.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\cpu\AdditiveRBFSolver.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\cpu\CPURBFBehaviorEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\cpu\CPURBFBehaviorFactory.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\cpu\CPURBFBehaviorOutputInstance.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\cpu\InterpolativeRBFSolver.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\cpu\RBFSolver.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\RBFBehavior.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorFactory.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorNullEvaluator.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorNullOutputInstance.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\rbf\RBFBehaviorOutputInstance.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\riglogic\ConfigurationSerializer.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\riglogic\RigInstanceImpl.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\riglogic\RigLogicImpl.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\riglogic\RigMetrics.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\system\simd\Detect.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\system\simd\SIMD.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\system\simd\Utils.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\TypeDefs.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\types\bpcm\Optimizer.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\types\Extent.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\types\LODSpec.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\types\PaddedBlockView.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\utils\Extd.h" />
+    <ClInclude Include="RigLogicLib\Private\riglogic\utils\Macros.h" />
+    <ClInclude Include="RigLogicLib\Private\status\PredefinedCodes.h" />
+    <ClInclude Include="RigLogicLib\Private\status\Registry.h" />
+    <ClInclude Include="RigLogicLib\Private\status\Storage.h" />
+    <ClInclude Include="RigLogicLib\Private\trio\streams\FileStreamImpl.h" />
+    <ClInclude Include="RigLogicLib\Private\trio\streams\MemoryMappedFileStreamFallback.h" />
+    <ClInclude Include="RigLogicLib\Private\trio\streams\MemoryMappedFileStreamUnix.h" />
+    <ClInclude Include="RigLogicLib\Private\trio\streams\MemoryMappedFileStreamWindows.h" />
+    <ClInclude Include="RigLogicLib\Private\trio\streams\MemoryStreamImpl.h" />
+    <ClInclude Include="RigLogicLib\Private\trio\streams\StreamStatus.h" />
+    <ClInclude Include="RigLogicLib\Private\trio\utils\NativeString.h" />
+    <ClInclude Include="RigLogicLib\Private\trio\utils\PlatformWindows.h" />
+    <ClInclude Include="RigLogicLib\Private\trio\utils\ScopedEnumEx.h" />
+    <ClInclude Include="RigLogicLib\Private\WindowsPlatformUE.h" />
+    <ClInclude Include="RigLogicLib\Public\arrayview\ArrayView.h" />
+    <ClInclude Include="RigLogicLib\Public\arrayview\StringView.h" />
+    <ClInclude Include="RigLogicLib\Public\arrayview\version\Version.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\BinaryStreamReader.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\BinaryStreamWriter.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\DataLayer.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\Defs.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\JSONStreamReader.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\JSONStreamWriter.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\BehaviorReader.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\BehaviorWriter.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\DefinitionReader.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\DefinitionWriter.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\Descriptor.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\DescriptorReader.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\DescriptorWriter.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\Geometry.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\GeometryReader.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\GeometryWriter.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\HeaderReader.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\HeaderWriter.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\JointBehaviorMetadata.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\JointBehaviorMetadataReader.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\JointBehaviorMetadataWriter.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\MachineLearnedBehavior.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\MachineLearnedBehaviorReader.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\MachineLearnedBehaviorWriter.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\RBFBehavior.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\RBFBehaviorReader.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\RBFBehaviorWriter.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\Twist.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\TwistSwingBehaviorReader.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\layers\TwistSwingBehaviorWriter.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\Reader.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\StreamReader.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\StreamWriter.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\types\Aliases.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\types\Vector3.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\version\Version.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\version\VersionInfo.h" />
+    <ClInclude Include="RigLogicLib\Public\dna\Writer.h" />
+    <ClInclude Include="RigLogicLib\Public\FMemoryResource.h" />
+    <ClInclude Include="RigLogicLib\Public\pma\Defs.h" />
+    <ClInclude Include="RigLogicLib\Public\pma\MemoryResource.h" />
+    <ClInclude Include="RigLogicLib\Public\pma\PolyAllocator.h" />
+    <ClInclude Include="RigLogicLib\Public\pma\resources\AlignedMemoryResource.h" />
+    <ClInclude Include="RigLogicLib\Public\pma\resources\ArenaMemoryResource.h" />
+    <ClInclude Include="RigLogicLib\Public\pma\resources\DefaultMemoryResource.h" />
+    <ClInclude Include="RigLogicLib\Public\pma\ScopedPtr.h" />
+    <ClInclude Include="RigLogicLib\Public\pma\TypeDefs.h" />
+    <ClInclude Include="RigLogicLib\Public\pma\utils\ManagedInstance.h" />
+    <ClInclude Include="RigLogicLib\Public\pma\version\Version.h" />
+    <ClInclude Include="RigLogicLib\Public\riglogic\Defs.h" />
+    <ClInclude Include="RigLogicLib\Public\riglogic\RigLogic.h" />
+    <ClInclude Include="RigLogicLib\Public\riglogic\riglogic\Configuration.h" />
+    <ClInclude Include="RigLogicLib\Public\riglogic\riglogic\RigInstance.h" />
+    <ClInclude Include="RigLogicLib\Public\riglogic\riglogic\RigLogic.h" />
+    <ClInclude Include="RigLogicLib\Public\riglogic\riglogic\Stats.h" />
+    <ClInclude Include="RigLogicLib\Public\riglogic\types\Aliases.h" />
+    <ClInclude Include="RigLogicLib\Public\riglogic\version\Version.h" />
+    <ClInclude Include="RigLogicLib\Public\riglogic\version\VersionInfo.h" />
+    <ClInclude Include="RigLogicLib\Public\status\Defs.h" />
+    <ClInclude Include="RigLogicLib\Public\status\Provider.h" />
+    <ClInclude Include="RigLogicLib\Public\status\Status.h" />
+    <ClInclude Include="RigLogicLib\Public\status\StatusCode.h" />
+    <ClInclude Include="RigLogicLib\Public\status\version\Version.h" />
+    <ClInclude Include="RigLogicLib\Public\tdm\Ang.h" />
+    <ClInclude Include="RigLogicLib\Public\tdm\AxisAngle.h" />
+    <ClInclude Include="RigLogicLib\Public\tdm\Computations.h" />
+    <ClInclude Include="RigLogicLib\Public\tdm\Mat.h" />
+    <ClInclude Include="RigLogicLib\Public\tdm\Quat.h" />
+    <ClInclude Include="RigLogicLib\Public\tdm\TDM.h" />
+    <ClInclude Include="RigLogicLib\Public\tdm\Transforms.h" />
+    <ClInclude Include="RigLogicLib\Public\tdm\Types.h" />
+    <ClInclude Include="RigLogicLib\Public\tdm\Vec.h" />
+    <ClInclude Include="RigLogicLib\Public\tdm\version\Version.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\Archive.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\archives\binary\InputArchive.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\archives\binary\OutputArchive.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\archives\Common.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\archives\json\InputArchive.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\archives\json\OutputArchive.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\archives\Traits.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\types\Anchor.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\types\ArchiveOffset.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\types\ArchiveSize.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\types\Blob.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\types\CharInputStreamBuf.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\types\CharOutputStreamBuf.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\types\DynArray.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\types\Transparent.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\types\Versioned.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\utils\Base64.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\utils\ByteSwap.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\utils\Endianness.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\utils\VirtualSerializerProxy.h" />
+    <ClInclude Include="RigLogicLib\Public\terse\version\Version.h" />
+    <ClInclude Include="RigLogicLib\Public\trimd\AVX.h" />
+    <ClInclude Include="RigLogicLib\Public\trimd\Fallback.h" />
+    <ClInclude Include="RigLogicLib\Public\trimd\Macros.h" />
+    <ClInclude Include="RigLogicLib\Public\trimd\NEON.h" />
+    <ClInclude Include="RigLogicLib\Public\trimd\Platform.h" />
+    <ClInclude Include="RigLogicLib\Public\trimd\PlatformWindows.h" />
+    <ClInclude Include="RigLogicLib\Public\trimd\Polyfill.h" />
+    <ClInclude Include="RigLogicLib\Public\trimd\Scalar.h" />
+    <ClInclude Include="RigLogicLib\Public\trimd\SSE.h" />
+    <ClInclude Include="RigLogicLib\Public\trimd\TRiMD.h" />
+    <ClInclude Include="RigLogicLib\Public\trimd\Utils.h" />
+    <ClInclude Include="RigLogicLib\Public\trimd\version\Version.h" />
+    <ClInclude Include="RigLogicLib\Public\trio\Concepts.h" />
+    <ClInclude Include="RigLogicLib\Public\trio\Defs.h" />
+    <ClInclude Include="RigLogicLib\Public\trio\Stream.h" />
+    <ClInclude Include="RigLogicLib\Public\trio\streams\FileStream.h" />
+    <ClInclude Include="RigLogicLib\Public\trio\streams\MemoryMappedFileStream.h" />
+    <ClInclude Include="RigLogicLib\Public\trio\streams\MemoryStream.h" />
+    <ClInclude Include="RigLogicLib\Public\trio\types\Aliases.h" />
+    <ClInclude Include="RigLogicLib\Public\trio\types\Parameters.h" />
+    <ClInclude Include="RigLogicLib\Public\trio\utils\StreamScope.h" />
+    <ClInclude Include="RigLogicLib\Public\trio\version\Version.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d0c186ba-22eb-4a85-881e-3bf511bcd40a}</ProjectGuid>
+    <RootNamespace>riglogic</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetExt>.pyd</TargetExt>
+    <TargetName>_py3dna</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;RL_BUILD_WITH_XYZ_ROTATION_ORDER;DNA_BUILD_WITH_JSON_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>E:\softwares\pythons\python311\include;./RigLogicLib/Public;./RigLogicLib/Private;./RigLogicLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>MinSpace</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\softwares\pythons\python311\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>python311.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>python3.lib;python310.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>E:\softwares\pythons\python310\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
