@@ -9,6 +9,7 @@
 #include "dna/layers/MachineLearnedBehaviorReader.h"
 #include "dna/layers/RBFBehaviorReader.h"
 #include "dna/layers/TwistSwingBehaviorReader.h"
+#include "dna/layers/BehaviorReader.h"
 
 namespace dna {
 
@@ -21,8 +22,8 @@ namespace dna {
         selectively loaded, it might be convenient to slice-off interfaces which layers were
         not loaded.
 */
-class DNAAPI Reader : public RBFBehaviorReader, public GeometryReader, public MachineLearnedBehaviorReader,
-    public JointBehaviorMetadataReader, public TwistSwingBehaviorReader  {
+class DNAAPI Reader : public virtual RBFBehaviorReader, public GeometryReader, public virtual MachineLearnedBehaviorReader,
+    public JointBehaviorMetadataReader, public virtual TwistSwingBehaviorReader, public virtual BehaviorReader  {
     public:
         ~Reader() override;
         /**
