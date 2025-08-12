@@ -189,10 +189,10 @@ def __managed_init(self, *args, **kwargs):
 
 %define pythonize_unmanaged_type(type, creator, destroyer)
 %pythoncode %{
-type ## .__new__ = __new_decorator(type ## _ ## creator, type ## .__new__)
-type ## .__del__ = lambda instance: type ## _ ## destroyer ## (instance)
+type ## .__new__ = __new_decorator(type ## . ## creator, type ## .__new__)
+type ## .__del__ = lambda instance: type ## . ## destroyer ## (instance)
 type ## .__init__ = __managed_init
-del type ## .creator
-del type ## .destroyer
+# del type ## .creator  # 注释掉删除creator的语句
+# del type ## .destroyer # 注释掉删除destroyer的语句
 %}
 %enddef

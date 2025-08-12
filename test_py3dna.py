@@ -18,8 +18,8 @@ try:
     print("\n📖 测试读取 template.dna 文件并序列化为JSON:")
     try:
         print("step 1: 准备创建文件流...")
-        # 使用工厂函数创建FileStream
-        stream = py3dna.FileStream_create(
+        # 使用构造函数创建FileStream
+        stream = py3dna.FileStream(
             "Ada.dna",
             py3dna.FileStream.AccessMode_Read,
             py3dna.FileStream.OpenMode_Binary
@@ -27,9 +27,9 @@ try:
         print("step 2: FileStream_create 成功！stream=", stream)
 
         print("step 3: 准备创建BinaryStreamReader...")
-        # 使用BinaryStreamReader.create方法
-        reader = py3dna.BinaryStreamReader.create(stream)
-        print("step 4: BinaryStreamReader.create 成功！reader=", reader)
+        # 使用构造函数创建BinaryStreamReader
+        reader = py3dna.BinaryStreamReader(stream)
+        print("step 4: BinaryStreamReader构造函数 成功！reader=", reader)
 
         print("step 5: 读取DNA基本信息...")
         # 首先调用read方法读取DNA数据
@@ -71,7 +71,7 @@ try:
 
         print("step 6: 准备创建JSON输出流...")
         # 创建JSON输出文件流
-        json_stream = py3dna.FileStream_create(
+        json_stream = py3dna.FileStream(
             "Ada.json",
             py3dna.FileStream.AccessMode_Write,
             py3dna.FileStream.OpenMode_Text
@@ -80,8 +80,8 @@ try:
 
         print("step 8: 准备创建JSONStreamWriter...")
         # 创建JSONStreamWriter
-        json_writer = py3dna.JSONStreamWriter_create(json_stream)
-        print("step 9: JSONStreamWriter_create 成功！")
+        json_writer = py3dna.JSONStreamWriter(json_stream)
+        print("step 9: JSONStreamWriter构造函数 成功！")
 
         print("step 10: 将DNA数据写入JSON...")
         # 将reader的数据写入json_writer
@@ -94,11 +94,8 @@ try:
         print("step 13: JSON文件写入成功！")
 
         print("step 14: 释放所有资源...")
-        # 释放资源
-        py3dna.JSONStreamWriter_destroy(json_writer)
-        py3dna.FileStream_destroy(json_stream)
-        py3dna.BinaryStreamReader.destroy(reader)
-        py3dna.FileStream_destroy(stream)
+        # 释放资源（使用Python的自动垃圾回收）
+        # 不需要手动调用destroy，Python会自动管理
         print("step 15: 所有资源释放成功！")
         
         print("✅ DNA读取和JSON序列化完成！输出文件: template_output.json")
@@ -113,4 +110,4 @@ except ImportError as e:
     sys.exit(1)
 except Exception as e:
     print(f"❌ 测试失败: {e}")
-    sys.exit(1) 
+    sys.exit(1)

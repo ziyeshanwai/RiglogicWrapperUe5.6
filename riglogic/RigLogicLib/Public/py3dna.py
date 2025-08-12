@@ -364,70 +364,195 @@ class MemoryStream(BoundedIOStream):
 # Register MemoryStream in _py3dna:
 _py3dna.MemoryStream_swigregister(MemoryStream)
 
-# 定义工厂函数
-def FileStream_create(path, accessMode, openMode, memRes=None):
-    return _py3dna.FileStream_create(path, accessMode, openMode, memRes)
+try:
+    FileStream.AccessMode_Read = AccessMode_Read
+    FileStream.AccessMode_Write = AccessMode_Write
+    FileStream.AccessMode_ReadWrite = AccessMode_ReadWrite
 
-def FileStream_destroy(instance):
-    return _py3dna.FileStream_destroy(instance)
+    FileStream.OpenMode_Binary = OpenMode_Binary
+    FileStream.OpenMode_Text = OpenMode_Text
 
-def MemoryMappedFileStream_create(path, accessMode, memRes=None):
-    return _py3dna.MemoryMappedFileStream_create(path, accessMode, memRes)
+    MemoryMappedFileStream.AccessMode_Read = AccessMode_Read
+    MemoryMappedFileStream.AccessMode_Write = AccessMode_Write
+    MemoryMappedFileStream.AccessMode_ReadWrite = AccessMode_ReadWrite
+except:
+# Fallback for compatibility
+    FileStream.AccessMode_Read = 0
+    FileStream.AccessMode_Write = 1
+    FileStream.AccessMode_ReadWrite = 2
 
-def MemoryMappedFileStream_destroy(instance):
-    return _py3dna.MemoryMappedFileStream_destroy(instance)
+    FileStream.OpenMode_Binary = 0
+    FileStream.OpenMode_Text = 1
 
-def MemoryStream_create(*args):
-    return _py3dna.MemoryStream_create(*args)
+    MemoryMappedFileStream.AccessMode_Read = 0
+    MemoryMappedFileStream.AccessMode_Write = 1
+    MemoryMappedFileStream.AccessMode_ReadWrite = 2
 
-def MemoryStream_destroy(instance):
-    return _py3dna.MemoryStream_destroy(instance)
+class SwigPyIterator(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
-# 添加JSONStreamReader和JSONStreamWriter的工厂函数
-def JSONStreamReader_create(stream, memRes=None):
-    return _py3dna.JSONStreamReader_create(stream, memRes)
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined - class is abstract")
+    __repr__ = _swig_repr
+    __swig_destroy__ = _py3dna.delete_SwigPyIterator
 
-def JSONStreamReader_destroy(instance):
-    return _py3dna.JSONStreamReader_destroy(instance)
+    def value(self):
+        return _py3dna.SwigPyIterator_value(self)
 
-def JSONStreamWriter_create(stream, indentWidth=4, memRes=None):
-    return _py3dna.JSONStreamWriter_create(stream, indentWidth, memRes)
+    def incr(self, n=1):
+        return _py3dna.SwigPyIterator_incr(self, n)
 
-def JSONStreamWriter_destroy(instance):
-    return _py3dna.JSONStreamWriter_destroy(instance)
+    def decr(self, n=1):
+        return _py3dna.SwigPyIterator_decr(self, n)
 
-FileStream.__new__ = __new_decorator(FileStream_create, FileStream.__new__)
-FileStream.__del__ = lambda instance: FileStream_destroy(instance)
-FileStream.__init__ = __managed_init
-del FileStream.create
-del FileStream.destroy
+    def distance(self, x):
+        return _py3dna.SwigPyIterator_distance(self, x)
 
+    def equal(self, x):
+        return _py3dna.SwigPyIterator_equal(self, x)
 
-MemoryMappedFileStream.__new__ = __new_decorator(MemoryMappedFileStream_create, MemoryMappedFileStream.__new__)
-MemoryMappedFileStream.__del__ = lambda instance: MemoryMappedFileStream_destroy(instance)
-MemoryMappedFileStream.__init__ = __managed_init
-del MemoryMappedFileStream.create
-del MemoryMappedFileStream.destroy
+    def copy(self):
+        return _py3dna.SwigPyIterator_copy(self)
 
+    def next(self):
+        return _py3dna.SwigPyIterator_next(self)
 
-MemoryStream.__new__ = __new_decorator(MemoryStream_create, MemoryStream.__new__)
-MemoryStream.__del__ = lambda instance: MemoryStream_destroy(instance)
-MemoryStream.__init__ = __managed_init
-del MemoryStream.create
-del MemoryStream.destroy
+    def __next__(self):
+        return _py3dna.SwigPyIterator___next__(self)
 
+    def previous(self):
+        return _py3dna.SwigPyIterator_previous(self)
 
-FileStream.AccessMode_Read = AccessMode_Read
-FileStream.AccessMode_Write = AccessMode_Write
-FileStream.AccessMode_ReadWrite = AccessMode_ReadWrite
+    def advance(self, n):
+        return _py3dna.SwigPyIterator_advance(self, n)
 
-FileStream.OpenMode_Binary = OpenMode_Binary
-FileStream.OpenMode_Text = OpenMode_Text
+    def __eq__(self, x):
+        return _py3dna.SwigPyIterator___eq__(self, x)
 
-MemoryMappedFileStream.AccessMode_Read = AccessMode_Read
-MemoryMappedFileStream.AccessMode_Write = AccessMode_Write
-MemoryMappedFileStream.AccessMode_ReadWrite = AccessMode_ReadWrite
+    def __ne__(self, x):
+        return _py3dna.SwigPyIterator___ne__(self, x)
 
+    def __iadd__(self, n):
+        return _py3dna.SwigPyIterator___iadd__(self, n)
+
+    def __isub__(self, n):
+        return _py3dna.SwigPyIterator___isub__(self, n)
+
+    def __add__(self, n):
+        return _py3dna.SwigPyIterator___add__(self, n)
+
+    def __sub__(self, *args):
+        return _py3dna.SwigPyIterator___sub__(self, *args)
+    def __iter__(self):
+        return self
+
+# Register SwigPyIterator in _py3dna:
+_py3dna.SwigPyIterator_swigregister(SwigPyIterator)
+class StringVector(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def iterator(self):
+        return _py3dna.StringVector_iterator(self)
+    def __iter__(self):
+        return self.iterator()
+
+    def __nonzero__(self):
+        return _py3dna.StringVector___nonzero__(self)
+
+    def __bool__(self):
+        return _py3dna.StringVector___bool__(self)
+
+    def __len__(self):
+        return _py3dna.StringVector___len__(self)
+
+    def __getslice__(self, i, j):
+        return _py3dna.StringVector___getslice__(self, i, j)
+
+    def __setslice__(self, *args):
+        return _py3dna.StringVector___setslice__(self, *args)
+
+    def __delslice__(self, i, j):
+        return _py3dna.StringVector___delslice__(self, i, j)
+
+    def __delitem__(self, *args):
+        return _py3dna.StringVector___delitem__(self, *args)
+
+    def __getitem__(self, *args):
+        return _py3dna.StringVector___getitem__(self, *args)
+
+    def __setitem__(self, *args):
+        return _py3dna.StringVector___setitem__(self, *args)
+
+    def pop(self):
+        return _py3dna.StringVector_pop(self)
+
+    def append(self, x):
+        return _py3dna.StringVector_append(self, x)
+
+    def empty(self):
+        return _py3dna.StringVector_empty(self)
+
+    def size(self):
+        return _py3dna.StringVector_size(self)
+
+    def swap(self, v):
+        return _py3dna.StringVector_swap(self, v)
+
+    def begin(self):
+        return _py3dna.StringVector_begin(self)
+
+    def end(self):
+        return _py3dna.StringVector_end(self)
+
+    def rbegin(self):
+        return _py3dna.StringVector_rbegin(self)
+
+    def rend(self):
+        return _py3dna.StringVector_rend(self)
+
+    def clear(self):
+        return _py3dna.StringVector_clear(self)
+
+    def get_allocator(self):
+        return _py3dna.StringVector_get_allocator(self)
+
+    def pop_back(self):
+        return _py3dna.StringVector_pop_back(self)
+
+    def erase(self, *args):
+        return _py3dna.StringVector_erase(self, *args)
+
+    def __init__(self, *args):
+        _py3dna.StringVector_swiginit(self, _py3dna.new_StringVector(*args))
+
+    def push_back(self, x):
+        return _py3dna.StringVector_push_back(self, x)
+
+    def front(self):
+        return _py3dna.StringVector_front(self)
+
+    def back(self):
+        return _py3dna.StringVector_back(self)
+
+    def assign(self, n, x):
+        return _py3dna.StringVector_assign(self, n, x)
+
+    def resize(self, *args):
+        return _py3dna.StringVector_resize(self, *args)
+
+    def insert(self, *args):
+        return _py3dna.StringVector_insert(self, *args)
+
+    def reserve(self, n):
+        return _py3dna.StringVector_reserve(self, n)
+
+    def capacity(self):
+        return _py3dna.StringVector_capacity(self)
+    __swig_destroy__ = _py3dna.delete_StringVector
+
+# Register StringVector in _py3dna:
+_py3dna.StringVector_swigregister(StringVector)
 class StringView(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -881,7 +1006,208 @@ class GeometryReader(DefinitionReader):
 
 # Register GeometryReader in _py3dna:
 _py3dna.GeometryReader_swigregister(GeometryReader)
-class Reader(GeometryReader):
+class RBFBehaviorReader(BehaviorReader):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined - class is abstract")
+    __repr__ = _swig_repr
+
+    def getRBFPoseCount(self):
+        return _py3dna.RBFBehaviorReader_getRBFPoseCount(self)
+
+    def getRBFPoseName(self, poseIndex):
+        return _py3dna.RBFBehaviorReader_getRBFPoseName(self, poseIndex)
+
+    def getRBFPoseJointOutputIndices(self, poseIndex):
+        return _py3dna.RBFBehaviorReader_getRBFPoseJointOutputIndices(self, poseIndex)
+
+    def getRBFPoseBlendShapeChannelOutputIndices(self, poseIndex):
+        return _py3dna.RBFBehaviorReader_getRBFPoseBlendShapeChannelOutputIndices(self, poseIndex)
+
+    def getRBFPoseAnimatedMapOutputIndices(self, poseIndex):
+        return _py3dna.RBFBehaviorReader_getRBFPoseAnimatedMapOutputIndices(self, poseIndex)
+
+    def getRBFPoseJointOutputValues(self, poseIndex):
+        return _py3dna.RBFBehaviorReader_getRBFPoseJointOutputValues(self, poseIndex)
+
+    def getRBFPoseScale(self, poseIndex):
+        return _py3dna.RBFBehaviorReader_getRBFPoseScale(self, poseIndex)
+
+    def getRBFPoseControlCount(self):
+        return _py3dna.RBFBehaviorReader_getRBFPoseControlCount(self)
+
+    def getRBFPoseControlName(self, poseControlIndex):
+        return _py3dna.RBFBehaviorReader_getRBFPoseControlName(self, poseControlIndex)
+
+    def getRBFPoseInputControlIndices(self, poseIndex):
+        return _py3dna.RBFBehaviorReader_getRBFPoseInputControlIndices(self, poseIndex)
+
+    def getRBFPoseOutputControlIndices(self, poseIndex):
+        return _py3dna.RBFBehaviorReader_getRBFPoseOutputControlIndices(self, poseIndex)
+
+    def getRBFPoseOutputControlWeights(self, poseIndex):
+        return _py3dna.RBFBehaviorReader_getRBFPoseOutputControlWeights(self, poseIndex)
+
+    def getRBFSolverCount(self):
+        return _py3dna.RBFBehaviorReader_getRBFSolverCount(self)
+
+    def getRBFSolverIndexListCount(self):
+        return _py3dna.RBFBehaviorReader_getRBFSolverIndexListCount(self)
+
+    def getRBFSolverIndicesForLOD(self, lod):
+        return _py3dna.RBFBehaviorReader_getRBFSolverIndicesForLOD(self, lod)
+
+    def getRBFSolverName(self, solverIndex):
+        return _py3dna.RBFBehaviorReader_getRBFSolverName(self, solverIndex)
+
+    def getRBFSolverRawControlIndices(self, solverIndex):
+        return _py3dna.RBFBehaviorReader_getRBFSolverRawControlIndices(self, solverIndex)
+
+    def getRBFSolverPoseIndices(self, solverIndex):
+        return _py3dna.RBFBehaviorReader_getRBFSolverPoseIndices(self, solverIndex)
+
+    def getRBFSolverRawControlValues(self, solverIndex):
+        return _py3dna.RBFBehaviorReader_getRBFSolverRawControlValues(self, solverIndex)
+
+    def getRBFSolverType(self, solverIndex):
+        return _py3dna.RBFBehaviorReader_getRBFSolverType(self, solverIndex)
+
+    def getRBFSolverRadius(self, solverIndex):
+        return _py3dna.RBFBehaviorReader_getRBFSolverRadius(self, solverIndex)
+
+    def getRBFSolverAutomaticRadius(self, solverIndex):
+        return _py3dna.RBFBehaviorReader_getRBFSolverAutomaticRadius(self, solverIndex)
+
+    def getRBFSolverWeightThreshold(self, solverIndex):
+        return _py3dna.RBFBehaviorReader_getRBFSolverWeightThreshold(self, solverIndex)
+
+    def getRBFSolverDistanceMethod(self, solverIndex):
+        return _py3dna.RBFBehaviorReader_getRBFSolverDistanceMethod(self, solverIndex)
+
+    def getRBFSolverNormalizeMethod(self, solverIndex):
+        return _py3dna.RBFBehaviorReader_getRBFSolverNormalizeMethod(self, solverIndex)
+
+    def getRBFSolverFunctionType(self, solverIndex):
+        return _py3dna.RBFBehaviorReader_getRBFSolverFunctionType(self, solverIndex)
+
+    def getRBFSolverTwistAxis(self, solverIndex):
+        return _py3dna.RBFBehaviorReader_getRBFSolverTwistAxis(self, solverIndex)
+
+# Register RBFBehaviorReader in _py3dna:
+_py3dna.RBFBehaviorReader_swigregister(RBFBehaviorReader)
+class MachineLearnedBehaviorReader(DefinitionReader):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined - class is abstract")
+    __repr__ = _swig_repr
+
+    def getMLControlCount(self):
+        return _py3dna.MachineLearnedBehaviorReader_getMLControlCount(self)
+
+    def getMLControlName(self, index):
+        return _py3dna.MachineLearnedBehaviorReader_getMLControlName(self, index)
+
+    def getNeuralNetworkCount(self):
+        return _py3dna.MachineLearnedBehaviorReader_getNeuralNetworkCount(self)
+
+    def getNeuralNetworkIndexListCount(self):
+        return _py3dna.MachineLearnedBehaviorReader_getNeuralNetworkIndexListCount(self)
+
+    def getNeuralNetworkIndicesForLOD(self, lod):
+        return _py3dna.MachineLearnedBehaviorReader_getNeuralNetworkIndicesForLOD(self, lod)
+
+    def getMeshRegionCount(self, meshIndex):
+        return _py3dna.MachineLearnedBehaviorReader_getMeshRegionCount(self, meshIndex)
+
+    def getMeshRegionName(self, meshIndex, regionIndex):
+        return _py3dna.MachineLearnedBehaviorReader_getMeshRegionName(self, meshIndex, regionIndex)
+
+    def getNeuralNetworkIndicesForMeshRegion(self, meshIndex, regionIndex):
+        return _py3dna.MachineLearnedBehaviorReader_getNeuralNetworkIndicesForMeshRegion(self, meshIndex, regionIndex)
+
+    def getNeuralNetworkInputIndices(self, netIndex):
+        return _py3dna.MachineLearnedBehaviorReader_getNeuralNetworkInputIndices(self, netIndex)
+
+    def getNeuralNetworkOutputIndices(self, netIndex):
+        return _py3dna.MachineLearnedBehaviorReader_getNeuralNetworkOutputIndices(self, netIndex)
+
+    def getNeuralNetworkLayerCount(self, netIndex):
+        return _py3dna.MachineLearnedBehaviorReader_getNeuralNetworkLayerCount(self, netIndex)
+
+    def getNeuralNetworkLayerActivationFunction(self, netIndex, layerIndex):
+        return _py3dna.MachineLearnedBehaviorReader_getNeuralNetworkLayerActivationFunction(self, netIndex, layerIndex)
+
+    def getNeuralNetworkLayerActivationFunctionParameters(self, netIndex, layerIndex):
+        return _py3dna.MachineLearnedBehaviorReader_getNeuralNetworkLayerActivationFunctionParameters(self, netIndex, layerIndex)
+
+    def getNeuralNetworkLayerBiases(self, netIndex, layerIndex):
+        return _py3dna.MachineLearnedBehaviorReader_getNeuralNetworkLayerBiases(self, netIndex, layerIndex)
+
+    def getNeuralNetworkLayerWeights(self, netIndex, layerIndex):
+        return _py3dna.MachineLearnedBehaviorReader_getNeuralNetworkLayerWeights(self, netIndex, layerIndex)
+
+# Register MachineLearnedBehaviorReader in _py3dna:
+_py3dna.MachineLearnedBehaviorReader_swigregister(MachineLearnedBehaviorReader)
+class JointBehaviorMetadataReader(DefinitionReader):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined - class is abstract")
+    __repr__ = _swig_repr
+
+    def getJointTranslationRepresentation(self, jointIndex):
+        return _py3dna.JointBehaviorMetadataReader_getJointTranslationRepresentation(self, jointIndex)
+
+    def getJointRotationRepresentation(self, jointIndex):
+        return _py3dna.JointBehaviorMetadataReader_getJointRotationRepresentation(self, jointIndex)
+
+    def getJointScaleRepresentation(self, jointIndex):
+        return _py3dna.JointBehaviorMetadataReader_getJointScaleRepresentation(self, jointIndex)
+
+# Register JointBehaviorMetadataReader in _py3dna:
+_py3dna.JointBehaviorMetadataReader_swigregister(JointBehaviorMetadataReader)
+class TwistSwingBehaviorReader(DefinitionReader):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined - class is abstract")
+    __repr__ = _swig_repr
+
+    def getTwistCount(self):
+        return _py3dna.TwistSwingBehaviorReader_getTwistCount(self)
+
+    def getTwistSetupTwistAxis(self, twistIndex):
+        return _py3dna.TwistSwingBehaviorReader_getTwistSetupTwistAxis(self, twistIndex)
+
+    def getTwistInputControlIndices(self, twistIndex):
+        return _py3dna.TwistSwingBehaviorReader_getTwistInputControlIndices(self, twistIndex)
+
+    def getTwistOutputJointIndices(self, twistIndex):
+        return _py3dna.TwistSwingBehaviorReader_getTwistOutputJointIndices(self, twistIndex)
+
+    def getTwistBlendWeights(self, twistIndex):
+        return _py3dna.TwistSwingBehaviorReader_getTwistBlendWeights(self, twistIndex)
+
+    def getSwingCount(self):
+        return _py3dna.TwistSwingBehaviorReader_getSwingCount(self)
+
+    def getSwingSetupTwistAxis(self, swingIndex):
+        return _py3dna.TwistSwingBehaviorReader_getSwingSetupTwistAxis(self, swingIndex)
+
+    def getSwingInputControlIndices(self, swingIndex):
+        return _py3dna.TwistSwingBehaviorReader_getSwingInputControlIndices(self, swingIndex)
+
+    def getSwingOutputJointIndices(self, swingIndex):
+        return _py3dna.TwistSwingBehaviorReader_getSwingOutputJointIndices(self, swingIndex)
+
+    def getSwingBlendWeights(self, swingIndex):
+        return _py3dna.TwistSwingBehaviorReader_getSwingBlendWeights(self, swingIndex)
+
+# Register TwistSwingBehaviorReader in _py3dna:
+_py3dna.TwistSwingBehaviorReader_swigregister(TwistSwingBehaviorReader)
+class Reader(RBFBehaviorReader, GeometryReader, MachineLearnedBehaviorReader, JointBehaviorMetadataReader, TwistSwingBehaviorReader, BehaviorReader):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
@@ -894,6 +1220,279 @@ class Reader(GeometryReader):
 
 # Register Reader in _py3dna:
 _py3dna.Reader_swigregister(Reader)
+class HeaderReader(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined - class is abstract")
+    __repr__ = _swig_repr
+
+    def getFileFormatGeneration(self):
+        return _py3dna.HeaderReader_getFileFormatGeneration(self)
+
+    def getFileFormatVersion(self):
+        return _py3dna.HeaderReader_getFileFormatVersion(self)
+
+# Register HeaderReader in _py3dna:
+_py3dna.HeaderReader_swigregister(HeaderReader)
+class HeaderWriter(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined - class is abstract")
+    __repr__ = _swig_repr
+
+    def setFileFormatGeneration(self, generation):
+        return _py3dna.HeaderWriter_setFileFormatGeneration(self, generation)
+
+    def setFileFormatVersion(self, version):
+        return _py3dna.HeaderWriter_setFileFormatVersion(self, version)
+
+# Register HeaderWriter in _py3dna:
+_py3dna.HeaderWriter_swigregister(HeaderWriter)
+RBFSolverType_Additive = _py3dna.RBFSolverType_Additive
+RBFSolverType_Interpolative = _py3dna.RBFSolverType_Interpolative
+RBFFunctionType_Gaussian = _py3dna.RBFFunctionType_Gaussian
+RBFFunctionType_Exponential = _py3dna.RBFFunctionType_Exponential
+RBFFunctionType_Linear = _py3dna.RBFFunctionType_Linear
+RBFFunctionType_Cubic = _py3dna.RBFFunctionType_Cubic
+RBFFunctionType_Quintic = _py3dna.RBFFunctionType_Quintic
+RBFDistanceMethod_Euclidean = _py3dna.RBFDistanceMethod_Euclidean
+RBFDistanceMethod_Quaternion = _py3dna.RBFDistanceMethod_Quaternion
+RBFDistanceMethod_SwingAngle = _py3dna.RBFDistanceMethod_SwingAngle
+RBFDistanceMethod_TwistAngle = _py3dna.RBFDistanceMethod_TwistAngle
+RBFNormalizeMethod_OnlyNormalizeAboveOne = _py3dna.RBFNormalizeMethod_OnlyNormalizeAboveOne
+RBFNormalizeMethod_AlwaysNormalize = _py3dna.RBFNormalizeMethod_AlwaysNormalize
+AutomaticRadius_On = _py3dna.AutomaticRadius_On
+AutomaticRadius_Off = _py3dna.AutomaticRadius_Off
+class RBFBehaviorWriter(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined - class is abstract")
+    __repr__ = _swig_repr
+
+    def clearRBFPoses(self):
+        return _py3dna.RBFBehaviorWriter_clearRBFPoses(self)
+
+    def setRBFPoseName(self, poseIndex, name):
+        return _py3dna.RBFBehaviorWriter_setRBFPoseName(self, poseIndex, name)
+
+    def setRBFPoseScale(self, poseIndex, scale):
+        return _py3dna.RBFBehaviorWriter_setRBFPoseScale(self, poseIndex, scale)
+
+    def clearRBFPoseControlNames(self):
+        return _py3dna.RBFBehaviorWriter_clearRBFPoseControlNames(self)
+
+    def setRBFPoseControlName(self, poseControlIndex, name):
+        return _py3dna.RBFBehaviorWriter_setRBFPoseControlName(self, poseControlIndex, name)
+
+    def setRBFPoseInputControlIndices(self, poseIndex, controlIndices, controlIndexCount):
+        return _py3dna.RBFBehaviorWriter_setRBFPoseInputControlIndices(self, poseIndex, controlIndices, controlIndexCount)
+
+    def setRBFPoseOutputControlIndices(self, poseIndex, controlIndices, controlIndexCount):
+        return _py3dna.RBFBehaviorWriter_setRBFPoseOutputControlIndices(self, poseIndex, controlIndices, controlIndexCount)
+
+    def setRBFPoseOutputControlWeights(self, poseIndex, controlWeights, controlWeightCount):
+        return _py3dna.RBFBehaviorWriter_setRBFPoseOutputControlWeights(self, poseIndex, controlWeights, controlWeightCount)
+
+    def clearRBFSolvers(self):
+        return _py3dna.RBFBehaviorWriter_clearRBFSolvers(self)
+
+    def clearRBFSolverIndices(self):
+        return _py3dna.RBFBehaviorWriter_clearRBFSolverIndices(self)
+
+    def setRBFSolverIndices(self, index, solverIndices, count):
+        return _py3dna.RBFBehaviorWriter_setRBFSolverIndices(self, index, solverIndices, count)
+
+    def clearLODRBFSolverMappings(self):
+        return _py3dna.RBFBehaviorWriter_clearLODRBFSolverMappings(self)
+
+    def setLODRBFSolverMapping(self, lod, index):
+        return _py3dna.RBFBehaviorWriter_setLODRBFSolverMapping(self, lod, index)
+
+    def setRBFSolverName(self, solverIndex, name):
+        return _py3dna.RBFBehaviorWriter_setRBFSolverName(self, solverIndex, name)
+
+    def setRBFSolverRawControlIndices(self, solverIndex, rawControlIndices, count):
+        return _py3dna.RBFBehaviorWriter_setRBFSolverRawControlIndices(self, solverIndex, rawControlIndices, count)
+
+    def setRBFSolverPoseIndices(self, solverIndex, poseIndices, count):
+        return _py3dna.RBFBehaviorWriter_setRBFSolverPoseIndices(self, solverIndex, poseIndices, count)
+
+    def setRBFSolverRawControlValues(self, solverIndex, values, count):
+        return _py3dna.RBFBehaviorWriter_setRBFSolverRawControlValues(self, solverIndex, values, count)
+
+    def setRBFSolverType(self, solverIndex, type):
+        return _py3dna.RBFBehaviorWriter_setRBFSolverType(self, solverIndex, type)
+
+    def setRBFSolverRadius(self, solverIndex, radius):
+        return _py3dna.RBFBehaviorWriter_setRBFSolverRadius(self, solverIndex, radius)
+
+    def setRBFSolverAutomaticRadius(self, solverIndex, automaticRadius):
+        return _py3dna.RBFBehaviorWriter_setRBFSolverAutomaticRadius(self, solverIndex, automaticRadius)
+
+    def setRBFSolverWeightThreshold(self, solverIndex, weightThreshold):
+        return _py3dna.RBFBehaviorWriter_setRBFSolverWeightThreshold(self, solverIndex, weightThreshold)
+
+    def setRBFSolverDistanceMethod(self, solverIndex, distanceMethod):
+        return _py3dna.RBFBehaviorWriter_setRBFSolverDistanceMethod(self, solverIndex, distanceMethod)
+
+    def setRBFSolverNormalizeMethod(self, solverIndex, normalizeMethod):
+        return _py3dna.RBFBehaviorWriter_setRBFSolverNormalizeMethod(self, solverIndex, normalizeMethod)
+
+    def setRBFSolverFunctionType(self, solverIndex, functionType):
+        return _py3dna.RBFBehaviorWriter_setRBFSolverFunctionType(self, solverIndex, functionType)
+
+    def setRBFSolverTwistAxis(self, solverIndex, twistAxis):
+        return _py3dna.RBFBehaviorWriter_setRBFSolverTwistAxis(self, solverIndex, twistAxis)
+
+# Register RBFBehaviorWriter in _py3dna:
+_py3dna.RBFBehaviorWriter_swigregister(RBFBehaviorWriter)
+ActivationFunction_linear = _py3dna.ActivationFunction_linear
+ActivationFunction_relu = _py3dna.ActivationFunction_relu
+ActivationFunction_leakyrelu = _py3dna.ActivationFunction_leakyrelu
+ActivationFunction_tanh = _py3dna.ActivationFunction_tanh
+ActivationFunction_sigmoid = _py3dna.ActivationFunction_sigmoid
+class MachineLearnedBehaviorWriter(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined - class is abstract")
+    __repr__ = _swig_repr
+
+    def clearMLControlNames(self):
+        return _py3dna.MachineLearnedBehaviorWriter_clearMLControlNames(self)
+
+    def setMLControlName(self, index, name):
+        return _py3dna.MachineLearnedBehaviorWriter_setMLControlName(self, index, name)
+
+    def clearNeuralNetworks(self):
+        return _py3dna.MachineLearnedBehaviorWriter_clearNeuralNetworks(self)
+
+    def clearNeuralNetworkIndices(self):
+        return _py3dna.MachineLearnedBehaviorWriter_clearNeuralNetworkIndices(self)
+
+    def setNeuralNetworkIndices(self, index, netIndices, count):
+        return _py3dna.MachineLearnedBehaviorWriter_setNeuralNetworkIndices(self, index, netIndices, count)
+
+    def clearLODNeuralNetworkMappings(self):
+        return _py3dna.MachineLearnedBehaviorWriter_clearLODNeuralNetworkMappings(self)
+
+    def setLODNeuralNetworkMapping(self, lod, index):
+        return _py3dna.MachineLearnedBehaviorWriter_setLODNeuralNetworkMapping(self, lod, index)
+
+    def clearMeshRegionNames(self, *args):
+        return _py3dna.MachineLearnedBehaviorWriter_clearMeshRegionNames(self, *args)
+
+    def setMeshRegionName(self, meshIndex, regionIndex, name):
+        return _py3dna.MachineLearnedBehaviorWriter_setMeshRegionName(self, meshIndex, regionIndex, name)
+
+    def clearNeuralNetworkIndicesPerMeshRegion(self):
+        return _py3dna.MachineLearnedBehaviorWriter_clearNeuralNetworkIndicesPerMeshRegion(self)
+
+    def setNeuralNetworkIndicesForMeshRegion(self, meshIndex, regionIndex, netIndices, count):
+        return _py3dna.MachineLearnedBehaviorWriter_setNeuralNetworkIndicesForMeshRegion(self, meshIndex, regionIndex, netIndices, count)
+
+    def deleteNeuralNetwork(self, netIndex):
+        return _py3dna.MachineLearnedBehaviorWriter_deleteNeuralNetwork(self, netIndex)
+
+    def setNeuralNetworkInputIndices(self, netIndex, inputIndices):
+        return _py3dna.MachineLearnedBehaviorWriter_setNeuralNetworkInputIndices(self, netIndex, inputIndices)
+
+    def setNeuralNetworkOutputIndices(self, netIndex, outputIndices):
+        return _py3dna.MachineLearnedBehaviorWriter_setNeuralNetworkOutputIndices(self, netIndex, outputIndices)
+
+    def clearNeuralNetworkLayers(self, netIndex):
+        return _py3dna.MachineLearnedBehaviorWriter_clearNeuralNetworkLayers(self, netIndex)
+
+    def setNeuralNetworkLayerActivationFunction(self, netIndex, layerIndex, function):
+        return _py3dna.MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunction(self, netIndex, layerIndex, function)
+
+    def setNeuralNetworkLayerActivationFunctionParameters(self, netIndex, layerIndex, activationFunctionParameters, count):
+        return _py3dna.MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunctionParameters(self, netIndex, layerIndex, activationFunctionParameters, count)
+
+    def setNeuralNetworkLayerBiases(self, netIndex, layerIndex, biases, count):
+        return _py3dna.MachineLearnedBehaviorWriter_setNeuralNetworkLayerBiases(self, netIndex, layerIndex, biases, count)
+
+    def setNeuralNetworkLayerWeights(self, netIndex, layerIndex, weights, count):
+        return _py3dna.MachineLearnedBehaviorWriter_setNeuralNetworkLayerWeights(self, netIndex, layerIndex, weights, count)
+
+# Register MachineLearnedBehaviorWriter in _py3dna:
+_py3dna.MachineLearnedBehaviorWriter_swigregister(MachineLearnedBehaviorWriter)
+TranslationRepresentation_Vector = _py3dna.TranslationRepresentation_Vector
+RotationRepresentation_EulerAngles = _py3dna.RotationRepresentation_EulerAngles
+RotationRepresentation_Quaternion = _py3dna.RotationRepresentation_Quaternion
+ScaleRepresentation_Vector = _py3dna.ScaleRepresentation_Vector
+class JointBehaviorMetadataWriter(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined - class is abstract")
+    __repr__ = _swig_repr
+
+    def clearJointRepresentations(self):
+        return _py3dna.JointBehaviorMetadataWriter_clearJointRepresentations(self)
+
+    def setJointTranslationRepresentation(self, jointIndex, representation):
+        return _py3dna.JointBehaviorMetadataWriter_setJointTranslationRepresentation(self, jointIndex, representation)
+
+    def setJointRotationRepresentation(self, jointIndex, representation):
+        return _py3dna.JointBehaviorMetadataWriter_setJointRotationRepresentation(self, jointIndex, representation)
+
+    def setJointScaleRepresentation(self, jointIndex, representation):
+        return _py3dna.JointBehaviorMetadataWriter_setJointScaleRepresentation(self, jointIndex, representation)
+
+# Register JointBehaviorMetadataWriter in _py3dna:
+_py3dna.JointBehaviorMetadataWriter_swigregister(JointBehaviorMetadataWriter)
+TwistAxis_X = _py3dna.TwistAxis_X
+TwistAxis_Y = _py3dna.TwistAxis_Y
+TwistAxis_Z = _py3dna.TwistAxis_Z
+class TwistSwingBehaviorWriter(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined - class is abstract")
+    __repr__ = _swig_repr
+
+    def clearTwists(self):
+        return _py3dna.TwistSwingBehaviorWriter_clearTwists(self)
+
+    def deleteTwist(self, twistIndex):
+        return _py3dna.TwistSwingBehaviorWriter_deleteTwist(self, twistIndex)
+
+    def setTwistSetupTwistAxis(self, twistIndex, twistAxis):
+        return _py3dna.TwistSwingBehaviorWriter_setTwistSetupTwistAxis(self, twistIndex, twistAxis)
+
+    def setTwistInputControlIndices(self, twistIndex, controlIndices, controlIndexCount):
+        return _py3dna.TwistSwingBehaviorWriter_setTwistInputControlIndices(self, twistIndex, controlIndices, controlIndexCount)
+
+    def setTwistOutputJointIndices(self, twistIndex, jointIndices, jointIndexCount):
+        return _py3dna.TwistSwingBehaviorWriter_setTwistOutputJointIndices(self, twistIndex, jointIndices, jointIndexCount)
+
+    def setTwistBlendWeights(self, twistIndex, blendWeights, blendWeightCount):
+        return _py3dna.TwistSwingBehaviorWriter_setTwistBlendWeights(self, twistIndex, blendWeights, blendWeightCount)
+
+    def clearSwings(self):
+        return _py3dna.TwistSwingBehaviorWriter_clearSwings(self)
+
+    def deleteSwing(self, swingIndex):
+        return _py3dna.TwistSwingBehaviorWriter_deleteSwing(self, swingIndex)
+
+    def setSwingSetupTwistAxis(self, swingIndex, twistAxis):
+        return _py3dna.TwistSwingBehaviorWriter_setSwingSetupTwistAxis(self, swingIndex, twistAxis)
+
+    def setSwingInputControlIndices(self, swingIndex, controlIndices, controlIndexCount):
+        return _py3dna.TwistSwingBehaviorWriter_setSwingInputControlIndices(self, swingIndex, controlIndices, controlIndexCount)
+
+    def setSwingOutputJointIndices(self, swingIndex, jointIndices, jointIndexCount):
+        return _py3dna.TwistSwingBehaviorWriter_setSwingOutputJointIndices(self, swingIndex, jointIndices, jointIndexCount)
+
+    def setSwingBlendWeights(self, swingIndex, blendWeights, blendWeightCount):
+        return _py3dna.TwistSwingBehaviorWriter_setSwingBlendWeights(self, swingIndex, blendWeights, blendWeightCount)
+
+# Register TwistSwingBehaviorWriter in _py3dna:
+_py3dna.TwistSwingBehaviorWriter_swigregister(TwistSwingBehaviorWriter)
 class StreamReader(Reader):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -947,14 +1546,7 @@ class JSONStreamReader(StreamReader):
 
 # Register JSONStreamReader in _py3dna:
 _py3dna.JSONStreamReader_swigregister(JSONStreamReader)
-
-JSONStreamReader.__new__ = __new_decorator(JSONStreamReader_create, JSONStreamReader.__new__)
-JSONStreamReader.__del__ = lambda instance: JSONStreamReader_destroy(instance)
-JSONStreamReader.__init__ = __managed_init
-del JSONStreamReader.create
-del JSONStreamReader.destroy
-
-class DescriptorWriter(object):
+class DescriptorWriter(HeaderWriter):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
@@ -1263,7 +1855,7 @@ class GeometryWriter(DefinitionWriter):
 
 # Register GeometryWriter in _py3dna:
 _py3dna.GeometryWriter_swigregister(GeometryWriter)
-class Writer(GeometryWriter):
+class Writer(RBFBehaviorWriter, GeometryWriter, MachineLearnedBehaviorWriter, JointBehaviorMetadataWriter, TwistSwingBehaviorWriter):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
@@ -1332,175 +1924,45 @@ class JSONStreamWriter(StreamWriter):
 # Register JSONStreamWriter in _py3dna:
 _py3dna.JSONStreamWriter_swigregister(JSONStreamWriter)
 
-JSONStreamWriter.__new__ = __new_decorator(JSONStreamWriter_create, JSONStreamWriter.__new__)
-JSONStreamWriter.__del__ = lambda instance: JSONStreamWriter_destroy(instance)
+JSONStreamReader.__new__ = __new_decorator(JSONStreamReader.create, JSONStreamReader.__new__)
+JSONStreamReader.__del__ = lambda instance: JSONStreamReader.destroy(instance)
+JSONStreamReader.__init__ = __managed_init
+#del JSONStreamReader.create#注释掉删除create的语句
+#del JSONStreamReader.destroy#注释掉删除destroy的语句
+
+
+JSONStreamWriter.__new__ = __new_decorator(JSONStreamWriter.create, JSONStreamWriter.__new__)
+JSONStreamWriter.__del__ = lambda instance: JSONStreamWriter.destroy(instance)
 JSONStreamWriter.__init__ = __managed_init
-del JSONStreamWriter.create
-del JSONStreamWriter.destroy
+#del JSONStreamWriter.create#注释掉删除create的语句
+#del JSONStreamWriter.destroy#注释掉删除destroy的语句
 
-class SwigPyIterator(object):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
-    def __init__(self, *args, **kwargs):
-        raise AttributeError("No constructor defined - class is abstract")
-    __repr__ = _swig_repr
-    __swig_destroy__ = _py3dna.delete_SwigPyIterator
+FileStream.__new__ = __new_decorator(FileStream.create, FileStream.__new__)
+FileStream.__del__ = lambda instance: FileStream.destroy(instance)
+FileStream.__init__ = __managed_init
+#del FileStream.create#注释掉删除create的语句
+#del FileStream.destroy#注释掉删除destroy的语句
 
-    def value(self):
-        return _py3dna.SwigPyIterator_value(self)
 
-    def incr(self, n=1):
-        return _py3dna.SwigPyIterator_incr(self, n)
+MemoryMappedFileStream.__new__ = __new_decorator(MemoryMappedFileStream.create, MemoryMappedFileStream.__new__)
+MemoryMappedFileStream.__del__ = lambda instance: MemoryMappedFileStream.destroy(instance)
+MemoryMappedFileStream.__init__ = __managed_init
+#del MemoryMappedFileStream.create#注释掉删除create的语句
+#del MemoryMappedFileStream.destroy#注释掉删除destroy的语句
 
-    def decr(self, n=1):
-        return _py3dna.SwigPyIterator_decr(self, n)
 
-    def distance(self, x):
-        return _py3dna.SwigPyIterator_distance(self, x)
+BinaryStreamReader.__new__ = __new_decorator(BinaryStreamReader.create, BinaryStreamReader.__new__)
+BinaryStreamReader.__del__ = lambda instance: BinaryStreamReader.destroy(instance)
+BinaryStreamReader.__init__ = __managed_init
+#del BinaryStreamReader.create#注释掉删除create的语句
+#del BinaryStreamReader.destroy#注释掉删除destroy的语句
 
-    def equal(self, x):
-        return _py3dna.SwigPyIterator_equal(self, x)
 
-    def copy(self):
-        return _py3dna.SwigPyIterator_copy(self)
+BinaryStreamWriter.__new__ = __new_decorator(BinaryStreamWriter.create, BinaryStreamWriter.__new__)
+BinaryStreamWriter.__del__ = lambda instance: BinaryStreamWriter.destroy(instance)
+BinaryStreamWriter.__init__ = __managed_init
+#del BinaryStreamWriter.create#注释掉删除create的语句
+#del BinaryStreamWriter.destroy#注释掉删除destroy的语句
 
-    def next(self):
-        return _py3dna.SwigPyIterator_next(self)
-
-    def __next__(self):
-        return _py3dna.SwigPyIterator___next__(self)
-
-    def previous(self):
-        return _py3dna.SwigPyIterator_previous(self)
-
-    def advance(self, n):
-        return _py3dna.SwigPyIterator_advance(self, n)
-
-    def __eq__(self, x):
-        return _py3dna.SwigPyIterator___eq__(self, x)
-
-    def __ne__(self, x):
-        return _py3dna.SwigPyIterator___ne__(self, x)
-
-    def __iadd__(self, n):
-        return _py3dna.SwigPyIterator___iadd__(self, n)
-
-    def __isub__(self, n):
-        return _py3dna.SwigPyIterator___isub__(self, n)
-
-    def __add__(self, n):
-        return _py3dna.SwigPyIterator___add__(self, n)
-
-    def __sub__(self, *args):
-        return _py3dna.SwigPyIterator___sub__(self, *args)
-    def __iter__(self):
-        return self
-
-# Register SwigPyIterator in _py3dna:
-_py3dna.SwigPyIterator_swigregister(SwigPyIterator)
-class StringVector(object):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-    __repr__ = _swig_repr
-
-    def iterator(self):
-        return _py3dna.StringVector_iterator(self)
-    def __iter__(self):
-        return self.iterator()
-
-    def __nonzero__(self):
-        return _py3dna.StringVector___nonzero__(self)
-
-    def __bool__(self):
-        return _py3dna.StringVector___bool__(self)
-
-    def __len__(self):
-        return _py3dna.StringVector___len__(self)
-
-    def __getslice__(self, i, j):
-        return _py3dna.StringVector___getslice__(self, i, j)
-
-    def __setslice__(self, *args):
-        return _py3dna.StringVector___setslice__(self, *args)
-
-    def __delslice__(self, i, j):
-        return _py3dna.StringVector___delslice__(self, i, j)
-
-    def __delitem__(self, *args):
-        return _py3dna.StringVector___delitem__(self, *args)
-
-    def __getitem__(self, *args):
-        return _py3dna.StringVector___getitem__(self, *args)
-
-    def __setitem__(self, *args):
-        return _py3dna.StringVector___setitem__(self, *args)
-
-    def pop(self):
-        return _py3dna.StringVector_pop(self)
-
-    def append(self, x):
-        return _py3dna.StringVector_append(self, x)
-
-    def empty(self):
-        return _py3dna.StringVector_empty(self)
-
-    def size(self):
-        return _py3dna.StringVector_size(self)
-
-    def swap(self, v):
-        return _py3dna.StringVector_swap(self, v)
-
-    def begin(self):
-        return _py3dna.StringVector_begin(self)
-
-    def end(self):
-        return _py3dna.StringVector_end(self)
-
-    def rbegin(self):
-        return _py3dna.StringVector_rbegin(self)
-
-    def rend(self):
-        return _py3dna.StringVector_rend(self)
-
-    def clear(self):
-        return _py3dna.StringVector_clear(self)
-
-    def get_allocator(self):
-        return _py3dna.StringVector_get_allocator(self)
-
-    def pop_back(self):
-        return _py3dna.StringVector_pop_back(self)
-
-    def erase(self, *args):
-        return _py3dna.StringVector_erase(self, *args)
-
-    def __init__(self, *args):
-        _py3dna.StringVector_swiginit(self, _py3dna.new_StringVector(*args))
-
-    def push_back(self, x):
-        return _py3dna.StringVector_push_back(self, x)
-
-    def front(self):
-        return _py3dna.StringVector_front(self)
-
-    def back(self):
-        return _py3dna.StringVector_back(self)
-
-    def assign(self, n, x):
-        return _py3dna.StringVector_assign(self, n, x)
-
-    def resize(self, *args):
-        return _py3dna.StringVector_resize(self, *args)
-
-    def insert(self, *args):
-        return _py3dna.StringVector_insert(self, *args)
-
-    def reserve(self, n):
-        return _py3dna.StringVector_reserve(self, n)
-
-    def capacity(self):
-        return _py3dna.StringVector_capacity(self)
-    __swig_destroy__ = _py3dna.delete_StringVector
-
-# Register StringVector in _py3dna:
-_py3dna.StringVector_swigregister(StringVector)
 

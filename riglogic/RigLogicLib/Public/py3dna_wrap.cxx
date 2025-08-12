@@ -3159,75 +3159,92 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 /* -------- TYPES TABLE (BEGIN) -------- */
 
 #define SWIGTYPE_p_AccessMode swig_types[0]
-#define SWIGTYPE_p_Base swig_types[1]
-#define SWIGTYPE_p_OpenMode swig_types[2]
-#define SWIGTYPE_p_allocator_type swig_types[3]
-#define SWIGTYPE_p_av__ConstArrayViewT_float_t swig_types[4]
-#define SWIGTYPE_p_av__ConstArrayViewT_unsigned_int_t swig_types[5]
-#define SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t swig_types[6]
-#define SWIGTYPE_p_av__StringView swig_types[7]
-#define SWIGTYPE_p_char swig_types[8]
-#define SWIGTYPE_p_difference_type swig_types[9]
-#define SWIGTYPE_p_dna__BehaviorReader swig_types[10]
-#define SWIGTYPE_p_dna__BehaviorWriter swig_types[11]
-#define SWIGTYPE_p_dna__BinaryStreamReader swig_types[12]
-#define SWIGTYPE_p_dna__BinaryStreamWriter swig_types[13]
-#define SWIGTYPE_p_dna__CoordinateSystem swig_types[14]
-#define SWIGTYPE_p_dna__DefinitionReader swig_types[15]
-#define SWIGTYPE_p_dna__DefinitionWriter swig_types[16]
-#define SWIGTYPE_p_dna__DescriptorReader swig_types[17]
-#define SWIGTYPE_p_dna__DescriptorWriter swig_types[18]
-#define SWIGTYPE_p_dna__GeometryReader swig_types[19]
-#define SWIGTYPE_p_dna__GeometryWriter swig_types[20]
-#define SWIGTYPE_p_dna__JSONStreamReader swig_types[21]
-#define SWIGTYPE_p_dna__JSONStreamWriter swig_types[22]
-#define SWIGTYPE_p_dna__MeshBlendShapeChannelMapping swig_types[23]
-#define SWIGTYPE_p_dna__Reader swig_types[24]
-#define SWIGTYPE_p_dna__StreamReader swig_types[25]
-#define SWIGTYPE_p_dna__StreamWriter swig_types[26]
-#define SWIGTYPE_p_dna__TextureCoordinate swig_types[27]
-#define SWIGTYPE_p_dna__Vector3 swig_types[28]
-#define SWIGTYPE_p_dna__VertexLayout swig_types[29]
-#define SWIGTYPE_p_dna__Writer swig_types[30]
-#define SWIGTYPE_p_f_sc__StatusCode_std__size_t_p_q_const__char__p_char swig_types[31]
-#define SWIGTYPE_p_float swig_types[32]
-#define SWIGTYPE_p_int swig_types[33]
-#define SWIGTYPE_p_long_long swig_types[34]
-#define SWIGTYPE_p_p_PyObject swig_types[35]
-#define SWIGTYPE_p_pma__AlignedMemoryResource swig_types[36]
-#define SWIGTYPE_p_pma__ArenaMemoryResource swig_types[37]
-#define SWIGTYPE_p_pma__DefaultMemoryResource swig_types[38]
-#define SWIGTYPE_p_pma__MemoryResource swig_types[39]
-#define SWIGTYPE_p_sc__Status swig_types[40]
-#define SWIGTYPE_p_sc__StatusCode swig_types[41]
-#define SWIGTYPE_p_short swig_types[42]
-#define SWIGTYPE_p_signed_char swig_types[43]
-#define SWIGTYPE_p_size_type swig_types[44]
-#define SWIGTYPE_p_std__allocatorT_std__string_t swig_types[45]
-#define SWIGTYPE_p_std__invalid_argument swig_types[46]
-#define SWIGTYPE_p_std__vectorT_std__string_t swig_types[47]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[48]
-#define SWIGTYPE_p_trio__Bounded swig_types[49]
-#define SWIGTYPE_p_trio__BoundedIOStream swig_types[50]
-#define SWIGTYPE_p_trio__Buffered swig_types[51]
-#define SWIGTYPE_p_trio__Closeable swig_types[52]
-#define SWIGTYPE_p_trio__Controllable swig_types[53]
-#define SWIGTYPE_p_trio__FileStream swig_types[54]
-#define SWIGTYPE_p_trio__MemoryMappedFileStream swig_types[55]
-#define SWIGTYPE_p_trio__MemoryStream swig_types[56]
-#define SWIGTYPE_p_trio__Openable swig_types[57]
-#define SWIGTYPE_p_trio__Readable swig_types[58]
-#define SWIGTYPE_p_trio__Resizable swig_types[59]
-#define SWIGTYPE_p_trio__Seekable swig_types[60]
-#define SWIGTYPE_p_trio__Writable swig_types[61]
-#define SWIGTYPE_p_unsigned_char swig_types[62]
-#define SWIGTYPE_p_unsigned_int swig_types[63]
-#define SWIGTYPE_p_unsigned_long_long swig_types[64]
-#define SWIGTYPE_p_unsigned_short swig_types[65]
-#define SWIGTYPE_p_value_type swig_types[66]
-#define SWIGTYPE_p_void swig_types[67]
-static swig_type_info *swig_types[69];
-static swig_module_info swig_module = {swig_types, 68, 0, 0, 0, 0};
+#define SWIGTYPE_p_ActivationFunction swig_types[1]
+#define SWIGTYPE_p_AutomaticRadius swig_types[2]
+#define SWIGTYPE_p_Base swig_types[3]
+#define SWIGTYPE_p_OpenMode swig_types[4]
+#define SWIGTYPE_p_RBFDistanceMethod swig_types[5]
+#define SWIGTYPE_p_RBFFunctionType swig_types[6]
+#define SWIGTYPE_p_RBFNormalizeMethod swig_types[7]
+#define SWIGTYPE_p_RBFSolverType swig_types[8]
+#define SWIGTYPE_p_RotationRepresentation swig_types[9]
+#define SWIGTYPE_p_ScaleRepresentation swig_types[10]
+#define SWIGTYPE_p_TranslationRepresentation swig_types[11]
+#define SWIGTYPE_p_TwistAxis swig_types[12]
+#define SWIGTYPE_p_allocator_type swig_types[13]
+#define SWIGTYPE_p_av__StringView swig_types[14]
+#define SWIGTYPE_p_char swig_types[15]
+#define SWIGTYPE_p_difference_type swig_types[16]
+#define SWIGTYPE_p_dna__BehaviorReader swig_types[17]
+#define SWIGTYPE_p_dna__BehaviorWriter swig_types[18]
+#define SWIGTYPE_p_dna__BinaryStreamReader swig_types[19]
+#define SWIGTYPE_p_dna__BinaryStreamWriter swig_types[20]
+#define SWIGTYPE_p_dna__CoordinateSystem swig_types[21]
+#define SWIGTYPE_p_dna__DefinitionReader swig_types[22]
+#define SWIGTYPE_p_dna__DefinitionWriter swig_types[23]
+#define SWIGTYPE_p_dna__DescriptorReader swig_types[24]
+#define SWIGTYPE_p_dna__DescriptorWriter swig_types[25]
+#define SWIGTYPE_p_dna__GeometryReader swig_types[26]
+#define SWIGTYPE_p_dna__GeometryWriter swig_types[27]
+#define SWIGTYPE_p_dna__HeaderReader swig_types[28]
+#define SWIGTYPE_p_dna__HeaderWriter swig_types[29]
+#define SWIGTYPE_p_dna__JSONStreamReader swig_types[30]
+#define SWIGTYPE_p_dna__JSONStreamWriter swig_types[31]
+#define SWIGTYPE_p_dna__JointBehaviorMetadataReader swig_types[32]
+#define SWIGTYPE_p_dna__JointBehaviorMetadataWriter swig_types[33]
+#define SWIGTYPE_p_dna__MachineLearnedBehaviorReader swig_types[34]
+#define SWIGTYPE_p_dna__MachineLearnedBehaviorWriter swig_types[35]
+#define SWIGTYPE_p_dna__MeshBlendShapeChannelMapping swig_types[36]
+#define SWIGTYPE_p_dna__RBFBehaviorReader swig_types[37]
+#define SWIGTYPE_p_dna__RBFBehaviorWriter swig_types[38]
+#define SWIGTYPE_p_dna__Reader swig_types[39]
+#define SWIGTYPE_p_dna__StreamReader swig_types[40]
+#define SWIGTYPE_p_dna__StreamWriter swig_types[41]
+#define SWIGTYPE_p_dna__TextureCoordinate swig_types[42]
+#define SWIGTYPE_p_dna__TwistSwingBehaviorReader swig_types[43]
+#define SWIGTYPE_p_dna__TwistSwingBehaviorWriter swig_types[44]
+#define SWIGTYPE_p_dna__Vector3 swig_types[45]
+#define SWIGTYPE_p_dna__VertexLayout swig_types[46]
+#define SWIGTYPE_p_dna__Writer swig_types[47]
+#define SWIGTYPE_p_f_sc__StatusCode_std__size_t_p_q_const__char__p_char swig_types[48]
+#define SWIGTYPE_p_float swig_types[49]
+#define SWIGTYPE_p_int swig_types[50]
+#define SWIGTYPE_p_long_long swig_types[51]
+#define SWIGTYPE_p_p_PyObject swig_types[52]
+#define SWIGTYPE_p_pma__AlignedMemoryResource swig_types[53]
+#define SWIGTYPE_p_pma__ArenaMemoryResource swig_types[54]
+#define SWIGTYPE_p_pma__DefaultMemoryResource swig_types[55]
+#define SWIGTYPE_p_pma__MemoryResource swig_types[56]
+#define SWIGTYPE_p_sc__Status swig_types[57]
+#define SWIGTYPE_p_sc__StatusCode swig_types[58]
+#define SWIGTYPE_p_short swig_types[59]
+#define SWIGTYPE_p_signed_char swig_types[60]
+#define SWIGTYPE_p_size_type swig_types[61]
+#define SWIGTYPE_p_std__allocatorT_std__string_t swig_types[62]
+#define SWIGTYPE_p_std__invalid_argument swig_types[63]
+#define SWIGTYPE_p_std__vectorT_std__string_t swig_types[64]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[65]
+#define SWIGTYPE_p_trio__Bounded swig_types[66]
+#define SWIGTYPE_p_trio__BoundedIOStream swig_types[67]
+#define SWIGTYPE_p_trio__Buffered swig_types[68]
+#define SWIGTYPE_p_trio__Closeable swig_types[69]
+#define SWIGTYPE_p_trio__Controllable swig_types[70]
+#define SWIGTYPE_p_trio__FileStream swig_types[71]
+#define SWIGTYPE_p_trio__MemoryMappedFileStream swig_types[72]
+#define SWIGTYPE_p_trio__MemoryStream swig_types[73]
+#define SWIGTYPE_p_trio__Openable swig_types[74]
+#define SWIGTYPE_p_trio__Readable swig_types[75]
+#define SWIGTYPE_p_trio__Resizable swig_types[76]
+#define SWIGTYPE_p_trio__Seekable swig_types[77]
+#define SWIGTYPE_p_trio__Writable swig_types[78]
+#define SWIGTYPE_p_unsigned_char swig_types[79]
+#define SWIGTYPE_p_unsigned_int swig_types[80]
+#define SWIGTYPE_p_unsigned_long_long swig_types[81]
+#define SWIGTYPE_p_unsigned_short swig_types[82]
+#define SWIGTYPE_p_value_type swig_types[83]
+#define SWIGTYPE_p_void swig_types[84]
+static swig_type_info *swig_types[86];
+static swig_module_info swig_module = {swig_types, 85, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -3399,6 +3416,9 @@ namespace swig {
 #include <trio/streams/MemoryMappedFileStream.h>
 #include <trio/streams/MemoryStream.h>
 
+// 工厂函数定义 - 使用pma中的默认创建器和销毁器
+#include <pma/ScopedPtr.h>
+
 #include "dna/Defs.h"
 #include "dna/DataLayer.h"
 #include "arrayview/ArrayView.h"
@@ -3426,18 +3446,20 @@ namespace swig {
 #include "dna/JSONStreamWriter.h"
 
 // 声明基类 - 暂时注释掉有问题的头文件
-// %include "dna/layers/HeaderReader.h"
-// %include "dna/layers/HeaderWriter.h"
-// %include "dna/layers/RBFBehaviorReader.h"
-// %include "dna/layers/RBFBehaviorWriter.h"
-// %include "dna/layers/MachineLearnedBehaviorReader.h"
-// %include "dna/layers/MachineLearnedBehaviorWriter.h"
-// %include "dna/layers/JointBehaviorMetadataReader.h"
-// %include "dna/layers/JointBehaviorMetadataWriter.h"
-// %include "dna/layers/TwistSwingBehaviorReader.h"
-// %include "dna/layers/TwistSwingBehaviorWriter.h"
-// %include "dna/layers/BehaviorReader.h"
-// %include "dna/layers/BehaviorWriter.h"
+#include "dna/layers/HeaderReader.h"
+#include "dna/layers/HeaderWriter.h"
+#include "dna/layers/RBFBehavior.h"
+#include "dna/layers/RBFBehaviorReader.h"
+#include "dna/layers/RBFBehaviorWriter.h"
+#include "dna/layers/MachineLearnedBehavior.h"
+#include "dna/layers/MachineLearnedBehaviorReader.h"
+#include "dna/layers/MachineLearnedBehaviorWriter.h"
+#include "dna/layers/JointBehaviorMetadata.h"
+#include "dna/layers/JointBehaviorMetadataReader.h"
+#include "dna/layers/JointBehaviorMetadataWriter.h"
+#include "dna/layers/Twist.h"
+#include "dna/layers/TwistSwingBehaviorReader.h"
+#include "dna/layers/TwistSwingBehaviorWriter.h"
 
 
 
@@ -4066,52 +4088,6 @@ SWIG_From_size_t  (size_t value)
             return pyVertexLayout;
         }
     };
-
-
-SWIGINTERNINLINE PyObject *
-SWIG_From_unsigned_SS_short  (unsigned short value)
-{    
-  return SWIG_From_unsigned_SS_long  (value);
-}
-
-
-SWIGINTERNINLINE PyObject*
-  SWIG_From_unsigned_SS_int  (unsigned int value)
-{
-  return PyInt_FromSize_t((size_t) value);
-}
-
-
-SWIGINTERN int
-SWIG_AsVal_unsigned_SS_int (PyObject * obj, unsigned int *val)
-{
-  unsigned long v;
-  int res = SWIG_AsVal_unsigned_SS_long (obj, &v);
-  if (SWIG_IsOK(res)) {
-    if ((v > UINT_MAX)) {
-      return SWIG_OverflowError;
-    } else {
-      if (val) *val = static_cast< unsigned int >(v);
-    }
-  }  
-  return res;
-}
-
-
-SWIGINTERN int
-SWIG_AsVal_unsigned_SS_short (PyObject * obj, unsigned short *val)
-{
-  unsigned long v;
-  int res = SWIG_AsVal_unsigned_SS_long (obj, &v);
-  if (SWIG_IsOK(res)) {
-    if ((v > USHRT_MAX)) {
-      return SWIG_OverflowError;
-    } else {
-      if (val) *val = static_cast< unsigned short >(v);
-    }
-  }  
-  return res;
-}
 
 
 #include <string>
@@ -5556,6 +5532,74 @@ SWIGINTERN std::vector< std::string >::iterator std_vector_Sl_std_string_Sg__era
 SWIGINTERN std::vector< std::string >::iterator std_vector_Sl_std_string_Sg__erase__SWIG_1(std::vector< std::string > *self,std::vector< std::string >::iterator first,std::vector< std::string >::iterator last){ return self->erase(first, last); }
 SWIGINTERN std::vector< std::string >::iterator std_vector_Sl_std_string_Sg__insert__SWIG_0(std::vector< std::string > *self,std::vector< std::string >::iterator pos,std::vector< std::string >::value_type const &x){ return self->insert(pos, x); }
 SWIGINTERN void std_vector_Sl_std_string_Sg__insert__SWIG_1(std::vector< std::string > *self,std::vector< std::string >::iterator pos,std::vector< std::string >::size_type n,std::vector< std::string >::value_type const &x){ self->insert(pos, n, x); }
+
+SWIGINTERNINLINE PyObject *
+SWIG_From_unsigned_SS_short  (unsigned short value)
+{    
+  return SWIG_From_unsigned_SS_long  (value);
+}
+
+
+SWIGINTERNINLINE PyObject*
+  SWIG_From_unsigned_SS_int  (unsigned int value)
+{
+  return PyInt_FromSize_t((size_t) value);
+}
+
+
+SWIGINTERN int
+SWIG_AsVal_unsigned_SS_int (PyObject * obj, unsigned int *val)
+{
+  unsigned long v;
+  int res = SWIG_AsVal_unsigned_SS_long (obj, &v);
+  if (SWIG_IsOK(res)) {
+    if ((v > UINT_MAX)) {
+      return SWIG_OverflowError;
+    } else {
+      if (val) *val = static_cast< unsigned int >(v);
+    }
+  }  
+  return res;
+}
+
+
+SWIGINTERN int
+SWIG_AsVal_unsigned_SS_short (PyObject * obj, unsigned short *val)
+{
+  unsigned long v;
+  int res = SWIG_AsVal_unsigned_SS_long (obj, &v);
+  if (SWIG_IsOK(res)) {
+    if ((v > USHRT_MAX)) {
+      return SWIG_OverflowError;
+    } else {
+      if (val) *val = static_cast< unsigned short >(v);
+    }
+  }  
+  return res;
+}
+
+
+  #define SWIG_From_double   PyFloat_FromDouble 
+
+
+SWIGINTERNINLINE PyObject *
+SWIG_From_float  (float value)
+{    
+  return SWIG_From_double  (value);
+}
+
+
+typedef dna::RBFSolverType RBFSolverType;
+typedef dna::AutomaticRadius AutomaticRadius;
+typedef dna::RBFDistanceMethod RBFDistanceMethod;
+typedef dna::RBFNormalizeMethod RBFNormalizeMethod;
+typedef dna::RBFFunctionType RBFFunctionType;
+typedef dna::TwistAxis TwistAxis;
+typedef dna::ActivationFunction ActivationFunction;
+typedef dna::TranslationRepresentation TranslationRepresentation;
+typedef dna::RotationRepresentation RotationRepresentation;
+typedef dna::ScaleRepresentation ScaleRepresentation;
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -8206,6 +8250,3257 @@ SWIGINTERN PyObject *MemoryStream_swigregister(PyObject *SWIGUNUSEDPARM(self), P
   return SWIG_Py_Void();
 }
 
+SWIGINTERN PyObject *_wrap_delete_SwigPyIterator(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_SwigPyIterator" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  {
+    try {
+      delete arg1;
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator_value(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  PyObject *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_value" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  {
+    try {
+      try {
+        result = (PyObject *)((swig::SwigPyIterator const *)arg1)->value();
+      } catch(swig::stop_iteration &_e) {
+        {
+          (void)_e;
+          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
+          SWIG_fail;
+        }
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = result;
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator_incr__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_incr" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "SwigPyIterator_incr" "', argument " "2"" of type '" "size_t""'");
+  } 
+  arg2 = static_cast< size_t >(val2);
+  {
+    try {
+      try {
+        result = (swig::SwigPyIterator *)(arg1)->incr(arg2);
+      } catch(swig::stop_iteration &_e) {
+        {
+          (void)_e;
+          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
+          SWIG_fail;
+        }
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator_incr__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_incr" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  {
+    try {
+      try {
+        result = (swig::SwigPyIterator *)(arg1)->incr();
+      } catch(swig::stop_iteration &_e) {
+        {
+          (void)_e;
+          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
+          SWIG_fail;
+        }
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator_incr(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "SwigPyIterator_incr", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 1) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_swig__SwigPyIterator, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_SwigPyIterator_incr__SWIG_1(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_swig__SwigPyIterator, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_SwigPyIterator_incr__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'SwigPyIterator_incr'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    swig::SwigPyIterator::incr(size_t)\n"
+    "    swig::SwigPyIterator::incr()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator_decr__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_decr" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "SwigPyIterator_decr" "', argument " "2"" of type '" "size_t""'");
+  } 
+  arg2 = static_cast< size_t >(val2);
+  {
+    try {
+      try {
+        result = (swig::SwigPyIterator *)(arg1)->decr(arg2);
+      } catch(swig::stop_iteration &_e) {
+        {
+          (void)_e;
+          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
+          SWIG_fail;
+        }
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator_decr__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_decr" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  {
+    try {
+      try {
+        result = (swig::SwigPyIterator *)(arg1)->decr();
+      } catch(swig::stop_iteration &_e) {
+        {
+          (void)_e;
+          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
+          SWIG_fail;
+        }
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator_decr(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "SwigPyIterator_decr", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 1) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_swig__SwigPyIterator, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_SwigPyIterator_decr__SWIG_1(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_swig__SwigPyIterator, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_SwigPyIterator_decr__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'SwigPyIterator_decr'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    swig::SwigPyIterator::decr(size_t)\n"
+    "    swig::SwigPyIterator::decr()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator_distance(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  swig::SwigPyIterator *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  ptrdiff_t result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "SwigPyIterator_distance", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_distance" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_swig__SwigPyIterator,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "SwigPyIterator_distance" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "SwigPyIterator_distance" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
+  }
+  arg2 = reinterpret_cast< swig::SwigPyIterator * >(argp2);
+  {
+    try {
+      try {
+        result = ((swig::SwigPyIterator const *)arg1)->distance((swig::SwigPyIterator const &)*arg2);
+      } catch(std::invalid_argument &_e) {
+        SWIG_Python_Raise(SWIG_NewPointerObj((new std::invalid_argument(static_cast< const std::invalid_argument& >(_e))),SWIGTYPE_p_std__invalid_argument,SWIG_POINTER_OWN), "std::invalid_argument", SWIGTYPE_p_std__invalid_argument); SWIG_fail;
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_ptrdiff_t(static_cast< ptrdiff_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator_equal(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  swig::SwigPyIterator *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  bool result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "SwigPyIterator_equal", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_equal" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_swig__SwigPyIterator,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "SwigPyIterator_equal" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "SwigPyIterator_equal" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
+  }
+  arg2 = reinterpret_cast< swig::SwigPyIterator * >(argp2);
+  {
+    try {
+      try {
+        result = (bool)((swig::SwigPyIterator const *)arg1)->equal((swig::SwigPyIterator const &)*arg2);
+      } catch(std::invalid_argument &_e) {
+        SWIG_Python_Raise(SWIG_NewPointerObj((new std::invalid_argument(static_cast< const std::invalid_argument& >(_e))),SWIGTYPE_p_std__invalid_argument,SWIG_POINTER_OWN), "std::invalid_argument", SWIGTYPE_p_std__invalid_argument); SWIG_fail;
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator_copy(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_copy" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  {
+    try {
+      result = (swig::SwigPyIterator *)((swig::SwigPyIterator const *)arg1)->copy();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator_next(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  PyObject *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_next" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  {
+    try {
+      try {
+        result = (PyObject *)(arg1)->next();
+      } catch(swig::stop_iteration &_e) {
+        {
+          (void)_e;
+          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
+          SWIG_fail;
+        }
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = result;
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator___next__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  PyObject *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator___next__" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  {
+    try {
+      try {
+        result = (PyObject *)(arg1)->__next__();
+      } catch(swig::stop_iteration &_e) {
+        {
+          (void)_e;
+          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
+          SWIG_fail;
+        }
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = result;
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator_previous(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  PyObject *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_previous" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  {
+    try {
+      try {
+        result = (PyObject *)(arg1)->previous();
+      } catch(swig::stop_iteration &_e) {
+        {
+          (void)_e;
+          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
+          SWIG_fail;
+        }
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = result;
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator_advance(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  ptrdiff_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "SwigPyIterator_advance", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_advance" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "SwigPyIterator_advance" "', argument " "2"" of type '" "ptrdiff_t""'");
+  } 
+  arg2 = static_cast< ptrdiff_t >(val2);
+  {
+    try {
+      try {
+        result = (swig::SwigPyIterator *)(arg1)->advance(arg2);
+      } catch(swig::stop_iteration &_e) {
+        {
+          (void)_e;
+          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
+          SWIG_fail;
+        }
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator___eq__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  swig::SwigPyIterator *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  bool result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "SwigPyIterator___eq__", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator___eq__" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_swig__SwigPyIterator,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "SwigPyIterator___eq__" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "SwigPyIterator___eq__" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
+  }
+  arg2 = reinterpret_cast< swig::SwigPyIterator * >(argp2);
+  {
+    try {
+      result = (bool)((swig::SwigPyIterator const *)arg1)->operator ==((swig::SwigPyIterator const &)*arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  if (PyErr_Occurred() && !PyErr_ExceptionMatches(PyExc_TypeError)) {
+    return NULL;
+  }
+  PyErr_Clear();
+  Py_INCREF(Py_NotImplemented);
+  return Py_NotImplemented;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator___ne__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  swig::SwigPyIterator *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  bool result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "SwigPyIterator___ne__", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator___ne__" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_swig__SwigPyIterator,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "SwigPyIterator___ne__" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "SwigPyIterator___ne__" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
+  }
+  arg2 = reinterpret_cast< swig::SwigPyIterator * >(argp2);
+  {
+    try {
+      result = (bool)((swig::SwigPyIterator const *)arg1)->operator !=((swig::SwigPyIterator const &)*arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  if (PyErr_Occurred() && !PyErr_ExceptionMatches(PyExc_TypeError)) {
+    return NULL;
+  }
+  PyErr_Clear();
+  Py_INCREF(Py_NotImplemented);
+  return Py_NotImplemented;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator___iadd__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  ptrdiff_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "SwigPyIterator___iadd__", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator___iadd__" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "SwigPyIterator___iadd__" "', argument " "2"" of type '" "ptrdiff_t""'");
+  } 
+  arg2 = static_cast< ptrdiff_t >(val2);
+  {
+    try {
+      try {
+        result = (swig::SwigPyIterator *) &(arg1)->operator +=(arg2);
+      } catch(swig::stop_iteration &_e) {
+        {
+          (void)_e;
+          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
+          SWIG_fail;
+        }
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator___isub__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  ptrdiff_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "SwigPyIterator___isub__", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator___isub__" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "SwigPyIterator___isub__" "', argument " "2"" of type '" "ptrdiff_t""'");
+  } 
+  arg2 = static_cast< ptrdiff_t >(val2);
+  {
+    try {
+      try {
+        result = (swig::SwigPyIterator *) &(arg1)->operator -=(arg2);
+      } catch(swig::stop_iteration &_e) {
+        {
+          (void)_e;
+          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
+          SWIG_fail;
+        }
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator___add__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  ptrdiff_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "SwigPyIterator___add__", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator___add__" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "SwigPyIterator___add__" "', argument " "2"" of type '" "ptrdiff_t""'");
+  } 
+  arg2 = static_cast< ptrdiff_t >(val2);
+  {
+    try {
+      try {
+        result = (swig::SwigPyIterator *)((swig::SwigPyIterator const *)arg1)->operator +(arg2);
+      } catch(swig::stop_iteration &_e) {
+        {
+          (void)_e;
+          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
+          SWIG_fail;
+        }
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  if (PyErr_Occurred() && !PyErr_ExceptionMatches(PyExc_TypeError)) {
+    return NULL;
+  }
+  PyErr_Clear();
+  Py_INCREF(Py_NotImplemented);
+  return Py_NotImplemented;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator___sub____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  ptrdiff_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator___sub__" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "SwigPyIterator___sub__" "', argument " "2"" of type '" "ptrdiff_t""'");
+  } 
+  arg2 = static_cast< ptrdiff_t >(val2);
+  {
+    try {
+      try {
+        result = (swig::SwigPyIterator *)((swig::SwigPyIterator const *)arg1)->operator -(arg2);
+      } catch(swig::stop_iteration &_e) {
+        {
+          (void)_e;
+          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
+          SWIG_fail;
+        }
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  if (PyErr_Occurred() && !PyErr_ExceptionMatches(PyExc_TypeError)) {
+    return NULL;
+  }
+  PyErr_Clear();
+  Py_INCREF(Py_NotImplemented);
+  return Py_NotImplemented;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator___sub____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
+  swig::SwigPyIterator *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  ptrdiff_t result;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator___sub__" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
+  }
+  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_swig__SwigPyIterator,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "SwigPyIterator___sub__" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "SwigPyIterator___sub__" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
+  }
+  arg2 = reinterpret_cast< swig::SwigPyIterator * >(argp2);
+  {
+    try {
+      result = ((swig::SwigPyIterator const *)arg1)->operator -((swig::SwigPyIterator const &)*arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_ptrdiff_t(static_cast< ptrdiff_t >(result));
+  return resultobj;
+fail:
+  if (PyErr_Occurred() && !PyErr_ExceptionMatches(PyExc_TypeError)) {
+    return NULL;
+  }
+  PyErr_Clear();
+  Py_INCREF(Py_NotImplemented);
+  return Py_NotImplemented;
+}
+
+
+SWIGINTERN PyObject *_wrap_SwigPyIterator___sub__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "SwigPyIterator___sub__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_swig__SwigPyIterator, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_SwigPyIterator___sub____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_swig__SwigPyIterator, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_SwigPyIterator___sub____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  Py_INCREF(Py_NotImplemented);
+  return Py_NotImplemented;
+}
+
+
+SWIGINTERN PyObject *SwigPyIterator_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_swig__SwigPyIterator, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_StringVector_iterator(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  PyObject **arg2 = (PyObject **) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  arg2 = &swig_obj[0];
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_iterator" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      result = (swig::SwigPyIterator *)std_vector_Sl_std_string_Sg__iterator(arg1,arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___nonzero__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___nonzero__" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      result = (bool)std_vector_Sl_std_string_Sg____nonzero__((std::vector< std::string > const *)arg1);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___bool__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___bool__" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      result = (bool)std_vector_Sl_std_string_Sg____bool__((std::vector< std::string > const *)arg1);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___len__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::size_type result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___len__" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      result = std_vector_Sl_std_string_Sg____len__((std::vector< std::string > const *)arg1);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___getslice__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::difference_type arg2 ;
+  std::vector< std::string >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  std::vector< std::string,std::allocator< std::string > > *result = 0 ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "StringVector___getslice__", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___getslice__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___getslice__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StringVector___getslice__" "', argument " "3"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< std::string >::difference_type >(val3);
+  {
+    try {
+      try {
+        result = (std::vector< std::string,std::allocator< std::string > > *)std_vector_Sl_std_string_Sg____getslice__(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
+      } catch(std::out_of_range &_e) {
+        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+      } catch(std::invalid_argument &_e) {
+        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___setslice____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::difference_type arg2 ;
+  std::vector< std::string >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___setslice__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___setslice__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StringVector___setslice__" "', argument " "3"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< std::string >::difference_type >(val3);
+  {
+    try {
+      try {
+        std_vector_Sl_std_string_Sg____setslice____SWIG_0(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
+      } catch(std::out_of_range &_e) {
+        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+      } catch(std::invalid_argument &_e) {
+        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___setslice____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::difference_type arg2 ;
+  std::vector< std::string >::difference_type arg3 ;
+  std::vector< std::string,std::allocator< std::string > > *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  int res4 = SWIG_OLDOBJ ;
+  
+  (void)self;
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___setslice__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___setslice__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StringVector___setslice__" "', argument " "3"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< std::string >::difference_type >(val3);
+  {
+    std::vector< std::string,std::allocator< std::string > > *ptr = (std::vector< std::string,std::allocator< std::string > > *)0;
+    res4 = swig::asptr(swig_obj[3], &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "StringVector___setslice__" "', argument " "4"" of type '" "std::vector< std::string,std::allocator< std::string > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector___setslice__" "', argument " "4"" of type '" "std::vector< std::string,std::allocator< std::string > > const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  {
+    try {
+      try {
+        std_vector_Sl_std_string_Sg____setslice____SWIG_1(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3),(std::vector< std::string,std::allocator< std::string > > const &)*arg4);
+      } catch(std::out_of_range &_e) {
+        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+      } catch(std::invalid_argument &_e) {
+        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___setslice__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector___setslice__", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_StringVector___setslice____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = swig::asptr(argv[3], (std::vector< std::string,std::allocator< std::string > >**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_StringVector___setslice____SWIG_1(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector___setslice__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::string >::__setslice__(std::vector< std::string >::difference_type,std::vector< std::string >::difference_type)\n"
+    "    std::vector< std::string >::__setslice__(std::vector< std::string >::difference_type,std::vector< std::string >::difference_type,std::vector< std::string,std::allocator< std::string > > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___delslice__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::difference_type arg2 ;
+  std::vector< std::string >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "StringVector___delslice__", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___delslice__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___delslice__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StringVector___delslice__" "', argument " "3"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< std::string >::difference_type >(val3);
+  {
+    try {
+      try {
+        std_vector_Sl_std_string_Sg____delslice__(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
+      } catch(std::out_of_range &_e) {
+        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+      } catch(std::invalid_argument &_e) {
+        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___delitem____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___delitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___delitem__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
+  {
+    try {
+      try {
+        std_vector_Sl_std_string_Sg____delitem____SWIG_0(arg1,SWIG_STD_MOVE(arg2));
+      } catch(std::out_of_range &_e) {
+        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+      } catch(std::invalid_argument &_e) {
+        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___getitem____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  SWIGPY_SLICEOBJECT *arg2 = (SWIGPY_SLICEOBJECT *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  std::vector< std::string,std::allocator< std::string > > *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___getitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector___getitem__" "', argument " "2"" of type '" "SWIGPY_SLICEOBJECT *""'");
+    }
+    arg2 = (SWIGPY_SLICEOBJECT *) swig_obj[1];
+  }
+  {
+    try {
+      try {
+        result = (std::vector< std::string,std::allocator< std::string > > *)std_vector_Sl_std_string_Sg____getitem____SWIG_0(arg1,arg2);
+      } catch(std::out_of_range &_e) {
+        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+      } catch(std::invalid_argument &_e) {
+        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___setitem____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  SWIGPY_SLICEOBJECT *arg2 = (SWIGPY_SLICEOBJECT *) 0 ;
+  std::vector< std::string,std::allocator< std::string > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___setitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector___setitem__" "', argument " "2"" of type '" "SWIGPY_SLICEOBJECT *""'");
+    }
+    arg2 = (SWIGPY_SLICEOBJECT *) swig_obj[1];
+  }
+  {
+    std::vector< std::string,std::allocator< std::string > > *ptr = (std::vector< std::string,std::allocator< std::string > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StringVector___setitem__" "', argument " "3"" of type '" "std::vector< std::string,std::allocator< std::string > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector___setitem__" "', argument " "3"" of type '" "std::vector< std::string,std::allocator< std::string > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      try {
+        std_vector_Sl_std_string_Sg____setitem____SWIG_0(arg1,arg2,(std::vector< std::string,std::allocator< std::string > > const &)*arg3);
+      } catch(std::out_of_range &_e) {
+        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+      } catch(std::invalid_argument &_e) {
+        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___setitem____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  SWIGPY_SLICEOBJECT *arg2 = (SWIGPY_SLICEOBJECT *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___setitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector___setitem__" "', argument " "2"" of type '" "SWIGPY_SLICEOBJECT *""'");
+    }
+    arg2 = (SWIGPY_SLICEOBJECT *) swig_obj[1];
+  }
+  {
+    try {
+      try {
+        std_vector_Sl_std_string_Sg____setitem____SWIG_1(arg1,arg2);
+      } catch(std::out_of_range &_e) {
+        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+      } catch(std::invalid_argument &_e) {
+        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___delitem____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  SWIGPY_SLICEOBJECT *arg2 = (SWIGPY_SLICEOBJECT *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___delitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector___delitem__" "', argument " "2"" of type '" "SWIGPY_SLICEOBJECT *""'");
+    }
+    arg2 = (SWIGPY_SLICEOBJECT *) swig_obj[1];
+  }
+  {
+    try {
+      try {
+        std_vector_Sl_std_string_Sg____delitem____SWIG_1(arg1,arg2);
+      } catch(std::out_of_range &_e) {
+        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+      } catch(std::invalid_argument &_e) {
+        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___delitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector___delitem__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_StringVector___delitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_StringVector___delitem____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector___delitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::string >::__delitem__(std::vector< std::string >::difference_type)\n"
+    "    std::vector< std::string >::__delitem__(SWIGPY_SLICEOBJECT *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___getitem____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  std::vector< std::string >::value_type *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___getitem__" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___getitem__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
+  {
+    try {
+      try {
+        result = (std::vector< std::string >::value_type *) &std_vector_Sl_std_string_Sg____getitem____SWIG_1((std::vector< std::string > const *)arg1,SWIG_STD_MOVE(arg2));
+      } catch(std::out_of_range &_e) {
+        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(*result));
+  (void)swig::container_owner<swig::traits<std::vector< std::string >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___getitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector___getitem__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_StringVector___getitem____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_StringVector___getitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector___getitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::string >::__getitem__(SWIGPY_SLICEOBJECT *)\n"
+    "    std::vector< std::string >::__getitem__(std::vector< std::string >::difference_type) const\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___setitem____SWIG_2(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::difference_type arg2 ;
+  std::vector< std::string >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___setitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___setitem__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
+  {
+    std::string *ptr = (std::string *)0;
+    res3 = SWIG_AsPtr_std_string(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StringVector___setitem__" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector___setitem__" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      try {
+        std_vector_Sl_std_string_Sg____setitem____SWIG_2(arg1,SWIG_STD_MOVE(arg2),(std::string const &)*arg3);
+      } catch(std::out_of_range &_e) {
+        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___setitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector___setitem__", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_StringVector___setitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< std::string,std::allocator< std::string > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_StringVector___setitem____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_AsPtr_std_string(argv[2], (std::string**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_StringVector___setitem____SWIG_2(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector___setitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::string >::__setitem__(SWIGPY_SLICEOBJECT *,std::vector< std::string,std::allocator< std::string > > const &)\n"
+    "    std::vector< std::string >::__setitem__(SWIGPY_SLICEOBJECT *)\n"
+    "    std::vector< std::string >::__setitem__(std::vector< std::string >::difference_type,std::vector< std::string >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_pop(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::value_type result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_pop" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      try {
+        result = std_vector_Sl_std_string_Sg__pop(arg1);
+      } catch(std::out_of_range &_e) {
+        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+      }
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_append(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "StringVector_append", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_append" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StringVector_append" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector_append" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      std_vector_Sl_std_string_Sg__append(arg1,(std::string const &)*arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StringVector__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 0) || (nobjs > 0)) SWIG_fail;
+  {
+    try {
+      result = (std::vector< std::string > *)new std::vector< std::string >();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StringVector__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = 0 ;
+  int res1 = SWIG_OLDOBJ ;
+  std::vector< std::string > *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  {
+    std::vector< std::string,std::allocator< std::string > > *ptr = (std::vector< std::string,std::allocator< std::string > > *)0;
+    res1 = swig::asptr(swig_obj[0], &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_StringVector" "', argument " "1"" of type '" "std::vector< std::string > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_StringVector" "', argument " "1"" of type '" "std::vector< std::string > const &""'"); 
+    }
+    arg1 = ptr;
+  }
+  {
+    try {
+      result = (std::vector< std::string > *)new std::vector< std::string >((std::vector< std::string > const &)*arg1);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_empty(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_empty" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      result = (bool)((std::vector< std::string > const *)arg1)->empty();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_size(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::size_type result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_size" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      result = ((std::vector< std::string > const *)arg1)->size();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_swap(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "StringVector_swap", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_swap" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_std__vectorT_std__string_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StringVector_swap" "', argument " "2"" of type '" "std::vector< std::string > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector_swap" "', argument " "2"" of type '" "std::vector< std::string > &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< std::string > * >(argp2);
+  {
+    try {
+      (arg1)->swap(*arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_begin(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::iterator result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_begin" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      result = (arg1)->begin();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_end(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::iterator result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_end" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      result = (arg1)->end();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_rbegin(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::reverse_iterator result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_rbegin" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      result = (arg1)->rbegin();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_rend(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::reverse_iterator result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_rend" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      result = (arg1)->rend();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_clear(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_clear" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      (arg1)->clear();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_get_allocator(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  SwigValueWrapper< std::allocator< std::string > > result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_get_allocator" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      result = ((std::vector< std::string > const *)arg1)->get_allocator();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new std::vector< std::string >::allocator_type(result)), SWIGTYPE_p_std__allocatorT_std__string_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StringVector__SWIG_2(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string >::size_type arg1 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  std::vector< std::string > *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_StringVector" "', argument " "1"" of type '" "std::vector< std::string >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< std::string >::size_type >(val1);
+  {
+    try {
+      result = (std::vector< std::string > *)new std::vector< std::string >(arg1);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_pop_back(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_pop_back" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      (arg1)->pop_back();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_resize__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_resize" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector_resize" "', argument " "2"" of type '" "std::vector< std::string >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::size_type >(val2);
+  {
+    try {
+      (arg1)->resize(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_erase__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::iterator arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  std::vector< std::string >::iterator result;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_erase" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< std::string >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
+    }
+  }
+  {
+    try {
+      result = std_vector_Sl_std_string_Sg__erase__SWIG_0(arg1,SWIG_STD_MOVE(arg2));
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_erase__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::iterator arg2 ;
+  std::vector< std::string >::iterator arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  swig::SwigPyIterator *iter3 = 0 ;
+  int res3 ;
+  std::vector< std::string >::iterator result;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_erase" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< std::string >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], SWIG_as_voidptrptr(&iter3), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res3) || !iter3) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "3"" of type '" "std::vector< std::string >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< std::string >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter3);
+    if (iter_t) {
+      arg3 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "3"" of type '" "std::vector< std::string >::iterator""'");
+    }
+  }
+  {
+    try {
+      result = std_vector_Sl_std_string_Sg__erase__SWIG_1(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_erase(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector_erase", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter) != 0));
+      if (_v) {
+        return _wrap_StringVector_erase__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter) != 0));
+      if (_v) {
+        swig::SwigPyIterator *iter = 0;
+        int res = SWIG_ConvertPtr(argv[2], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+        _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter) != 0));
+        if (_v) {
+          return _wrap_StringVector_erase__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector_erase'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::string >::erase(std::vector< std::string >::iterator)\n"
+    "    std::vector< std::string >::erase(std::vector< std::string >::iterator,std::vector< std::string >::iterator)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StringVector__SWIG_3(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string >::size_type arg1 ;
+  std::vector< std::string >::value_type *arg2 = 0 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  std::vector< std::string > *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_StringVector" "', argument " "1"" of type '" "std::vector< std::string >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< std::string >::size_type >(val1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "new_StringVector" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_StringVector" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      result = (std::vector< std::string > *)new std::vector< std::string >(arg1,(std::vector< std::string >::value_type const &)*arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StringVector(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "new_StringVector", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 0) {
+    return _wrap_new_StringVector__SWIG_0(self, argc, argv);
+  }
+  if (argc == 1) {
+    int _v = 0;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_StringVector__SWIG_2(self, argc, argv);
+    }
+  }
+  if (argc == 1) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_StringVector__SWIG_1(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v = 0;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_new_StringVector__SWIG_3(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_StringVector'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::string >::vector()\n"
+    "    std::vector< std::string >::vector(std::vector< std::string > const &)\n"
+    "    std::vector< std::string >::vector(std::vector< std::string >::size_type)\n"
+    "    std::vector< std::string >::vector(std::vector< std::string >::size_type,std::vector< std::string >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_push_back(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "StringVector_push_back", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_push_back" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StringVector_push_back" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector_push_back" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      (arg1)->push_back((std::vector< std::string >::value_type const &)*arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_front(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::value_type *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_front" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      result = (std::vector< std::string >::value_type *) &((std::vector< std::string > const *)arg1)->front();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(*result));
+  (void)swig::container_owner<swig::traits<std::vector< std::string >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_back(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::value_type *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_back" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      result = (std::vector< std::string >::value_type *) &((std::vector< std::string > const *)arg1)->back();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(*result));
+  (void)swig::container_owner<swig::traits<std::vector< std::string >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_assign(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::size_type arg2 ;
+  std::vector< std::string >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "StringVector_assign", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_assign" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector_assign" "', argument " "2"" of type '" "std::vector< std::string >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::size_type >(val2);
+  {
+    std::string *ptr = (std::string *)0;
+    res3 = SWIG_AsPtr_std_string(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StringVector_assign" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector_assign" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      (arg1)->assign(arg2,(std::vector< std::string >::value_type const &)*arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_resize__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::size_type arg2 ;
+  std::vector< std::string >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_resize" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector_resize" "', argument " "2"" of type '" "std::vector< std::string >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::size_type >(val2);
+  {
+    std::string *ptr = (std::string *)0;
+    res3 = SWIG_AsPtr_std_string(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StringVector_resize" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector_resize" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      (arg1)->resize(arg2,(std::vector< std::string >::value_type const &)*arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_resize(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector_resize", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_StringVector_resize__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_AsPtr_std_string(argv[2], (std::string**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_StringVector_resize__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector_resize'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::string >::resize(std::vector< std::string >::size_type)\n"
+    "    std::vector< std::string >::resize(std::vector< std::string >::size_type,std::vector< std::string >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_insert__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::iterator arg2 ;
+  std::vector< std::string >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  int res3 = SWIG_OLDOBJ ;
+  std::vector< std::string >::iterator result;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_insert" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_insert" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< std::string >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_insert" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
+    }
+  }
+  {
+    std::string *ptr = (std::string *)0;
+    res3 = SWIG_AsPtr_std_string(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StringVector_insert" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector_insert" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      result = std_vector_Sl_std_string_Sg__insert__SWIG_0(arg1,SWIG_STD_MOVE(arg2),(std::string const &)*arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_insert__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::iterator arg2 ;
+  std::vector< std::string >::size_type arg3 ;
+  std::vector< std::string >::value_type *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  int res4 = SWIG_OLDOBJ ;
+  
+  (void)self;
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_insert" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_insert" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< std::string >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_insert" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
+    }
+  }
+  ecode3 = SWIG_AsVal_size_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StringVector_insert" "', argument " "3"" of type '" "std::vector< std::string >::size_type""'");
+  } 
+  arg3 = static_cast< std::vector< std::string >::size_type >(val3);
+  {
+    std::string *ptr = (std::string *)0;
+    res4 = SWIG_AsPtr_std_string(swig_obj[3], &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "StringVector_insert" "', argument " "4"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector_insert" "', argument " "4"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  {
+    try {
+      std_vector_Sl_std_string_Sg__insert__SWIG_1(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3),(std::string const &)*arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_insert(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector_insert", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter) != 0));
+      if (_v) {
+        int res = SWIG_AsPtr_std_string(argv[2], (std::string**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_StringVector_insert__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter) != 0));
+      if (_v) {
+        {
+          int res = SWIG_AsVal_size_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = SWIG_AsPtr_std_string(argv[3], (std::string**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_StringVector_insert__SWIG_1(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector_insert'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::string >::insert(std::vector< std::string >::iterator,std::vector< std::string >::value_type const &)\n"
+    "    std::vector< std::string >::insert(std::vector< std::string >::iterator,std::vector< std::string >::size_type,std::vector< std::string >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_reserve(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "StringVector_reserve", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_reserve" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector_reserve" "', argument " "2"" of type '" "std::vector< std::string >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::size_type >(val2);
+  {
+    try {
+      (arg1)->reserve(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_capacity(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::size_type result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_capacity" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      result = ((std::vector< std::string > const *)arg1)->capacity();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_StringVector(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_StringVector" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    try {
+      delete arg1;
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *StringVector_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__vectorT_std__string_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *StringVector_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
 SWIGINTERN PyObject *_wrap_StringView_c_str(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   av::StringView *arg1 = (av::StringView *) 0 ;
@@ -9279,7 +12574,11 @@ SWIGINTERN PyObject *_wrap_DescriptorReader_getName(PyObject *self, PyObject *ar
     }
   }
   {
-    resultobj = PyUnicode_FromString((&result)->c_str());
+#if PY_VERSION_HEX >= 0x03000000
+    resultobj = PyUnicode_FromStringAndSize((&result)->c_str(), (&result)->size());
+#else
+    resultobj = PyString_FromStringAndSize((&result)->c_str(), (&result)->size());
+#endif
   }
   return resultobj;
 fail:
@@ -9448,7 +12747,11 @@ SWIGINTERN PyObject *_wrap_DescriptorReader_getMetaDataKey(PyObject *self, PyObj
     }
   }
   {
-    resultobj = PyUnicode_FromString((&result)->c_str());
+#if PY_VERSION_HEX >= 0x03000000
+    resultobj = PyUnicode_FromStringAndSize((&result)->c_str(), (&result)->size());
+#else
+    resultobj = PyString_FromStringAndSize((&result)->c_str(), (&result)->size());
+#endif
   }
   return resultobj;
 fail:
@@ -9490,7 +12793,11 @@ SWIGINTERN PyObject *_wrap_DescriptorReader_getMetaDataValue(PyObject *self, PyO
     }
   }
   {
-    resultobj = PyUnicode_FromString((&result)->c_str());
+#if PY_VERSION_HEX >= 0x03000000
+    resultobj = PyUnicode_FromStringAndSize((&result)->c_str(), (&result)->size());
+#else
+    resultobj = PyString_FromStringAndSize((&result)->c_str(), (&result)->size());
+#endif
   }
   if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
   return resultobj;
@@ -9686,7 +12993,11 @@ SWIGINTERN PyObject *_wrap_DescriptorReader_getDBComplexity(PyObject *self, PyOb
     }
   }
   {
-    resultobj = PyUnicode_FromString((&result)->c_str());
+#if PY_VERSION_HEX >= 0x03000000
+    resultobj = PyUnicode_FromStringAndSize((&result)->c_str(), (&result)->size());
+#else
+    resultobj = PyString_FromStringAndSize((&result)->c_str(), (&result)->size());
+#endif
   }
   return resultobj;
 fail:
@@ -9720,7 +13031,11 @@ SWIGINTERN PyObject *_wrap_DescriptorReader_getDBName(PyObject *self, PyObject *
     }
   }
   {
-    resultobj = PyUnicode_FromString((&result)->c_str());
+#if PY_VERSION_HEX >= 0x03000000
+    resultobj = PyUnicode_FromStringAndSize((&result)->c_str(), (&result)->size());
+#else
+    resultobj = PyString_FromStringAndSize((&result)->c_str(), (&result)->size());
+#endif
   }
   return resultobj;
 fail:
@@ -9972,7 +13287,11 @@ SWIGINTERN PyObject *_wrap_DefinitionReader_getGUIControlName(PyObject *self, Py
     }
   }
   {
-    resultobj = PyUnicode_FromString((&result)->c_str());
+#if PY_VERSION_HEX >= 0x03000000
+    resultobj = PyUnicode_FromStringAndSize((&result)->c_str(), (&result)->size());
+#else
+    resultobj = PyString_FromStringAndSize((&result)->c_str(), (&result)->size());
+#endif
   }
   return resultobj;
 fail:
@@ -10045,7 +13364,11 @@ SWIGINTERN PyObject *_wrap_DefinitionReader_getRawControlName(PyObject *self, Py
     }
   }
   {
-    resultobj = PyUnicode_FromString((&result)->c_str());
+#if PY_VERSION_HEX >= 0x03000000
+    resultobj = PyUnicode_FromStringAndSize((&result)->c_str(), (&result)->size());
+#else
+    resultobj = PyString_FromStringAndSize((&result)->c_str(), (&result)->size());
+#endif
   }
   return resultobj;
 fail:
@@ -10118,7 +13441,11 @@ SWIGINTERN PyObject *_wrap_DefinitionReader_getJointName(PyObject *self, PyObjec
     }
   }
   {
-    resultobj = PyUnicode_FromString((&result)->c_str());
+#if PY_VERSION_HEX >= 0x03000000
+    resultobj = PyUnicode_FromStringAndSize((&result)->c_str(), (&result)->size());
+#else
+    resultobj = PyString_FromStringAndSize((&result)->c_str(), (&result)->size());
+#endif
   }
   return resultobj;
 fail:
@@ -10190,7 +13517,16 @@ SWIGINTERN PyObject *_wrap_DefinitionReader_getJointIndicesForLOD(PyObject *self
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -10301,7 +13637,11 @@ SWIGINTERN PyObject *_wrap_DefinitionReader_getBlendShapeChannelName(PyObject *s
     }
   }
   {
-    resultobj = PyUnicode_FromString((&result)->c_str());
+#if PY_VERSION_HEX >= 0x03000000
+    resultobj = PyUnicode_FromStringAndSize((&result)->c_str(), (&result)->size());
+#else
+    resultobj = PyString_FromStringAndSize((&result)->c_str(), (&result)->size());
+#endif
   }
   return resultobj;
 fail:
@@ -10373,7 +13713,16 @@ SWIGINTERN PyObject *_wrap_DefinitionReader_getBlendShapeChannelIndicesForLOD(Py
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -10445,7 +13794,11 @@ SWIGINTERN PyObject *_wrap_DefinitionReader_getAnimatedMapName(PyObject *self, P
     }
   }
   {
-    resultobj = PyUnicode_FromString((&result)->c_str());
+#if PY_VERSION_HEX >= 0x03000000
+    resultobj = PyUnicode_FromStringAndSize((&result)->c_str(), (&result)->size());
+#else
+    resultobj = PyString_FromStringAndSize((&result)->c_str(), (&result)->size());
+#endif
   }
   return resultobj;
 fail:
@@ -10517,7 +13870,16 @@ SWIGINTERN PyObject *_wrap_DefinitionReader_getAnimatedMapIndicesForLOD(PyObject
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -10589,7 +13951,11 @@ SWIGINTERN PyObject *_wrap_DefinitionReader_getMeshName(PyObject *self, PyObject
     }
   }
   {
-    resultobj = PyUnicode_FromString((&result)->c_str());
+#if PY_VERSION_HEX >= 0x03000000
+    resultobj = PyUnicode_FromStringAndSize((&result)->c_str(), (&result)->size());
+#else
+    resultobj = PyString_FromStringAndSize((&result)->c_str(), (&result)->size());
+#endif
   }
   return resultobj;
 fail:
@@ -10661,7 +14027,16 @@ SWIGINTERN PyObject *_wrap_DefinitionReader_getMeshIndicesForLOD(PyObject *self,
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -10771,7 +14146,16 @@ SWIGINTERN PyObject *_wrap_DefinitionReader_getMeshBlendShapeChannelMappingIndic
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -10844,7 +14228,16 @@ SWIGINTERN PyObject *_wrap_DefinitionReader_getNeutralJointTranslationXs(PyObjec
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -10876,7 +14269,16 @@ SWIGINTERN PyObject *_wrap_DefinitionReader_getNeutralJointTranslationYs(PyObjec
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -10908,7 +14310,16 @@ SWIGINTERN PyObject *_wrap_DefinitionReader_getNeutralJointTranslationZs(PyObjec
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -10981,7 +14392,16 @@ SWIGINTERN PyObject *_wrap_DefinitionReader_getNeutralJointRotationXs(PyObject *
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11013,7 +14433,16 @@ SWIGINTERN PyObject *_wrap_DefinitionReader_getNeutralJointRotationYs(PyObject *
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11045,7 +14474,16 @@ SWIGINTERN PyObject *_wrap_DefinitionReader_getNeutralJointRotationZs(PyObject *
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11084,7 +14522,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getGUIToRawInputIndices(PyObject *self
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11116,7 +14563,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getGUIToRawOutputIndices(PyObject *sel
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11148,7 +14604,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getGUIToRawFromValues(PyObject *self, 
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11180,7 +14645,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getGUIToRawToValues(PyObject *self, Py
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11212,7 +14686,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getGUIToRawSlopeValues(PyObject *self,
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11244,7 +14727,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getGUIToRawCutValues(PyObject *self, P
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11308,7 +14800,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getPSDRowIndices(PyObject *self, PyObj
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11340,7 +14841,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getPSDColumnIndices(PyObject *self, Py
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11372,7 +14882,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getPSDValues(PyObject *self, PyObject 
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11475,7 +14994,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getJointVariableAttributeIndices(PyObj
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11546,7 +15074,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getJointGroupLODs(PyObject *self, PyOb
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11585,7 +15122,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getJointGroupInputIndices(PyObject *se
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11624,7 +15170,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getJointGroupOutputIndices(PyObject *s
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11663,7 +15218,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getJointGroupValues(PyObject *self, Py
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11702,7 +15266,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getJointGroupJointIndices(PyObject *se
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11734,7 +15307,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getBlendShapeChannelLODs(PyObject *sel
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11766,7 +15348,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getBlendShapeChannelInputIndices(PyObj
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11798,7 +15389,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getBlendShapeChannelOutputIndices(PyOb
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11830,7 +15430,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getAnimatedMapLODs(PyObject *self, PyO
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11862,7 +15471,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getAnimatedMapInputIndices(PyObject *s
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11894,7 +15512,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getAnimatedMapOutputIndices(PyObject *
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11926,7 +15553,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getAnimatedMapFromValues(PyObject *sel
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11958,7 +15594,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getAnimatedMapToValues(PyObject *self,
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -11990,7 +15635,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getAnimatedMapSlopeValues(PyObject *se
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -12022,7 +15676,16 @@ SWIGINTERN PyObject *_wrap_BehaviorReader_getAnimatedMapCutValues(PyObject *self
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -12156,7 +15819,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getVertexPositionXs(PyObject *self, Py
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -12195,7 +15867,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getVertexPositionYs(PyObject *self, Py
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -12234,7 +15915,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getVertexPositionZs(PyObject *self, Py
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -12361,7 +16051,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getVertexTextureCoordinateUs(PyObject 
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -12400,7 +16099,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getVertexTextureCoordinateVs(PyObject 
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -12527,7 +16235,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getVertexNormalXs(PyObject *self, PyOb
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -12566,7 +16283,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getVertexNormalYs(PyObject *self, PyOb
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -12605,7 +16331,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getVertexNormalZs(PyObject *self, PyOb
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -12732,7 +16467,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getVertexLayoutPositionIndices(PyObjec
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint32_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_int_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint32_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint32_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -12771,7 +16515,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getVertexLayoutTextureCoordinateIndice
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint32_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_int_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint32_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint32_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -12810,7 +16563,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getVertexLayoutNormalIndices(PyObject 
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint32_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_int_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint32_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint32_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -12896,7 +16658,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getFaceVertexLayoutIndices(PyObject *s
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint32_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_int_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint32_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint32_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -13021,7 +16792,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getSkinWeightsValues(PyObject *self, P
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -13068,7 +16848,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getSkinWeightsJointIndices(PyObject *s
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint16_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_short_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -13305,7 +17094,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getBlendShapeTargetDeltaXs(PyObject *s
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -13352,7 +17150,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getBlendShapeTargetDeltaYs(PyObject *s
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -13399,7 +17206,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getBlendShapeTargetDeltaZs(PyObject *s
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< float >(result)), SWIGTYPE_p_av__ConstArrayViewT_float_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -13446,7 +17262,16 @@ SWIGINTERN PyObject *_wrap_GeometryReader_getBlendShapeTargetVertexIndices(PyObj
       SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
     }
   }
-  resultobj = SWIG_NewPointerObj((new av::ConstArrayView< std::uint32_t >(result)), SWIGTYPE_p_av__ConstArrayViewT_unsigned_int_t, SWIG_POINTER_OWN |  0 );
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint32_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint32_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -13457,6 +17282,2410 @@ SWIGINTERN PyObject *GeometryReader_swigregister(PyObject *SWIGUNUSEDPARM(self),
   PyObject *obj;
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
   SWIG_TypeNewClientData(SWIGTYPE_p_dna__GeometryReader, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFPoseCount(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::uint16_t result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFPoseCount" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  {
+    try {
+      result = (std::uint16_t)((dna::RBFBehaviorReader const *)arg1)->getRBFPoseCount();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFPoseName(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  av::StringView result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFPoseName", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFPoseName" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFPoseName" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFPoseName(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+#if PY_VERSION_HEX >= 0x03000000
+    resultobj = PyUnicode_FromStringAndSize((&result)->c_str(), (&result)->size());
+#else
+    resultobj = PyString_FromStringAndSize((&result)->c_str(), (&result)->size());
+#endif
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFPoseJointOutputIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< unsigned short > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFPoseJointOutputIndices", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFPoseJointOutputIndices" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFPoseJointOutputIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFPoseJointOutputIndices(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFPoseBlendShapeChannelOutputIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< unsigned short > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFPoseBlendShapeChannelOutputIndices", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFPoseBlendShapeChannelOutputIndices" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFPoseBlendShapeChannelOutputIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFPoseBlendShapeChannelOutputIndices(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFPoseAnimatedMapOutputIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< unsigned short > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFPoseAnimatedMapOutputIndices", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFPoseAnimatedMapOutputIndices" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFPoseAnimatedMapOutputIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFPoseAnimatedMapOutputIndices(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFPoseJointOutputValues(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< float > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFPoseJointOutputValues", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFPoseJointOutputValues" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFPoseJointOutputValues" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFPoseJointOutputValues(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFPoseScale(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  float result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFPoseScale", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFPoseScale" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFPoseScale" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = (float)((dna::RBFBehaviorReader const *)arg1)->getRBFPoseScale(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFPoseControlCount(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::uint16_t result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFPoseControlCount" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  {
+    try {
+      result = (std::uint16_t)((dna::RBFBehaviorReader const *)arg1)->getRBFPoseControlCount();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFPoseControlName(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  av::StringView result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFPoseControlName", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFPoseControlName" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFPoseControlName" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFPoseControlName(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+#if PY_VERSION_HEX >= 0x03000000
+    resultobj = PyUnicode_FromStringAndSize((&result)->c_str(), (&result)->size());
+#else
+    resultobj = PyString_FromStringAndSize((&result)->c_str(), (&result)->size());
+#endif
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFPoseInputControlIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< unsigned short > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFPoseInputControlIndices", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFPoseInputControlIndices" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFPoseInputControlIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFPoseInputControlIndices(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFPoseOutputControlIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< unsigned short > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFPoseOutputControlIndices", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFPoseOutputControlIndices" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFPoseOutputControlIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFPoseOutputControlIndices(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFPoseOutputControlWeights(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< float > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFPoseOutputControlWeights", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFPoseOutputControlWeights" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFPoseOutputControlWeights" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFPoseOutputControlWeights(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFSolverCount(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::uint16_t result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFSolverCount" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  {
+    try {
+      result = (std::uint16_t)((dna::RBFBehaviorReader const *)arg1)->getRBFSolverCount();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFSolverIndexListCount(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::uint16_t result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFSolverIndexListCount" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  {
+    try {
+      result = (std::uint16_t)((dna::RBFBehaviorReader const *)arg1)->getRBFSolverIndexListCount();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFSolverIndicesForLOD(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< unsigned short > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFSolverIndicesForLOD", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFSolverIndicesForLOD" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFSolverIndicesForLOD" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFSolverIndicesForLOD(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFSolverName(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  av::StringView result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFSolverName", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFSolverName" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFSolverName" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFSolverName(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+#if PY_VERSION_HEX >= 0x03000000
+    resultobj = PyUnicode_FromStringAndSize((&result)->c_str(), (&result)->size());
+#else
+    resultobj = PyString_FromStringAndSize((&result)->c_str(), (&result)->size());
+#endif
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFSolverRawControlIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< unsigned short > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFSolverRawControlIndices", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFSolverRawControlIndices" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFSolverRawControlIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFSolverRawControlIndices(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFSolverPoseIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< unsigned short > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFSolverPoseIndices", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFSolverPoseIndices" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFSolverPoseIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFSolverPoseIndices(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFSolverRawControlValues(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< float > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFSolverRawControlValues", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFSolverRawControlValues" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFSolverRawControlValues" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFSolverRawControlValues(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFSolverType(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  RBFSolverType result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFSolverType", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFSolverType" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFSolverType" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFSolverType(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new RBFSolverType(result)), SWIGTYPE_p_RBFSolverType, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFSolverRadius(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  float result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFSolverRadius", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFSolverRadius" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFSolverRadius" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = (float)((dna::RBFBehaviorReader const *)arg1)->getRBFSolverRadius(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFSolverAutomaticRadius(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  AutomaticRadius result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFSolverAutomaticRadius", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFSolverAutomaticRadius" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFSolverAutomaticRadius" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFSolverAutomaticRadius(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new AutomaticRadius(result)), SWIGTYPE_p_AutomaticRadius, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFSolverWeightThreshold(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  float result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFSolverWeightThreshold", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFSolverWeightThreshold" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFSolverWeightThreshold" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = (float)((dna::RBFBehaviorReader const *)arg1)->getRBFSolverWeightThreshold(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFSolverDistanceMethod(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  RBFDistanceMethod result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFSolverDistanceMethod", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFSolverDistanceMethod" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFSolverDistanceMethod" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFSolverDistanceMethod(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new RBFDistanceMethod(result)), SWIGTYPE_p_RBFDistanceMethod, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFSolverNormalizeMethod(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  RBFNormalizeMethod result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFSolverNormalizeMethod", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFSolverNormalizeMethod" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFSolverNormalizeMethod" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFSolverNormalizeMethod(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new RBFNormalizeMethod(result)), SWIGTYPE_p_RBFNormalizeMethod, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFSolverFunctionType(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  RBFFunctionType result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFSolverFunctionType", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFSolverFunctionType" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFSolverFunctionType" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFSolverFunctionType(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new RBFFunctionType(result)), SWIGTYPE_p_RBFFunctionType, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorReader_getRBFSolverTwistAxis(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorReader *arg1 = (dna::RBFBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  TwistAxis result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorReader_getRBFSolverTwistAxis", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorReader_getRBFSolverTwistAxis" "', argument " "1"" of type '" "dna::RBFBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorReader_getRBFSolverTwistAxis" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::RBFBehaviorReader const *)arg1)->getRBFSolverTwistAxis(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new TwistAxis(result)), SWIGTYPE_p_TwistAxis, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *RBFBehaviorReader_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_dna__RBFBehaviorReader, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorReader_getMLControlCount(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorReader *arg1 = (dna::MachineLearnedBehaviorReader *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::uint16_t result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorReader_getMLControlCount" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorReader * >(argp1);
+  {
+    try {
+      result = (std::uint16_t)((dna::MachineLearnedBehaviorReader const *)arg1)->getMLControlCount();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorReader_getMLControlName(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorReader *arg1 = (dna::MachineLearnedBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  av::StringView result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorReader_getMLControlName", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorReader_getMLControlName" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorReader_getMLControlName" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::MachineLearnedBehaviorReader const *)arg1)->getMLControlName(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+#if PY_VERSION_HEX >= 0x03000000
+    resultobj = PyUnicode_FromStringAndSize((&result)->c_str(), (&result)->size());
+#else
+    resultobj = PyString_FromStringAndSize((&result)->c_str(), (&result)->size());
+#endif
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorReader_getNeuralNetworkCount(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorReader *arg1 = (dna::MachineLearnedBehaviorReader *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::uint16_t result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkCount" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorReader * >(argp1);
+  {
+    try {
+      result = (std::uint16_t)((dna::MachineLearnedBehaviorReader const *)arg1)->getNeuralNetworkCount();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorReader_getNeuralNetworkIndexListCount(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorReader *arg1 = (dna::MachineLearnedBehaviorReader *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::uint16_t result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkIndexListCount" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorReader * >(argp1);
+  {
+    try {
+      result = (std::uint16_t)((dna::MachineLearnedBehaviorReader const *)arg1)->getNeuralNetworkIndexListCount();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorReader_getNeuralNetworkIndicesForLOD(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorReader *arg1 = (dna::MachineLearnedBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< unsigned short > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorReader_getNeuralNetworkIndicesForLOD", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkIndicesForLOD" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkIndicesForLOD" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::MachineLearnedBehaviorReader const *)arg1)->getNeuralNetworkIndicesForLOD(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorReader_getMeshRegionCount(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorReader *arg1 = (dna::MachineLearnedBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  std::uint16_t result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorReader_getMeshRegionCount", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorReader_getMeshRegionCount" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorReader_getMeshRegionCount" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = (std::uint16_t)((dna::MachineLearnedBehaviorReader const *)arg1)->getMeshRegionCount(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorReader_getMeshRegionName(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorReader *arg1 = (dna::MachineLearnedBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  unsigned short val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  av::StringView result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorReader_getMeshRegionName", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorReader_getMeshRegionName" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorReader_getMeshRegionName" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_unsigned_SS_short(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MachineLearnedBehaviorReader_getMeshRegionName" "', argument " "3"" of type '" "std::uint16_t""'");
+  } 
+  arg3 = static_cast< std::uint16_t >(val3);
+  {
+    try {
+      result = ((dna::MachineLearnedBehaviorReader const *)arg1)->getMeshRegionName(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+#if PY_VERSION_HEX >= 0x03000000
+    resultobj = PyUnicode_FromStringAndSize((&result)->c_str(), (&result)->size());
+#else
+    resultobj = PyString_FromStringAndSize((&result)->c_str(), (&result)->size());
+#endif
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorReader_getNeuralNetworkIndicesForMeshRegion(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorReader *arg1 = (dna::MachineLearnedBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  unsigned short val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  SwigValueWrapper< av::ConstArrayView< unsigned short > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorReader_getNeuralNetworkIndicesForMeshRegion", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkIndicesForMeshRegion" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkIndicesForMeshRegion" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_unsigned_SS_short(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkIndicesForMeshRegion" "', argument " "3"" of type '" "std::uint16_t""'");
+  } 
+  arg3 = static_cast< std::uint16_t >(val3);
+  {
+    try {
+      result = ((dna::MachineLearnedBehaviorReader const *)arg1)->getNeuralNetworkIndicesForMeshRegion(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorReader_getNeuralNetworkInputIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorReader *arg1 = (dna::MachineLearnedBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< unsigned short > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorReader_getNeuralNetworkInputIndices", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkInputIndices" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkInputIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::MachineLearnedBehaviorReader const *)arg1)->getNeuralNetworkInputIndices(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorReader_getNeuralNetworkOutputIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorReader *arg1 = (dna::MachineLearnedBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< unsigned short > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorReader_getNeuralNetworkOutputIndices", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkOutputIndices" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkOutputIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::MachineLearnedBehaviorReader const *)arg1)->getNeuralNetworkOutputIndices(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorReader_getNeuralNetworkLayerCount(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorReader *arg1 = (dna::MachineLearnedBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  std::uint16_t result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorReader_getNeuralNetworkLayerCount", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkLayerCount" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkLayerCount" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = (std::uint16_t)((dna::MachineLearnedBehaviorReader const *)arg1)->getNeuralNetworkLayerCount(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorReader_getNeuralNetworkLayerActivationFunction(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorReader *arg1 = (dna::MachineLearnedBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  unsigned short val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  ActivationFunction result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorReader_getNeuralNetworkLayerActivationFunction", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkLayerActivationFunction" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkLayerActivationFunction" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_unsigned_SS_short(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkLayerActivationFunction" "', argument " "3"" of type '" "std::uint16_t""'");
+  } 
+  arg3 = static_cast< std::uint16_t >(val3);
+  {
+    try {
+      result = ((dna::MachineLearnedBehaviorReader const *)arg1)->getNeuralNetworkLayerActivationFunction(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new ActivationFunction(result)), SWIGTYPE_p_ActivationFunction, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorReader_getNeuralNetworkLayerActivationFunctionParameters(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorReader *arg1 = (dna::MachineLearnedBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  unsigned short val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  SwigValueWrapper< av::ConstArrayView< float > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorReader_getNeuralNetworkLayerActivationFunctionParameters", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkLayerActivationFunctionParameters" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkLayerActivationFunctionParameters" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_unsigned_SS_short(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkLayerActivationFunctionParameters" "', argument " "3"" of type '" "std::uint16_t""'");
+  } 
+  arg3 = static_cast< std::uint16_t >(val3);
+  {
+    try {
+      result = ((dna::MachineLearnedBehaviorReader const *)arg1)->getNeuralNetworkLayerActivationFunctionParameters(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorReader_getNeuralNetworkLayerBiases(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorReader *arg1 = (dna::MachineLearnedBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  unsigned short val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  SwigValueWrapper< av::ConstArrayView< float > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorReader_getNeuralNetworkLayerBiases", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkLayerBiases" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkLayerBiases" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_unsigned_SS_short(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkLayerBiases" "', argument " "3"" of type '" "std::uint16_t""'");
+  } 
+  arg3 = static_cast< std::uint16_t >(val3);
+  {
+    try {
+      result = ((dna::MachineLearnedBehaviorReader const *)arg1)->getNeuralNetworkLayerBiases(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorReader_getNeuralNetworkLayerWeights(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorReader *arg1 = (dna::MachineLearnedBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  unsigned short val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  SwigValueWrapper< av::ConstArrayView< float > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorReader_getNeuralNetworkLayerWeights", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkLayerWeights" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkLayerWeights" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_unsigned_SS_short(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MachineLearnedBehaviorReader_getNeuralNetworkLayerWeights" "', argument " "3"" of type '" "std::uint16_t""'");
+  } 
+  arg3 = static_cast< std::uint16_t >(val3);
+  {
+    try {
+      result = ((dna::MachineLearnedBehaviorReader const *)arg1)->getNeuralNetworkLayerWeights(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *MachineLearnedBehaviorReader_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_dna__MachineLearnedBehaviorReader, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_JointBehaviorMetadataReader_getJointTranslationRepresentation(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::JointBehaviorMetadataReader *arg1 = (dna::JointBehaviorMetadataReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  TranslationRepresentation result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "JointBehaviorMetadataReader_getJointTranslationRepresentation", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__JointBehaviorMetadataReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "JointBehaviorMetadataReader_getJointTranslationRepresentation" "', argument " "1"" of type '" "dna::JointBehaviorMetadataReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::JointBehaviorMetadataReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "JointBehaviorMetadataReader_getJointTranslationRepresentation" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::JointBehaviorMetadataReader const *)arg1)->getJointTranslationRepresentation(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new TranslationRepresentation(result)), SWIGTYPE_p_TranslationRepresentation, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_JointBehaviorMetadataReader_getJointRotationRepresentation(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::JointBehaviorMetadataReader *arg1 = (dna::JointBehaviorMetadataReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  RotationRepresentation result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "JointBehaviorMetadataReader_getJointRotationRepresentation", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__JointBehaviorMetadataReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "JointBehaviorMetadataReader_getJointRotationRepresentation" "', argument " "1"" of type '" "dna::JointBehaviorMetadataReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::JointBehaviorMetadataReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "JointBehaviorMetadataReader_getJointRotationRepresentation" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::JointBehaviorMetadataReader const *)arg1)->getJointRotationRepresentation(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new RotationRepresentation(result)), SWIGTYPE_p_RotationRepresentation, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_JointBehaviorMetadataReader_getJointScaleRepresentation(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::JointBehaviorMetadataReader *arg1 = (dna::JointBehaviorMetadataReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  ScaleRepresentation result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "JointBehaviorMetadataReader_getJointScaleRepresentation", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__JointBehaviorMetadataReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "JointBehaviorMetadataReader_getJointScaleRepresentation" "', argument " "1"" of type '" "dna::JointBehaviorMetadataReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::JointBehaviorMetadataReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "JointBehaviorMetadataReader_getJointScaleRepresentation" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::JointBehaviorMetadataReader const *)arg1)->getJointScaleRepresentation(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new ScaleRepresentation(result)), SWIGTYPE_p_ScaleRepresentation, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *JointBehaviorMetadataReader_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_dna__JointBehaviorMetadataReader, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorReader_getTwistCount(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorReader *arg1 = (dna::TwistSwingBehaviorReader *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::uint16_t result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorReader_getTwistCount" "', argument " "1"" of type '" "dna::TwistSwingBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorReader * >(argp1);
+  {
+    try {
+      result = (std::uint16_t)((dna::TwistSwingBehaviorReader const *)arg1)->getTwistCount();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorReader_getTwistSetupTwistAxis(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorReader *arg1 = (dna::TwistSwingBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  TwistAxis result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorReader_getTwistSetupTwistAxis", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorReader_getTwistSetupTwistAxis" "', argument " "1"" of type '" "dna::TwistSwingBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorReader_getTwistSetupTwistAxis" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::TwistSwingBehaviorReader const *)arg1)->getTwistSetupTwistAxis(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new TwistAxis(result)), SWIGTYPE_p_TwistAxis, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorReader_getTwistInputControlIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorReader *arg1 = (dna::TwistSwingBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< unsigned short > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorReader_getTwistInputControlIndices", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorReader_getTwistInputControlIndices" "', argument " "1"" of type '" "dna::TwistSwingBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorReader_getTwistInputControlIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::TwistSwingBehaviorReader const *)arg1)->getTwistInputControlIndices(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorReader_getTwistOutputJointIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorReader *arg1 = (dna::TwistSwingBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< unsigned short > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorReader_getTwistOutputJointIndices", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorReader_getTwistOutputJointIndices" "', argument " "1"" of type '" "dna::TwistSwingBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorReader_getTwistOutputJointIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::TwistSwingBehaviorReader const *)arg1)->getTwistOutputJointIndices(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorReader_getTwistBlendWeights(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorReader *arg1 = (dna::TwistSwingBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< float > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorReader_getTwistBlendWeights", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorReader_getTwistBlendWeights" "', argument " "1"" of type '" "dna::TwistSwingBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorReader_getTwistBlendWeights" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::TwistSwingBehaviorReader const *)arg1)->getTwistBlendWeights(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorReader_getSwingCount(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorReader *arg1 = (dna::TwistSwingBehaviorReader *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::uint16_t result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorReader_getSwingCount" "', argument " "1"" of type '" "dna::TwistSwingBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorReader * >(argp1);
+  {
+    try {
+      result = (std::uint16_t)((dna::TwistSwingBehaviorReader const *)arg1)->getSwingCount();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorReader_getSwingSetupTwistAxis(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorReader *arg1 = (dna::TwistSwingBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  TwistAxis result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorReader_getSwingSetupTwistAxis", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorReader_getSwingSetupTwistAxis" "', argument " "1"" of type '" "dna::TwistSwingBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorReader_getSwingSetupTwistAxis" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::TwistSwingBehaviorReader const *)arg1)->getSwingSetupTwistAxis(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new TwistAxis(result)), SWIGTYPE_p_TwistAxis, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorReader_getSwingInputControlIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorReader *arg1 = (dna::TwistSwingBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< unsigned short > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorReader_getSwingInputControlIndices", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorReader_getSwingInputControlIndices" "', argument " "1"" of type '" "dna::TwistSwingBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorReader_getSwingInputControlIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::TwistSwingBehaviorReader const *)arg1)->getSwingInputControlIndices(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorReader_getSwingOutputJointIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorReader *arg1 = (dna::TwistSwingBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< unsigned short > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorReader_getSwingOutputJointIndices", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorReader_getSwingOutputJointIndices" "', argument " "1"" of type '" "dna::TwistSwingBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorReader_getSwingOutputJointIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::TwistSwingBehaviorReader const *)arg1)->getSwingOutputJointIndices(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< std::uint16_t >::value_type>::type;
+    
+    av::ConstArrayView< std::uint16_t > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorReader_getSwingBlendWeights(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorReader *arg1 = (dna::TwistSwingBehaviorReader *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  SwigValueWrapper< av::ConstArrayView< float > > result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorReader_getSwingBlendWeights", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorReader_getSwingBlendWeights" "', argument " "1"" of type '" "dna::TwistSwingBehaviorReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorReader * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorReader_getSwingBlendWeights" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      result = ((dna::TwistSwingBehaviorReader const *)arg1)->getSwingBlendWeights(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  {
+    const std::size_t count = (&result)->size();
+    resultobj = PyList_New(static_cast<Py_ssize_t>(count));
+    using ValueType = std::remove_cv<av::ConstArrayView< float >::value_type>::type;
+    
+    av::ConstArrayView< float > arrayView = result;
+    for (std::size_t i = 0ul; i < count; ++i) {
+      PyList_SetItem(resultobj, static_cast<Py_ssize_t>(i), Caster<ValueType>::toPy(arrayView[i]));
+    }
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *TwistSwingBehaviorReader_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_dna__TwistSwingBehaviorReader, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
@@ -13533,6 +19762,3024 @@ SWIGINTERN PyObject *Reader_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObjec
   PyObject *obj;
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
   SWIG_TypeNewClientData(SWIGTYPE_p_dna__Reader, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_HeaderReader_getFileFormatGeneration(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::HeaderReader *arg1 = (dna::HeaderReader *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::uint16_t result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__HeaderReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeaderReader_getFileFormatGeneration" "', argument " "1"" of type '" "dna::HeaderReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::HeaderReader * >(argp1);
+  {
+    try {
+      result = (std::uint16_t)((dna::HeaderReader const *)arg1)->getFileFormatGeneration();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_HeaderReader_getFileFormatVersion(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::HeaderReader *arg1 = (dna::HeaderReader *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::uint16_t result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__HeaderReader, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeaderReader_getFileFormatVersion" "', argument " "1"" of type '" "dna::HeaderReader const *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::HeaderReader * >(argp1);
+  {
+    try {
+      result = (std::uint16_t)((dna::HeaderReader const *)arg1)->getFileFormatVersion();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *HeaderReader_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_dna__HeaderReader, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_HeaderWriter_setFileFormatGeneration(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::HeaderWriter *arg1 = (dna::HeaderWriter *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "HeaderWriter_setFileFormatGeneration", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__HeaderWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeaderWriter_setFileFormatGeneration" "', argument " "1"" of type '" "dna::HeaderWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::HeaderWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "HeaderWriter_setFileFormatGeneration" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      (arg1)->setFileFormatGeneration(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_HeaderWriter_setFileFormatVersion(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::HeaderWriter *arg1 = (dna::HeaderWriter *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "HeaderWriter_setFileFormatVersion", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__HeaderWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeaderWriter_setFileFormatVersion" "', argument " "1"" of type '" "dna::HeaderWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::HeaderWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "HeaderWriter_setFileFormatVersion" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      (arg1)->setFileFormatVersion(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *HeaderWriter_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_dna__HeaderWriter, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_clearRBFPoses(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_clearRBFPoses" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  {
+    try {
+      (arg1)->clearRBFPoses();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFPoseName(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  char *arg3 = (char *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  int res3 ;
+  char *buf3 = 0 ;
+  int alloc3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFPoseName", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFPoseName" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFPoseName" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_AsCharPtrAndSize(swig_obj[2], &buf3, NULL, &alloc3);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "RBFBehaviorWriter_setRBFPoseName" "', argument " "3"" of type '" "char const *""'");
+  }
+  arg3 = reinterpret_cast< char * >(buf3);
+  {
+    try {
+      (arg1)->setRBFPoseName(arg2,(char const *)arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  return resultobj;
+fail:
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFPoseScale(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  float arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  float val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFPoseScale", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFPoseScale" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFPoseScale" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_float(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RBFBehaviorWriter_setRBFPoseScale" "', argument " "3"" of type '" "float""'");
+  } 
+  arg3 = static_cast< float >(val3);
+  {
+    try {
+      (arg1)->setRBFPoseScale(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_clearRBFPoseControlNames(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_clearRBFPoseControlNames" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  {
+    try {
+      (arg1)->clearRBFPoseControlNames();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFPoseControlName(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  char *arg3 = (char *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  int res3 ;
+  char *buf3 = 0 ;
+  int alloc3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFPoseControlName", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFPoseControlName" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFPoseControlName" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_AsCharPtrAndSize(swig_obj[2], &buf3, NULL, &alloc3);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "RBFBehaviorWriter_setRBFPoseControlName" "', argument " "3"" of type '" "char const *""'");
+  }
+  arg3 = reinterpret_cast< char * >(buf3);
+  {
+    try {
+      (arg1)->setRBFPoseControlName(arg2,(char const *)arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  return resultobj;
+fail:
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFPoseInputControlIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t *arg3 = (std::uint16_t *) 0 ;
+  std::uint16_t arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  unsigned short val4 ;
+  int ecode4 = 0 ;
+  PyObject *swig_obj[4] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFPoseInputControlIndices", 4, 4, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFPoseInputControlIndices" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFPoseInputControlIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3,SWIGTYPE_p_unsigned_short, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "RBFBehaviorWriter_setRBFPoseInputControlIndices" "', argument " "3"" of type '" "std::uint16_t const *""'"); 
+  }
+  arg3 = reinterpret_cast< std::uint16_t * >(argp3);
+  ecode4 = SWIG_AsVal_unsigned_SS_short(swig_obj[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "RBFBehaviorWriter_setRBFPoseInputControlIndices" "', argument " "4"" of type '" "std::uint16_t""'");
+  } 
+  arg4 = static_cast< std::uint16_t >(val4);
+  {
+    try {
+      (arg1)->setRBFPoseInputControlIndices(arg2,(std::uint16_t const *)arg3,arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFPoseOutputControlIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t *arg3 = (std::uint16_t *) 0 ;
+  std::uint16_t arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  unsigned short val4 ;
+  int ecode4 = 0 ;
+  PyObject *swig_obj[4] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFPoseOutputControlIndices", 4, 4, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFPoseOutputControlIndices" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFPoseOutputControlIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3,SWIGTYPE_p_unsigned_short, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "RBFBehaviorWriter_setRBFPoseOutputControlIndices" "', argument " "3"" of type '" "std::uint16_t const *""'"); 
+  }
+  arg3 = reinterpret_cast< std::uint16_t * >(argp3);
+  ecode4 = SWIG_AsVal_unsigned_SS_short(swig_obj[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "RBFBehaviorWriter_setRBFPoseOutputControlIndices" "', argument " "4"" of type '" "std::uint16_t""'");
+  } 
+  arg4 = static_cast< std::uint16_t >(val4);
+  {
+    try {
+      (arg1)->setRBFPoseOutputControlIndices(arg2,(std::uint16_t const *)arg3,arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFPoseOutputControlWeights(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  float *arg3 = (float *) 0 ;
+  std::uint16_t arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  unsigned short val4 ;
+  int ecode4 = 0 ;
+  PyObject *swig_obj[4] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFPoseOutputControlWeights", 4, 4, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFPoseOutputControlWeights" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFPoseOutputControlWeights" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3,SWIGTYPE_p_float, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "RBFBehaviorWriter_setRBFPoseOutputControlWeights" "', argument " "3"" of type '" "float const *""'"); 
+  }
+  arg3 = reinterpret_cast< float * >(argp3);
+  ecode4 = SWIG_AsVal_unsigned_SS_short(swig_obj[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "RBFBehaviorWriter_setRBFPoseOutputControlWeights" "', argument " "4"" of type '" "std::uint16_t""'");
+  } 
+  arg4 = static_cast< std::uint16_t >(val4);
+  {
+    try {
+      (arg1)->setRBFPoseOutputControlWeights(arg2,(float const *)arg3,arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_clearRBFSolvers(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_clearRBFSolvers" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  {
+    try {
+      (arg1)->clearRBFSolvers();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_clearRBFSolverIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_clearRBFSolverIndices" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  {
+    try {
+      (arg1)->clearRBFSolverIndices();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFSolverIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t *arg3 = (std::uint16_t *) 0 ;
+  std::uint16_t arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  unsigned short val4 ;
+  int ecode4 = 0 ;
+  PyObject *swig_obj[4] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFSolverIndices", 4, 4, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFSolverIndices" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFSolverIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3,SWIGTYPE_p_unsigned_short, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "RBFBehaviorWriter_setRBFSolverIndices" "', argument " "3"" of type '" "std::uint16_t const *""'"); 
+  }
+  arg3 = reinterpret_cast< std::uint16_t * >(argp3);
+  ecode4 = SWIG_AsVal_unsigned_SS_short(swig_obj[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "RBFBehaviorWriter_setRBFSolverIndices" "', argument " "4"" of type '" "std::uint16_t""'");
+  } 
+  arg4 = static_cast< std::uint16_t >(val4);
+  {
+    try {
+      (arg1)->setRBFSolverIndices(arg2,(std::uint16_t const *)arg3,arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_clearLODRBFSolverMappings(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_clearLODRBFSolverMappings" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  {
+    try {
+      (arg1)->clearLODRBFSolverMappings();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setLODRBFSolverMapping(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  unsigned short val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setLODRBFSolverMapping", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setLODRBFSolverMapping" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setLODRBFSolverMapping" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_unsigned_SS_short(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RBFBehaviorWriter_setLODRBFSolverMapping" "', argument " "3"" of type '" "std::uint16_t""'");
+  } 
+  arg3 = static_cast< std::uint16_t >(val3);
+  {
+    try {
+      (arg1)->setLODRBFSolverMapping(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFSolverName(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  char *arg3 = (char *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  int res3 ;
+  char *buf3 = 0 ;
+  int alloc3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFSolverName", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFSolverName" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFSolverName" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_AsCharPtrAndSize(swig_obj[2], &buf3, NULL, &alloc3);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "RBFBehaviorWriter_setRBFSolverName" "', argument " "3"" of type '" "char const *""'");
+  }
+  arg3 = reinterpret_cast< char * >(buf3);
+  {
+    try {
+      (arg1)->setRBFSolverName(arg2,(char const *)arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  return resultobj;
+fail:
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFSolverRawControlIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t *arg3 = (std::uint16_t *) 0 ;
+  std::uint16_t arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  unsigned short val4 ;
+  int ecode4 = 0 ;
+  PyObject *swig_obj[4] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFSolverRawControlIndices", 4, 4, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFSolverRawControlIndices" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFSolverRawControlIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3,SWIGTYPE_p_unsigned_short, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "RBFBehaviorWriter_setRBFSolverRawControlIndices" "', argument " "3"" of type '" "std::uint16_t const *""'"); 
+  }
+  arg3 = reinterpret_cast< std::uint16_t * >(argp3);
+  ecode4 = SWIG_AsVal_unsigned_SS_short(swig_obj[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "RBFBehaviorWriter_setRBFSolverRawControlIndices" "', argument " "4"" of type '" "std::uint16_t""'");
+  } 
+  arg4 = static_cast< std::uint16_t >(val4);
+  {
+    try {
+      (arg1)->setRBFSolverRawControlIndices(arg2,(std::uint16_t const *)arg3,arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFSolverPoseIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t *arg3 = (std::uint16_t *) 0 ;
+  std::uint16_t arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  unsigned short val4 ;
+  int ecode4 = 0 ;
+  PyObject *swig_obj[4] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFSolverPoseIndices", 4, 4, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFSolverPoseIndices" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFSolverPoseIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3,SWIGTYPE_p_unsigned_short, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "RBFBehaviorWriter_setRBFSolverPoseIndices" "', argument " "3"" of type '" "std::uint16_t const *""'"); 
+  }
+  arg3 = reinterpret_cast< std::uint16_t * >(argp3);
+  ecode4 = SWIG_AsVal_unsigned_SS_short(swig_obj[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "RBFBehaviorWriter_setRBFSolverPoseIndices" "', argument " "4"" of type '" "std::uint16_t""'");
+  } 
+  arg4 = static_cast< std::uint16_t >(val4);
+  {
+    try {
+      (arg1)->setRBFSolverPoseIndices(arg2,(std::uint16_t const *)arg3,arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFSolverRawControlValues(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  float *arg3 = (float *) 0 ;
+  std::uint16_t arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  unsigned short val4 ;
+  int ecode4 = 0 ;
+  PyObject *swig_obj[4] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFSolverRawControlValues", 4, 4, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFSolverRawControlValues" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFSolverRawControlValues" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3,SWIGTYPE_p_float, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "RBFBehaviorWriter_setRBFSolverRawControlValues" "', argument " "3"" of type '" "float const *""'"); 
+  }
+  arg3 = reinterpret_cast< float * >(argp3);
+  ecode4 = SWIG_AsVal_unsigned_SS_short(swig_obj[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "RBFBehaviorWriter_setRBFSolverRawControlValues" "', argument " "4"" of type '" "std::uint16_t""'");
+  } 
+  arg4 = static_cast< std::uint16_t >(val4);
+  {
+    try {
+      (arg1)->setRBFSolverRawControlValues(arg2,(float const *)arg3,arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFSolverType(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  dna::RBFSolverType arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFSolverType", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFSolverType" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFSolverType" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RBFBehaviorWriter_setRBFSolverType" "', argument " "3"" of type '" "dna::RBFSolverType""'");
+  } 
+  arg3 = static_cast< dna::RBFSolverType >(val3);
+  {
+    try {
+      (arg1)->setRBFSolverType(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFSolverRadius(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  float arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  float val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFSolverRadius", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFSolverRadius" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFSolverRadius" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_float(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RBFBehaviorWriter_setRBFSolverRadius" "', argument " "3"" of type '" "float""'");
+  } 
+  arg3 = static_cast< float >(val3);
+  {
+    try {
+      (arg1)->setRBFSolverRadius(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFSolverAutomaticRadius(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  dna::AutomaticRadius arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFSolverAutomaticRadius", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFSolverAutomaticRadius" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFSolverAutomaticRadius" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RBFBehaviorWriter_setRBFSolverAutomaticRadius" "', argument " "3"" of type '" "dna::AutomaticRadius""'");
+  } 
+  arg3 = static_cast< dna::AutomaticRadius >(val3);
+  {
+    try {
+      (arg1)->setRBFSolverAutomaticRadius(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFSolverWeightThreshold(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  float arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  float val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFSolverWeightThreshold", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFSolverWeightThreshold" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFSolverWeightThreshold" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_float(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RBFBehaviorWriter_setRBFSolverWeightThreshold" "', argument " "3"" of type '" "float""'");
+  } 
+  arg3 = static_cast< float >(val3);
+  {
+    try {
+      (arg1)->setRBFSolverWeightThreshold(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFSolverDistanceMethod(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  dna::RBFDistanceMethod arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFSolverDistanceMethod", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFSolverDistanceMethod" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFSolverDistanceMethod" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RBFBehaviorWriter_setRBFSolverDistanceMethod" "', argument " "3"" of type '" "dna::RBFDistanceMethod""'");
+  } 
+  arg3 = static_cast< dna::RBFDistanceMethod >(val3);
+  {
+    try {
+      (arg1)->setRBFSolverDistanceMethod(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFSolverNormalizeMethod(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  dna::RBFNormalizeMethod arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFSolverNormalizeMethod", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFSolverNormalizeMethod" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFSolverNormalizeMethod" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RBFBehaviorWriter_setRBFSolverNormalizeMethod" "', argument " "3"" of type '" "dna::RBFNormalizeMethod""'");
+  } 
+  arg3 = static_cast< dna::RBFNormalizeMethod >(val3);
+  {
+    try {
+      (arg1)->setRBFSolverNormalizeMethod(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFSolverFunctionType(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  dna::RBFFunctionType arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFSolverFunctionType", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFSolverFunctionType" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFSolverFunctionType" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RBFBehaviorWriter_setRBFSolverFunctionType" "', argument " "3"" of type '" "dna::RBFFunctionType""'");
+  } 
+  arg3 = static_cast< dna::RBFFunctionType >(val3);
+  {
+    try {
+      (arg1)->setRBFSolverFunctionType(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RBFBehaviorWriter_setRBFSolverTwistAxis(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::RBFBehaviorWriter *arg1 = (dna::RBFBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  TwistAxis arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "RBFBehaviorWriter_setRBFSolverTwistAxis", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__RBFBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RBFBehaviorWriter_setRBFSolverTwistAxis" "', argument " "1"" of type '" "dna::RBFBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::RBFBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RBFBehaviorWriter_setRBFSolverTwistAxis" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_TwistAxis,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "RBFBehaviorWriter_setRBFSolverTwistAxis" "', argument " "3"" of type '" "TwistAxis""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "RBFBehaviorWriter_setRBFSolverTwistAxis" "', argument " "3"" of type '" "TwistAxis""'");
+    } else {
+      TwistAxis * temp = reinterpret_cast< TwistAxis * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (arg1)->setRBFSolverTwistAxis(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *RBFBehaviorWriter_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_dna__RBFBehaviorWriter, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_clearMLControlNames(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_clearMLControlNames" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  {
+    try {
+      (arg1)->clearMLControlNames();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_setMLControlName(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  char *arg3 = (char *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  int res3 ;
+  char *buf3 = 0 ;
+  int alloc3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorWriter_setMLControlName", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_setMLControlName" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorWriter_setMLControlName" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_AsCharPtrAndSize(swig_obj[2], &buf3, NULL, &alloc3);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "MachineLearnedBehaviorWriter_setMLControlName" "', argument " "3"" of type '" "char const *""'");
+  }
+  arg3 = reinterpret_cast< char * >(buf3);
+  {
+    try {
+      (arg1)->setMLControlName(arg2,(char const *)arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  return resultobj;
+fail:
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_clearNeuralNetworks(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_clearNeuralNetworks" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  {
+    try {
+      (arg1)->clearNeuralNetworks();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_clearNeuralNetworkIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_clearNeuralNetworkIndices" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  {
+    try {
+      (arg1)->clearNeuralNetworkIndices();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_setNeuralNetworkIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t *arg3 = (std::uint16_t *) 0 ;
+  std::uint16_t arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  unsigned short val4 ;
+  int ecode4 = 0 ;
+  PyObject *swig_obj[4] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorWriter_setNeuralNetworkIndices", 4, 4, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkIndices" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3,SWIGTYPE_p_unsigned_short, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkIndices" "', argument " "3"" of type '" "std::uint16_t const *""'"); 
+  }
+  arg3 = reinterpret_cast< std::uint16_t * >(argp3);
+  ecode4 = SWIG_AsVal_unsigned_SS_short(swig_obj[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkIndices" "', argument " "4"" of type '" "std::uint16_t""'");
+  } 
+  arg4 = static_cast< std::uint16_t >(val4);
+  {
+    try {
+      (arg1)->setNeuralNetworkIndices(arg2,(std::uint16_t const *)arg3,arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_clearLODNeuralNetworkMappings(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_clearLODNeuralNetworkMappings" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  {
+    try {
+      (arg1)->clearLODNeuralNetworkMappings();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_setLODNeuralNetworkMapping(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  unsigned short val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorWriter_setLODNeuralNetworkMapping", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_setLODNeuralNetworkMapping" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorWriter_setLODNeuralNetworkMapping" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_unsigned_SS_short(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MachineLearnedBehaviorWriter_setLODNeuralNetworkMapping" "', argument " "3"" of type '" "std::uint16_t""'");
+  } 
+  arg3 = static_cast< std::uint16_t >(val3);
+  {
+    try {
+      (arg1)->setLODNeuralNetworkMapping(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_clearMeshRegionNames__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  (void)self;
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_clearMeshRegionNames" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  {
+    try {
+      (arg1)->clearMeshRegionNames();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_clearMeshRegionNames__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_clearMeshRegionNames" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorWriter_clearMeshRegionNames" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      (arg1)->clearMeshRegionNames(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_clearMeshRegionNames(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorWriter_clearMeshRegionNames", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 1) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_MachineLearnedBehaviorWriter_clearMeshRegionNames__SWIG_0(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_unsigned_SS_short(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_MachineLearnedBehaviorWriter_clearMeshRegionNames__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'MachineLearnedBehaviorWriter_clearMeshRegionNames'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    dna::MachineLearnedBehaviorWriter::clearMeshRegionNames()\n"
+    "    dna::MachineLearnedBehaviorWriter::clearMeshRegionNames(std::uint16_t)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_setMeshRegionName(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t arg3 ;
+  char *arg4 = (char *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  unsigned short val3 ;
+  int ecode3 = 0 ;
+  int res4 ;
+  char *buf4 = 0 ;
+  int alloc4 = 0 ;
+  PyObject *swig_obj[4] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorWriter_setMeshRegionName", 4, 4, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_setMeshRegionName" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorWriter_setMeshRegionName" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_unsigned_SS_short(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MachineLearnedBehaviorWriter_setMeshRegionName" "', argument " "3"" of type '" "std::uint16_t""'");
+  } 
+  arg3 = static_cast< std::uint16_t >(val3);
+  res4 = SWIG_AsCharPtrAndSize(swig_obj[3], &buf4, NULL, &alloc4);
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "MachineLearnedBehaviorWriter_setMeshRegionName" "', argument " "4"" of type '" "char const *""'");
+  }
+  arg4 = reinterpret_cast< char * >(buf4);
+  {
+    try {
+      (arg1)->setMeshRegionName(arg2,arg3,(char const *)arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  if (alloc4 == SWIG_NEWOBJ) delete[] buf4;
+  return resultobj;
+fail:
+  if (alloc4 == SWIG_NEWOBJ) delete[] buf4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_clearNeuralNetworkIndicesPerMeshRegion(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_clearNeuralNetworkIndicesPerMeshRegion" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  {
+    try {
+      (arg1)->clearNeuralNetworkIndicesPerMeshRegion();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_setNeuralNetworkIndicesForMeshRegion(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t arg3 ;
+  std::uint16_t *arg4 = (std::uint16_t *) 0 ;
+  std::uint16_t arg5 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  unsigned short val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  unsigned short val5 ;
+  int ecode5 = 0 ;
+  PyObject *swig_obj[5] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorWriter_setNeuralNetworkIndicesForMeshRegion", 5, 5, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkIndicesForMeshRegion" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkIndicesForMeshRegion" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_unsigned_SS_short(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkIndicesForMeshRegion" "', argument " "3"" of type '" "std::uint16_t""'");
+  } 
+  arg3 = static_cast< std::uint16_t >(val3);
+  res4 = SWIG_ConvertPtr(swig_obj[3], &argp4,SWIGTYPE_p_unsigned_short, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkIndicesForMeshRegion" "', argument " "4"" of type '" "std::uint16_t const *""'"); 
+  }
+  arg4 = reinterpret_cast< std::uint16_t * >(argp4);
+  ecode5 = SWIG_AsVal_unsigned_SS_short(swig_obj[4], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkIndicesForMeshRegion" "', argument " "5"" of type '" "std::uint16_t""'");
+  } 
+  arg5 = static_cast< std::uint16_t >(val5);
+  {
+    try {
+      (arg1)->setNeuralNetworkIndicesForMeshRegion(arg2,arg3,(std::uint16_t const *)arg4,arg5);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_deleteNeuralNetwork(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorWriter_deleteNeuralNetwork", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_deleteNeuralNetwork" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorWriter_deleteNeuralNetwork" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      (arg1)->deleteNeuralNetwork(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_setNeuralNetworkInputIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t *arg3 = (std::uint16_t *) 0 ;
+  std::uint16_t arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorWriter_setNeuralNetworkInputIndices", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkInputIndices" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkInputIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    if (PyList_Check(swig_obj[2])) {
+      arg4 = static_cast<std::uint16_t>(PyList_Size(swig_obj[2]));
+      arg3 = reinterpret_cast<std::uint16_t*>(malloc(arg4 * sizeof(std::uint16_t)));
+      for (std::uint16_t i{
+        
+      }; i < arg4; ++i) {
+        arg3[i] = Caster<std::uint16_t>::fromPy(PyList_GetItem(swig_obj[2], i));
+      }
+    } else {
+      SWIG_fail;
+    }
+  }
+  {
+    try {
+      (arg1)->setNeuralNetworkInputIndices(arg2,(std::uint16_t const *)arg3,arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  {
+    free(arg3);
+  }
+  return resultobj;
+fail:
+  {
+    free(arg3);
+  }
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_setNeuralNetworkOutputIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t *arg3 = (std::uint16_t *) 0 ;
+  std::uint16_t arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorWriter_setNeuralNetworkOutputIndices", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkOutputIndices" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkOutputIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    if (PyList_Check(swig_obj[2])) {
+      arg4 = static_cast<std::uint16_t>(PyList_Size(swig_obj[2]));
+      arg3 = reinterpret_cast<std::uint16_t*>(malloc(arg4 * sizeof(std::uint16_t)));
+      for (std::uint16_t i{
+        
+      }; i < arg4; ++i) {
+        arg3[i] = Caster<std::uint16_t>::fromPy(PyList_GetItem(swig_obj[2], i));
+      }
+    } else {
+      SWIG_fail;
+    }
+  }
+  {
+    try {
+      (arg1)->setNeuralNetworkOutputIndices(arg2,(std::uint16_t const *)arg3,arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  {
+    free(arg3);
+  }
+  return resultobj;
+fail:
+  {
+    free(arg3);
+  }
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_clearNeuralNetworkLayers(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorWriter_clearNeuralNetworkLayers", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_clearNeuralNetworkLayers" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorWriter_clearNeuralNetworkLayers" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      (arg1)->clearNeuralNetworkLayers(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunction(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t arg3 ;
+  dna::ActivationFunction arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  unsigned short val3 ;
+  int ecode3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  PyObject *swig_obj[4] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunction", 4, 4, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunction" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunction" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_unsigned_SS_short(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunction" "', argument " "3"" of type '" "std::uint16_t""'");
+  } 
+  arg3 = static_cast< std::uint16_t >(val3);
+  ecode4 = SWIG_AsVal_int(swig_obj[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunction" "', argument " "4"" of type '" "dna::ActivationFunction""'");
+  } 
+  arg4 = static_cast< dna::ActivationFunction >(val4);
+  {
+    try {
+      (arg1)->setNeuralNetworkLayerActivationFunction(arg2,arg3,arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunctionParameters(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t arg3 ;
+  float *arg4 = (float *) 0 ;
+  std::uint16_t arg5 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  unsigned short val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  unsigned short val5 ;
+  int ecode5 = 0 ;
+  PyObject *swig_obj[5] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunctionParameters", 5, 5, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunctionParameters" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunctionParameters" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_unsigned_SS_short(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunctionParameters" "', argument " "3"" of type '" "std::uint16_t""'");
+  } 
+  arg3 = static_cast< std::uint16_t >(val3);
+  res4 = SWIG_ConvertPtr(swig_obj[3], &argp4,SWIGTYPE_p_float, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunctionParameters" "', argument " "4"" of type '" "float const *""'"); 
+  }
+  arg4 = reinterpret_cast< float * >(argp4);
+  ecode5 = SWIG_AsVal_unsigned_SS_short(swig_obj[4], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunctionParameters" "', argument " "5"" of type '" "std::uint16_t""'");
+  } 
+  arg5 = static_cast< std::uint16_t >(val5);
+  {
+    try {
+      (arg1)->setNeuralNetworkLayerActivationFunctionParameters(arg2,arg3,(float const *)arg4,arg5);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_setNeuralNetworkLayerBiases(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t arg3 ;
+  float *arg4 = (float *) 0 ;
+  std::uint32_t arg5 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  unsigned short val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  unsigned int val5 ;
+  int ecode5 = 0 ;
+  PyObject *swig_obj[5] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorWriter_setNeuralNetworkLayerBiases", 5, 5, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerBiases" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerBiases" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_unsigned_SS_short(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerBiases" "', argument " "3"" of type '" "std::uint16_t""'");
+  } 
+  arg3 = static_cast< std::uint16_t >(val3);
+  res4 = SWIG_ConvertPtr(swig_obj[3], &argp4,SWIGTYPE_p_float, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerBiases" "', argument " "4"" of type '" "float const *""'"); 
+  }
+  arg4 = reinterpret_cast< float * >(argp4);
+  ecode5 = SWIG_AsVal_unsigned_SS_int(swig_obj[4], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerBiases" "', argument " "5"" of type '" "std::uint32_t""'");
+  } 
+  arg5 = static_cast< std::uint32_t >(val5);
+  {
+    try {
+      (arg1)->setNeuralNetworkLayerBiases(arg2,arg3,(float const *)arg4,arg5);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MachineLearnedBehaviorWriter_setNeuralNetworkLayerWeights(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::MachineLearnedBehaviorWriter *arg1 = (dna::MachineLearnedBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t arg3 ;
+  float *arg4 = (float *) 0 ;
+  std::uint32_t arg5 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  unsigned short val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  unsigned int val5 ;
+  int ecode5 = 0 ;
+  PyObject *swig_obj[5] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "MachineLearnedBehaviorWriter_setNeuralNetworkLayerWeights", 5, 5, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerWeights" "', argument " "1"" of type '" "dna::MachineLearnedBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::MachineLearnedBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerWeights" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_unsigned_SS_short(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerWeights" "', argument " "3"" of type '" "std::uint16_t""'");
+  } 
+  arg3 = static_cast< std::uint16_t >(val3);
+  res4 = SWIG_ConvertPtr(swig_obj[3], &argp4,SWIGTYPE_p_float, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerWeights" "', argument " "4"" of type '" "float const *""'"); 
+  }
+  arg4 = reinterpret_cast< float * >(argp4);
+  ecode5 = SWIG_AsVal_unsigned_SS_int(swig_obj[4], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "MachineLearnedBehaviorWriter_setNeuralNetworkLayerWeights" "', argument " "5"" of type '" "std::uint32_t""'");
+  } 
+  arg5 = static_cast< std::uint32_t >(val5);
+  {
+    try {
+      (arg1)->setNeuralNetworkLayerWeights(arg2,arg3,(float const *)arg4,arg5);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *MachineLearnedBehaviorWriter_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_dna__MachineLearnedBehaviorWriter, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_JointBehaviorMetadataWriter_clearJointRepresentations(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::JointBehaviorMetadataWriter *arg1 = (dna::JointBehaviorMetadataWriter *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__JointBehaviorMetadataWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "JointBehaviorMetadataWriter_clearJointRepresentations" "', argument " "1"" of type '" "dna::JointBehaviorMetadataWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::JointBehaviorMetadataWriter * >(argp1);
+  {
+    try {
+      (arg1)->clearJointRepresentations();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_JointBehaviorMetadataWriter_setJointTranslationRepresentation(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::JointBehaviorMetadataWriter *arg1 = (dna::JointBehaviorMetadataWriter *) 0 ;
+  std::uint16_t arg2 ;
+  dna::TranslationRepresentation arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "JointBehaviorMetadataWriter_setJointTranslationRepresentation", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__JointBehaviorMetadataWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "JointBehaviorMetadataWriter_setJointTranslationRepresentation" "', argument " "1"" of type '" "dna::JointBehaviorMetadataWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::JointBehaviorMetadataWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "JointBehaviorMetadataWriter_setJointTranslationRepresentation" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "JointBehaviorMetadataWriter_setJointTranslationRepresentation" "', argument " "3"" of type '" "dna::TranslationRepresentation""'");
+  } 
+  arg3 = static_cast< dna::TranslationRepresentation >(val3);
+  {
+    try {
+      (arg1)->setJointTranslationRepresentation(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_JointBehaviorMetadataWriter_setJointRotationRepresentation(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::JointBehaviorMetadataWriter *arg1 = (dna::JointBehaviorMetadataWriter *) 0 ;
+  std::uint16_t arg2 ;
+  dna::RotationRepresentation arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "JointBehaviorMetadataWriter_setJointRotationRepresentation", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__JointBehaviorMetadataWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "JointBehaviorMetadataWriter_setJointRotationRepresentation" "', argument " "1"" of type '" "dna::JointBehaviorMetadataWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::JointBehaviorMetadataWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "JointBehaviorMetadataWriter_setJointRotationRepresentation" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "JointBehaviorMetadataWriter_setJointRotationRepresentation" "', argument " "3"" of type '" "dna::RotationRepresentation""'");
+  } 
+  arg3 = static_cast< dna::RotationRepresentation >(val3);
+  {
+    try {
+      (arg1)->setJointRotationRepresentation(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_JointBehaviorMetadataWriter_setJointScaleRepresentation(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::JointBehaviorMetadataWriter *arg1 = (dna::JointBehaviorMetadataWriter *) 0 ;
+  std::uint16_t arg2 ;
+  dna::ScaleRepresentation arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "JointBehaviorMetadataWriter_setJointScaleRepresentation", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__JointBehaviorMetadataWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "JointBehaviorMetadataWriter_setJointScaleRepresentation" "', argument " "1"" of type '" "dna::JointBehaviorMetadataWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::JointBehaviorMetadataWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "JointBehaviorMetadataWriter_setJointScaleRepresentation" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "JointBehaviorMetadataWriter_setJointScaleRepresentation" "', argument " "3"" of type '" "dna::ScaleRepresentation""'");
+  } 
+  arg3 = static_cast< dna::ScaleRepresentation >(val3);
+  {
+    try {
+      (arg1)->setJointScaleRepresentation(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *JointBehaviorMetadataWriter_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_dna__JointBehaviorMetadataWriter, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorWriter_clearTwists(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorWriter *arg1 = (dna::TwistSwingBehaviorWriter *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorWriter_clearTwists" "', argument " "1"" of type '" "dna::TwistSwingBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorWriter * >(argp1);
+  {
+    try {
+      (arg1)->clearTwists();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorWriter_deleteTwist(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorWriter *arg1 = (dna::TwistSwingBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorWriter_deleteTwist", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorWriter_deleteTwist" "', argument " "1"" of type '" "dna::TwistSwingBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorWriter_deleteTwist" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      (arg1)->deleteTwist(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorWriter_setTwistSetupTwistAxis(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorWriter *arg1 = (dna::TwistSwingBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  dna::TwistAxis arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorWriter_setTwistSetupTwistAxis", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorWriter_setTwistSetupTwistAxis" "', argument " "1"" of type '" "dna::TwistSwingBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorWriter_setTwistSetupTwistAxis" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TwistSwingBehaviorWriter_setTwistSetupTwistAxis" "', argument " "3"" of type '" "dna::TwistAxis""'");
+  } 
+  arg3 = static_cast< dna::TwistAxis >(val3);
+  {
+    try {
+      (arg1)->setTwistSetupTwistAxis(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorWriter_setTwistInputControlIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorWriter *arg1 = (dna::TwistSwingBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t *arg3 = (std::uint16_t *) 0 ;
+  std::uint16_t arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  unsigned short val4 ;
+  int ecode4 = 0 ;
+  PyObject *swig_obj[4] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorWriter_setTwistInputControlIndices", 4, 4, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorWriter_setTwistInputControlIndices" "', argument " "1"" of type '" "dna::TwistSwingBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorWriter_setTwistInputControlIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3,SWIGTYPE_p_unsigned_short, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TwistSwingBehaviorWriter_setTwistInputControlIndices" "', argument " "3"" of type '" "std::uint16_t const *""'"); 
+  }
+  arg3 = reinterpret_cast< std::uint16_t * >(argp3);
+  ecode4 = SWIG_AsVal_unsigned_SS_short(swig_obj[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TwistSwingBehaviorWriter_setTwistInputControlIndices" "', argument " "4"" of type '" "std::uint16_t""'");
+  } 
+  arg4 = static_cast< std::uint16_t >(val4);
+  {
+    try {
+      (arg1)->setTwistInputControlIndices(arg2,(std::uint16_t const *)arg3,arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorWriter_setTwistOutputJointIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorWriter *arg1 = (dna::TwistSwingBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t *arg3 = (std::uint16_t *) 0 ;
+  std::uint16_t arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  unsigned short val4 ;
+  int ecode4 = 0 ;
+  PyObject *swig_obj[4] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorWriter_setTwistOutputJointIndices", 4, 4, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorWriter_setTwistOutputJointIndices" "', argument " "1"" of type '" "dna::TwistSwingBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorWriter_setTwistOutputJointIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3,SWIGTYPE_p_unsigned_short, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TwistSwingBehaviorWriter_setTwistOutputJointIndices" "', argument " "3"" of type '" "std::uint16_t const *""'"); 
+  }
+  arg3 = reinterpret_cast< std::uint16_t * >(argp3);
+  ecode4 = SWIG_AsVal_unsigned_SS_short(swig_obj[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TwistSwingBehaviorWriter_setTwistOutputJointIndices" "', argument " "4"" of type '" "std::uint16_t""'");
+  } 
+  arg4 = static_cast< std::uint16_t >(val4);
+  {
+    try {
+      (arg1)->setTwistOutputJointIndices(arg2,(std::uint16_t const *)arg3,arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorWriter_setTwistBlendWeights(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorWriter *arg1 = (dna::TwistSwingBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  float *arg3 = (float *) 0 ;
+  std::uint16_t arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  unsigned short val4 ;
+  int ecode4 = 0 ;
+  PyObject *swig_obj[4] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorWriter_setTwistBlendWeights", 4, 4, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorWriter_setTwistBlendWeights" "', argument " "1"" of type '" "dna::TwistSwingBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorWriter_setTwistBlendWeights" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3,SWIGTYPE_p_float, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TwistSwingBehaviorWriter_setTwistBlendWeights" "', argument " "3"" of type '" "float const *""'"); 
+  }
+  arg3 = reinterpret_cast< float * >(argp3);
+  ecode4 = SWIG_AsVal_unsigned_SS_short(swig_obj[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TwistSwingBehaviorWriter_setTwistBlendWeights" "', argument " "4"" of type '" "std::uint16_t""'");
+  } 
+  arg4 = static_cast< std::uint16_t >(val4);
+  {
+    try {
+      (arg1)->setTwistBlendWeights(arg2,(float const *)arg3,arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorWriter_clearSwings(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorWriter *arg1 = (dna::TwistSwingBehaviorWriter *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorWriter_clearSwings" "', argument " "1"" of type '" "dna::TwistSwingBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorWriter * >(argp1);
+  {
+    try {
+      (arg1)->clearSwings();
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorWriter_deleteSwing(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorWriter *arg1 = (dna::TwistSwingBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorWriter_deleteSwing", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorWriter_deleteSwing" "', argument " "1"" of type '" "dna::TwistSwingBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorWriter_deleteSwing" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  {
+    try {
+      (arg1)->deleteSwing(arg2);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorWriter_setSwingSetupTwistAxis(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorWriter *arg1 = (dna::TwistSwingBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  dna::TwistAxis arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorWriter_setSwingSetupTwistAxis", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorWriter_setSwingSetupTwistAxis" "', argument " "1"" of type '" "dna::TwistSwingBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorWriter_setSwingSetupTwistAxis" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TwistSwingBehaviorWriter_setSwingSetupTwistAxis" "', argument " "3"" of type '" "dna::TwistAxis""'");
+  } 
+  arg3 = static_cast< dna::TwistAxis >(val3);
+  {
+    try {
+      (arg1)->setSwingSetupTwistAxis(arg2,arg3);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorWriter_setSwingInputControlIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorWriter *arg1 = (dna::TwistSwingBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t *arg3 = (std::uint16_t *) 0 ;
+  std::uint16_t arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  unsigned short val4 ;
+  int ecode4 = 0 ;
+  PyObject *swig_obj[4] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorWriter_setSwingInputControlIndices", 4, 4, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorWriter_setSwingInputControlIndices" "', argument " "1"" of type '" "dna::TwistSwingBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorWriter_setSwingInputControlIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3,SWIGTYPE_p_unsigned_short, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TwistSwingBehaviorWriter_setSwingInputControlIndices" "', argument " "3"" of type '" "std::uint16_t const *""'"); 
+  }
+  arg3 = reinterpret_cast< std::uint16_t * >(argp3);
+  ecode4 = SWIG_AsVal_unsigned_SS_short(swig_obj[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TwistSwingBehaviorWriter_setSwingInputControlIndices" "', argument " "4"" of type '" "std::uint16_t""'");
+  } 
+  arg4 = static_cast< std::uint16_t >(val4);
+  {
+    try {
+      (arg1)->setSwingInputControlIndices(arg2,(std::uint16_t const *)arg3,arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorWriter_setSwingOutputJointIndices(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorWriter *arg1 = (dna::TwistSwingBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  std::uint16_t *arg3 = (std::uint16_t *) 0 ;
+  std::uint16_t arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  unsigned short val4 ;
+  int ecode4 = 0 ;
+  PyObject *swig_obj[4] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorWriter_setSwingOutputJointIndices", 4, 4, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorWriter_setSwingOutputJointIndices" "', argument " "1"" of type '" "dna::TwistSwingBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorWriter_setSwingOutputJointIndices" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3,SWIGTYPE_p_unsigned_short, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TwistSwingBehaviorWriter_setSwingOutputJointIndices" "', argument " "3"" of type '" "std::uint16_t const *""'"); 
+  }
+  arg3 = reinterpret_cast< std::uint16_t * >(argp3);
+  ecode4 = SWIG_AsVal_unsigned_SS_short(swig_obj[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TwistSwingBehaviorWriter_setSwingOutputJointIndices" "', argument " "4"" of type '" "std::uint16_t""'");
+  } 
+  arg4 = static_cast< std::uint16_t >(val4);
+  {
+    try {
+      (arg1)->setSwingOutputJointIndices(arg2,(std::uint16_t const *)arg3,arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TwistSwingBehaviorWriter_setSwingBlendWeights(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  dna::TwistSwingBehaviorWriter *arg1 = (dna::TwistSwingBehaviorWriter *) 0 ;
+  std::uint16_t arg2 ;
+  float *arg3 = (float *) 0 ;
+  std::uint16_t arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  unsigned short val4 ;
+  int ecode4 = 0 ;
+  PyObject *swig_obj[4] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "TwistSwingBehaviorWriter_setSwingBlendWeights", 4, 4, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_dna__TwistSwingBehaviorWriter, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TwistSwingBehaviorWriter_setSwingBlendWeights" "', argument " "1"" of type '" "dna::TwistSwingBehaviorWriter *""'"); 
+  }
+  arg1 = reinterpret_cast< dna::TwistSwingBehaviorWriter * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TwistSwingBehaviorWriter_setSwingBlendWeights" "', argument " "2"" of type '" "std::uint16_t""'");
+  } 
+  arg2 = static_cast< std::uint16_t >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3,SWIGTYPE_p_float, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TwistSwingBehaviorWriter_setSwingBlendWeights" "', argument " "3"" of type '" "float const *""'"); 
+  }
+  arg3 = reinterpret_cast< float * >(argp3);
+  ecode4 = SWIG_AsVal_unsigned_SS_short(swig_obj[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TwistSwingBehaviorWriter_setSwingBlendWeights" "', argument " "4"" of type '" "std::uint16_t""'");
+  } 
+  arg4 = static_cast< std::uint16_t >(val4);
+  {
+    try {
+      (arg1)->setSwingBlendWeights(arg2,(float const *)arg3,arg4);
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what());
+    } catch (...) {
+      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *TwistSwingBehaviorWriter_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_dna__TwistSwingBehaviorWriter, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
@@ -21506,3257 +30753,6 @@ SWIGINTERN PyObject *JSONStreamWriter_swigregister(PyObject *SWIGUNUSEDPARM(self
   return SWIG_Py_Void();
 }
 
-SWIGINTERN PyObject *_wrap_delete_SwigPyIterator(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_DISOWN |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_SwigPyIterator" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  {
-    try {
-      delete arg1;
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator_value(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  PyObject *result = 0 ;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_value" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  {
-    try {
-      try {
-        result = (PyObject *)((swig::SwigPyIterator const *)arg1)->value();
-      } catch(swig::stop_iteration &_e) {
-        {
-          (void)_e;
-          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
-          SWIG_fail;
-        }
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = result;
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator_incr__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  size_t arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  size_t val2 ;
-  int ecode2 = 0 ;
-  swig::SwigPyIterator *result = 0 ;
-  
-  (void)self;
-  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_incr" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "SwigPyIterator_incr" "', argument " "2"" of type '" "size_t""'");
-  } 
-  arg2 = static_cast< size_t >(val2);
-  {
-    try {
-      try {
-        result = (swig::SwigPyIterator *)(arg1)->incr(arg2);
-      } catch(swig::stop_iteration &_e) {
-        {
-          (void)_e;
-          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
-          SWIG_fail;
-        }
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator_incr__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  swig::SwigPyIterator *result = 0 ;
-  
-  (void)self;
-  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_incr" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  {
-    try {
-      try {
-        result = (swig::SwigPyIterator *)(arg1)->incr();
-      } catch(swig::stop_iteration &_e) {
-        {
-          (void)_e;
-          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
-          SWIG_fail;
-        }
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator_incr(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[3] = {
-    0
-  };
-  
-  if (!(argc = SWIG_Python_UnpackTuple(args, "SwigPyIterator_incr", 0, 2, argv))) SWIG_fail;
-  --argc;
-  if (argc == 1) {
-    int _v = 0;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_swig__SwigPyIterator, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      return _wrap_SwigPyIterator_incr__SWIG_1(self, argc, argv);
-    }
-  }
-  if (argc == 2) {
-    int _v = 0;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_swig__SwigPyIterator, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_size_t(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_SwigPyIterator_incr__SWIG_0(self, argc, argv);
-      }
-    }
-  }
-  
-fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'SwigPyIterator_incr'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    swig::SwigPyIterator::incr(size_t)\n"
-    "    swig::SwigPyIterator::incr()\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator_decr__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  size_t arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  size_t val2 ;
-  int ecode2 = 0 ;
-  swig::SwigPyIterator *result = 0 ;
-  
-  (void)self;
-  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_decr" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "SwigPyIterator_decr" "', argument " "2"" of type '" "size_t""'");
-  } 
-  arg2 = static_cast< size_t >(val2);
-  {
-    try {
-      try {
-        result = (swig::SwigPyIterator *)(arg1)->decr(arg2);
-      } catch(swig::stop_iteration &_e) {
-        {
-          (void)_e;
-          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
-          SWIG_fail;
-        }
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator_decr__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  swig::SwigPyIterator *result = 0 ;
-  
-  (void)self;
-  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_decr" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  {
-    try {
-      try {
-        result = (swig::SwigPyIterator *)(arg1)->decr();
-      } catch(swig::stop_iteration &_e) {
-        {
-          (void)_e;
-          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
-          SWIG_fail;
-        }
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator_decr(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[3] = {
-    0
-  };
-  
-  if (!(argc = SWIG_Python_UnpackTuple(args, "SwigPyIterator_decr", 0, 2, argv))) SWIG_fail;
-  --argc;
-  if (argc == 1) {
-    int _v = 0;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_swig__SwigPyIterator, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      return _wrap_SwigPyIterator_decr__SWIG_1(self, argc, argv);
-    }
-  }
-  if (argc == 2) {
-    int _v = 0;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_swig__SwigPyIterator, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_size_t(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_SwigPyIterator_decr__SWIG_0(self, argc, argv);
-      }
-    }
-  }
-  
-fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'SwigPyIterator_decr'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    swig::SwigPyIterator::decr(size_t)\n"
-    "    swig::SwigPyIterator::decr()\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator_distance(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  swig::SwigPyIterator *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject *swig_obj[2] ;
-  ptrdiff_t result;
-  
-  (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "SwigPyIterator_distance", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_distance" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_swig__SwigPyIterator,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "SwigPyIterator_distance" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "SwigPyIterator_distance" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
-  }
-  arg2 = reinterpret_cast< swig::SwigPyIterator * >(argp2);
-  {
-    try {
-      try {
-        result = ((swig::SwigPyIterator const *)arg1)->distance((swig::SwigPyIterator const &)*arg2);
-      } catch(std::invalid_argument &_e) {
-        SWIG_Python_Raise(SWIG_NewPointerObj((new std::invalid_argument(static_cast< const std::invalid_argument& >(_e))),SWIGTYPE_p_std__invalid_argument,SWIG_POINTER_OWN), "std::invalid_argument", SWIGTYPE_p_std__invalid_argument); SWIG_fail;
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_From_ptrdiff_t(static_cast< ptrdiff_t >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator_equal(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  swig::SwigPyIterator *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject *swig_obj[2] ;
-  bool result;
-  
-  (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "SwigPyIterator_equal", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_equal" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_swig__SwigPyIterator,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "SwigPyIterator_equal" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "SwigPyIterator_equal" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
-  }
-  arg2 = reinterpret_cast< swig::SwigPyIterator * >(argp2);
-  {
-    try {
-      try {
-        result = (bool)((swig::SwigPyIterator const *)arg1)->equal((swig::SwigPyIterator const &)*arg2);
-      } catch(std::invalid_argument &_e) {
-        SWIG_Python_Raise(SWIG_NewPointerObj((new std::invalid_argument(static_cast< const std::invalid_argument& >(_e))),SWIGTYPE_p_std__invalid_argument,SWIG_POINTER_OWN), "std::invalid_argument", SWIGTYPE_p_std__invalid_argument); SWIG_fail;
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_From_bool(static_cast< bool >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator_copy(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  swig::SwigPyIterator *result = 0 ;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_copy" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  {
-    try {
-      result = (swig::SwigPyIterator *)((swig::SwigPyIterator const *)arg1)->copy();
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator_next(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  PyObject *result = 0 ;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_next" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  {
-    try {
-      try {
-        result = (PyObject *)(arg1)->next();
-      } catch(swig::stop_iteration &_e) {
-        {
-          (void)_e;
-          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
-          SWIG_fail;
-        }
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = result;
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator___next__(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  PyObject *result = 0 ;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator___next__" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  {
-    try {
-      try {
-        result = (PyObject *)(arg1)->__next__();
-      } catch(swig::stop_iteration &_e) {
-        {
-          (void)_e;
-          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
-          SWIG_fail;
-        }
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = result;
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator_previous(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  PyObject *result = 0 ;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_previous" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  {
-    try {
-      try {
-        result = (PyObject *)(arg1)->previous();
-      } catch(swig::stop_iteration &_e) {
-        {
-          (void)_e;
-          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
-          SWIG_fail;
-        }
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = result;
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator_advance(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  ptrdiff_t arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ptrdiff_t val2 ;
-  int ecode2 = 0 ;
-  PyObject *swig_obj[2] ;
-  swig::SwigPyIterator *result = 0 ;
-  
-  (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "SwigPyIterator_advance", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator_advance" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "SwigPyIterator_advance" "', argument " "2"" of type '" "ptrdiff_t""'");
-  } 
-  arg2 = static_cast< ptrdiff_t >(val2);
-  {
-    try {
-      try {
-        result = (swig::SwigPyIterator *)(arg1)->advance(arg2);
-      } catch(swig::stop_iteration &_e) {
-        {
-          (void)_e;
-          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
-          SWIG_fail;
-        }
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator___eq__(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  swig::SwigPyIterator *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject *swig_obj[2] ;
-  bool result;
-  
-  (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "SwigPyIterator___eq__", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator___eq__" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_swig__SwigPyIterator,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "SwigPyIterator___eq__" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "SwigPyIterator___eq__" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
-  }
-  arg2 = reinterpret_cast< swig::SwigPyIterator * >(argp2);
-  {
-    try {
-      result = (bool)((swig::SwigPyIterator const *)arg1)->operator ==((swig::SwigPyIterator const &)*arg2);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_From_bool(static_cast< bool >(result));
-  return resultobj;
-fail:
-  if (PyErr_Occurred() && !PyErr_ExceptionMatches(PyExc_TypeError)) {
-    return NULL;
-  }
-  PyErr_Clear();
-  Py_INCREF(Py_NotImplemented);
-  return Py_NotImplemented;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator___ne__(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  swig::SwigPyIterator *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject *swig_obj[2] ;
-  bool result;
-  
-  (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "SwigPyIterator___ne__", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator___ne__" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_swig__SwigPyIterator,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "SwigPyIterator___ne__" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "SwigPyIterator___ne__" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
-  }
-  arg2 = reinterpret_cast< swig::SwigPyIterator * >(argp2);
-  {
-    try {
-      result = (bool)((swig::SwigPyIterator const *)arg1)->operator !=((swig::SwigPyIterator const &)*arg2);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_From_bool(static_cast< bool >(result));
-  return resultobj;
-fail:
-  if (PyErr_Occurred() && !PyErr_ExceptionMatches(PyExc_TypeError)) {
-    return NULL;
-  }
-  PyErr_Clear();
-  Py_INCREF(Py_NotImplemented);
-  return Py_NotImplemented;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator___iadd__(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  ptrdiff_t arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ptrdiff_t val2 ;
-  int ecode2 = 0 ;
-  PyObject *swig_obj[2] ;
-  swig::SwigPyIterator *result = 0 ;
-  
-  (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "SwigPyIterator___iadd__", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_DISOWN |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator___iadd__" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "SwigPyIterator___iadd__" "', argument " "2"" of type '" "ptrdiff_t""'");
-  } 
-  arg2 = static_cast< ptrdiff_t >(val2);
-  {
-    try {
-      try {
-        result = (swig::SwigPyIterator *) &(arg1)->operator +=(arg2);
-      } catch(swig::stop_iteration &_e) {
-        {
-          (void)_e;
-          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
-          SWIG_fail;
-        }
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator___isub__(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  ptrdiff_t arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ptrdiff_t val2 ;
-  int ecode2 = 0 ;
-  PyObject *swig_obj[2] ;
-  swig::SwigPyIterator *result = 0 ;
-  
-  (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "SwigPyIterator___isub__", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_DISOWN |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator___isub__" "', argument " "1"" of type '" "swig::SwigPyIterator *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "SwigPyIterator___isub__" "', argument " "2"" of type '" "ptrdiff_t""'");
-  } 
-  arg2 = static_cast< ptrdiff_t >(val2);
-  {
-    try {
-      try {
-        result = (swig::SwigPyIterator *) &(arg1)->operator -=(arg2);
-      } catch(swig::stop_iteration &_e) {
-        {
-          (void)_e;
-          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
-          SWIG_fail;
-        }
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator___add__(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  ptrdiff_t arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ptrdiff_t val2 ;
-  int ecode2 = 0 ;
-  PyObject *swig_obj[2] ;
-  swig::SwigPyIterator *result = 0 ;
-  
-  (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "SwigPyIterator___add__", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator___add__" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "SwigPyIterator___add__" "', argument " "2"" of type '" "ptrdiff_t""'");
-  } 
-  arg2 = static_cast< ptrdiff_t >(val2);
-  {
-    try {
-      try {
-        result = (swig::SwigPyIterator *)((swig::SwigPyIterator const *)arg1)->operator +(arg2);
-      } catch(swig::stop_iteration &_e) {
-        {
-          (void)_e;
-          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
-          SWIG_fail;
-        }
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  if (PyErr_Occurred() && !PyErr_ExceptionMatches(PyExc_TypeError)) {
-    return NULL;
-  }
-  PyErr_Clear();
-  Py_INCREF(Py_NotImplemented);
-  return Py_NotImplemented;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator___sub____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  ptrdiff_t arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ptrdiff_t val2 ;
-  int ecode2 = 0 ;
-  swig::SwigPyIterator *result = 0 ;
-  
-  (void)self;
-  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator___sub__" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "SwigPyIterator___sub__" "', argument " "2"" of type '" "ptrdiff_t""'");
-  } 
-  arg2 = static_cast< ptrdiff_t >(val2);
-  {
-    try {
-      try {
-        result = (swig::SwigPyIterator *)((swig::SwigPyIterator const *)arg1)->operator -(arg2);
-      } catch(swig::stop_iteration &_e) {
-        {
-          (void)_e;
-          SWIG_SetErrorObj(PyExc_StopIteration, SWIG_Py_Void());
-          SWIG_fail;
-        }
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  if (PyErr_Occurred() && !PyErr_ExceptionMatches(PyExc_TypeError)) {
-    return NULL;
-  }
-  PyErr_Clear();
-  Py_INCREF(Py_NotImplemented);
-  return Py_NotImplemented;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator___sub____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  swig::SwigPyIterator *arg1 = (swig::SwigPyIterator *) 0 ;
-  swig::SwigPyIterator *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  ptrdiff_t result;
-  
-  (void)self;
-  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_swig__SwigPyIterator, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SwigPyIterator___sub__" "', argument " "1"" of type '" "swig::SwigPyIterator const *""'"); 
-  }
-  arg1 = reinterpret_cast< swig::SwigPyIterator * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_swig__SwigPyIterator,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "SwigPyIterator___sub__" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "SwigPyIterator___sub__" "', argument " "2"" of type '" "swig::SwigPyIterator const &""'"); 
-  }
-  arg2 = reinterpret_cast< swig::SwigPyIterator * >(argp2);
-  {
-    try {
-      result = ((swig::SwigPyIterator const *)arg1)->operator -((swig::SwigPyIterator const &)*arg2);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_From_ptrdiff_t(static_cast< ptrdiff_t >(result));
-  return resultobj;
-fail:
-  if (PyErr_Occurred() && !PyErr_ExceptionMatches(PyExc_TypeError)) {
-    return NULL;
-  }
-  PyErr_Clear();
-  Py_INCREF(Py_NotImplemented);
-  return Py_NotImplemented;
-}
-
-
-SWIGINTERN PyObject *_wrap_SwigPyIterator___sub__(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[3] = {
-    0
-  };
-  
-  if (!(argc = SWIG_Python_UnpackTuple(args, "SwigPyIterator___sub__", 0, 2, argv))) SWIG_fail;
-  --argc;
-  if (argc == 2) {
-    int _v = 0;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_swig__SwigPyIterator, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_NO_NULL | 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_SwigPyIterator___sub____SWIG_1(self, argc, argv);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v = 0;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_swig__SwigPyIterator, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_SwigPyIterator___sub____SWIG_0(self, argc, argv);
-      }
-    }
-  }
-  
-fail:
-  Py_INCREF(Py_NotImplemented);
-  return Py_NotImplemented;
-}
-
-
-SWIGINTERN PyObject *SwigPyIterator_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *obj;
-  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_swig__SwigPyIterator, SWIG_NewClientData(obj));
-  return SWIG_Py_Void();
-}
-
-SWIGINTERN PyObject *_wrap_StringVector_iterator(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  PyObject **arg2 = (PyObject **) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  swig::SwigPyIterator *result = 0 ;
-  
-  arg2 = &swig_obj[0];
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_iterator" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      result = (swig::SwigPyIterator *)std_vector_Sl_std_string_Sg__iterator(arg1,arg2);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___nonzero__(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  bool result;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___nonzero__" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      result = (bool)std_vector_Sl_std_string_Sg____nonzero__((std::vector< std::string > const *)arg1);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_From_bool(static_cast< bool >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___bool__(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  bool result;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___bool__" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      result = (bool)std_vector_Sl_std_string_Sg____bool__((std::vector< std::string > const *)arg1);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_From_bool(static_cast< bool >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___len__(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  std::vector< std::string >::size_type result;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___len__" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      result = std_vector_Sl_std_string_Sg____len__((std::vector< std::string > const *)arg1);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___getslice__(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string >::difference_type arg2 ;
-  std::vector< std::string >::difference_type arg3 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ptrdiff_t val2 ;
-  int ecode2 = 0 ;
-  ptrdiff_t val3 ;
-  int ecode3 = 0 ;
-  PyObject *swig_obj[3] ;
-  std::vector< std::string,std::allocator< std::string > > *result = 0 ;
-  
-  (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "StringVector___getslice__", 3, 3, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___getslice__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___getslice__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
-  } 
-  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
-  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StringVector___getslice__" "', argument " "3"" of type '" "std::vector< std::string >::difference_type""'");
-  } 
-  arg3 = static_cast< std::vector< std::string >::difference_type >(val3);
-  {
-    try {
-      try {
-        result = (std::vector< std::string,std::allocator< std::string > > *)std_vector_Sl_std_string_Sg____getslice__(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
-      } catch(std::out_of_range &_e) {
-        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
-      } catch(std::invalid_argument &_e) {
-        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___setslice____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string >::difference_type arg2 ;
-  std::vector< std::string >::difference_type arg3 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ptrdiff_t val2 ;
-  int ecode2 = 0 ;
-  ptrdiff_t val3 ;
-  int ecode3 = 0 ;
-  
-  (void)self;
-  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___setslice__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___setslice__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
-  } 
-  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
-  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StringVector___setslice__" "', argument " "3"" of type '" "std::vector< std::string >::difference_type""'");
-  } 
-  arg3 = static_cast< std::vector< std::string >::difference_type >(val3);
-  {
-    try {
-      try {
-        std_vector_Sl_std_string_Sg____setslice____SWIG_0(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
-      } catch(std::out_of_range &_e) {
-        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
-      } catch(std::invalid_argument &_e) {
-        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___setslice____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string >::difference_type arg2 ;
-  std::vector< std::string >::difference_type arg3 ;
-  std::vector< std::string,std::allocator< std::string > > *arg4 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ptrdiff_t val2 ;
-  int ecode2 = 0 ;
-  ptrdiff_t val3 ;
-  int ecode3 = 0 ;
-  int res4 = SWIG_OLDOBJ ;
-  
-  (void)self;
-  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___setslice__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___setslice__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
-  } 
-  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
-  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StringVector___setslice__" "', argument " "3"" of type '" "std::vector< std::string >::difference_type""'");
-  } 
-  arg3 = static_cast< std::vector< std::string >::difference_type >(val3);
-  {
-    std::vector< std::string,std::allocator< std::string > > *ptr = (std::vector< std::string,std::allocator< std::string > > *)0;
-    res4 = swig::asptr(swig_obj[3], &ptr);
-    if (!SWIG_IsOK(res4)) {
-      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "StringVector___setslice__" "', argument " "4"" of type '" "std::vector< std::string,std::allocator< std::string > > const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector___setslice__" "', argument " "4"" of type '" "std::vector< std::string,std::allocator< std::string > > const &""'"); 
-    }
-    arg4 = ptr;
-  }
-  {
-    try {
-      try {
-        std_vector_Sl_std_string_Sg____setslice____SWIG_1(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3),(std::vector< std::string,std::allocator< std::string > > const &)*arg4);
-      } catch(std::out_of_range &_e) {
-        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
-      } catch(std::invalid_argument &_e) {
-        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  if (SWIG_IsNewObj(res4)) delete arg4;
-  return resultobj;
-fail:
-  if (SWIG_IsNewObj(res4)) delete arg4;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___setslice__(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[5] = {
-    0
-  };
-  
-  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector___setslice__", 0, 4, argv))) SWIG_fail;
-  --argc;
-  if (argc == 3) {
-    int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        {
-          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
-          _v = SWIG_CheckState(res);
-        }
-        if (_v) {
-          return _wrap_StringVector___setslice____SWIG_0(self, argc, argv);
-        }
-      }
-    }
-  }
-  if (argc == 4) {
-    int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        {
-          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
-          _v = SWIG_CheckState(res);
-        }
-        if (_v) {
-          int res = swig::asptr(argv[3], (std::vector< std::string,std::allocator< std::string > >**)(0));
-          _v = SWIG_CheckState(res);
-          if (_v) {
-            return _wrap_StringVector___setslice____SWIG_1(self, argc, argv);
-          }
-        }
-      }
-    }
-  }
-  
-fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector___setslice__'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    std::vector< std::string >::__setslice__(std::vector< std::string >::difference_type,std::vector< std::string >::difference_type)\n"
-    "    std::vector< std::string >::__setslice__(std::vector< std::string >::difference_type,std::vector< std::string >::difference_type,std::vector< std::string,std::allocator< std::string > > const &)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___delslice__(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string >::difference_type arg2 ;
-  std::vector< std::string >::difference_type arg3 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ptrdiff_t val2 ;
-  int ecode2 = 0 ;
-  ptrdiff_t val3 ;
-  int ecode3 = 0 ;
-  PyObject *swig_obj[3] ;
-  
-  (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "StringVector___delslice__", 3, 3, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___delslice__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___delslice__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
-  } 
-  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
-  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StringVector___delslice__" "', argument " "3"" of type '" "std::vector< std::string >::difference_type""'");
-  } 
-  arg3 = static_cast< std::vector< std::string >::difference_type >(val3);
-  {
-    try {
-      try {
-        std_vector_Sl_std_string_Sg____delslice__(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
-      } catch(std::out_of_range &_e) {
-        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
-      } catch(std::invalid_argument &_e) {
-        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___delitem____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string >::difference_type arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ptrdiff_t val2 ;
-  int ecode2 = 0 ;
-  
-  (void)self;
-  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___delitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___delitem__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
-  } 
-  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
-  {
-    try {
-      try {
-        std_vector_Sl_std_string_Sg____delitem____SWIG_0(arg1,SWIG_STD_MOVE(arg2));
-      } catch(std::out_of_range &_e) {
-        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
-      } catch(std::invalid_argument &_e) {
-        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___getitem____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  SWIGPY_SLICEOBJECT *arg2 = (SWIGPY_SLICEOBJECT *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  std::vector< std::string,std::allocator< std::string > > *result = 0 ;
-  
-  (void)self;
-  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___getitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    if (!PySlice_Check(swig_obj[1])) {
-      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector___getitem__" "', argument " "2"" of type '" "SWIGPY_SLICEOBJECT *""'");
-    }
-    arg2 = (SWIGPY_SLICEOBJECT *) swig_obj[1];
-  }
-  {
-    try {
-      try {
-        result = (std::vector< std::string,std::allocator< std::string > > *)std_vector_Sl_std_string_Sg____getitem____SWIG_0(arg1,arg2);
-      } catch(std::out_of_range &_e) {
-        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
-      } catch(std::invalid_argument &_e) {
-        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___setitem____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  SWIGPY_SLICEOBJECT *arg2 = (SWIGPY_SLICEOBJECT *) 0 ;
-  std::vector< std::string,std::allocator< std::string > > *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int res3 = SWIG_OLDOBJ ;
-  
-  (void)self;
-  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___setitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    if (!PySlice_Check(swig_obj[1])) {
-      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector___setitem__" "', argument " "2"" of type '" "SWIGPY_SLICEOBJECT *""'");
-    }
-    arg2 = (SWIGPY_SLICEOBJECT *) swig_obj[1];
-  }
-  {
-    std::vector< std::string,std::allocator< std::string > > *ptr = (std::vector< std::string,std::allocator< std::string > > *)0;
-    res3 = swig::asptr(swig_obj[2], &ptr);
-    if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StringVector___setitem__" "', argument " "3"" of type '" "std::vector< std::string,std::allocator< std::string > > const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector___setitem__" "', argument " "3"" of type '" "std::vector< std::string,std::allocator< std::string > > const &""'"); 
-    }
-    arg3 = ptr;
-  }
-  {
-    try {
-      try {
-        std_vector_Sl_std_string_Sg____setitem____SWIG_0(arg1,arg2,(std::vector< std::string,std::allocator< std::string > > const &)*arg3);
-      } catch(std::out_of_range &_e) {
-        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
-      } catch(std::invalid_argument &_e) {
-        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  if (SWIG_IsNewObj(res3)) delete arg3;
-  return resultobj;
-fail:
-  if (SWIG_IsNewObj(res3)) delete arg3;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___setitem____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  SWIGPY_SLICEOBJECT *arg2 = (SWIGPY_SLICEOBJECT *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  
-  (void)self;
-  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___setitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    if (!PySlice_Check(swig_obj[1])) {
-      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector___setitem__" "', argument " "2"" of type '" "SWIGPY_SLICEOBJECT *""'");
-    }
-    arg2 = (SWIGPY_SLICEOBJECT *) swig_obj[1];
-  }
-  {
-    try {
-      try {
-        std_vector_Sl_std_string_Sg____setitem____SWIG_1(arg1,arg2);
-      } catch(std::out_of_range &_e) {
-        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
-      } catch(std::invalid_argument &_e) {
-        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___delitem____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  SWIGPY_SLICEOBJECT *arg2 = (SWIGPY_SLICEOBJECT *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  
-  (void)self;
-  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___delitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    if (!PySlice_Check(swig_obj[1])) {
-      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector___delitem__" "', argument " "2"" of type '" "SWIGPY_SLICEOBJECT *""'");
-    }
-    arg2 = (SWIGPY_SLICEOBJECT *) swig_obj[1];
-  }
-  {
-    try {
-      try {
-        std_vector_Sl_std_string_Sg____delitem____SWIG_1(arg1,arg2);
-      } catch(std::out_of_range &_e) {
-        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
-      } catch(std::invalid_argument &_e) {
-        SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___delitem__(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[3] = {
-    0
-  };
-  
-  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector___delitem__", 0, 2, argv))) SWIG_fail;
-  --argc;
-  if (argc == 2) {
-    int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        _v = PySlice_Check(argv[1]);
-      }
-      if (_v) {
-        return _wrap_StringVector___delitem____SWIG_1(self, argc, argv);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_StringVector___delitem____SWIG_0(self, argc, argv);
-      }
-    }
-  }
-  
-fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector___delitem__'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    std::vector< std::string >::__delitem__(std::vector< std::string >::difference_type)\n"
-    "    std::vector< std::string >::__delitem__(SWIGPY_SLICEOBJECT *)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___getitem____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string >::difference_type arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ptrdiff_t val2 ;
-  int ecode2 = 0 ;
-  std::vector< std::string >::value_type *result = 0 ;
-  
-  (void)self;
-  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___getitem__" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___getitem__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
-  } 
-  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
-  {
-    try {
-      try {
-        result = (std::vector< std::string >::value_type *) &std_vector_Sl_std_string_Sg____getitem____SWIG_1((std::vector< std::string > const *)arg1,SWIG_STD_MOVE(arg2));
-      } catch(std::out_of_range &_e) {
-        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_From_std_string(static_cast< std::string >(*result));
-  (void)swig::container_owner<swig::traits<std::vector< std::string >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___getitem__(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[3] = {
-    0
-  };
-  
-  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector___getitem__", 0, 2, argv))) SWIG_fail;
-  --argc;
-  if (argc == 2) {
-    int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        _v = PySlice_Check(argv[1]);
-      }
-      if (_v) {
-        return _wrap_StringVector___getitem____SWIG_0(self, argc, argv);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_StringVector___getitem____SWIG_1(self, argc, argv);
-      }
-    }
-  }
-  
-fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector___getitem__'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    std::vector< std::string >::__getitem__(SWIGPY_SLICEOBJECT *)\n"
-    "    std::vector< std::string >::__getitem__(std::vector< std::string >::difference_type) const\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___setitem____SWIG_2(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string >::difference_type arg2 ;
-  std::vector< std::string >::value_type *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  ptrdiff_t val2 ;
-  int ecode2 = 0 ;
-  int res3 = SWIG_OLDOBJ ;
-  
-  (void)self;
-  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___setitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___setitem__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
-  } 
-  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
-  {
-    std::string *ptr = (std::string *)0;
-    res3 = SWIG_AsPtr_std_string(swig_obj[2], &ptr);
-    if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StringVector___setitem__" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector___setitem__" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
-    }
-    arg3 = ptr;
-  }
-  {
-    try {
-      try {
-        std_vector_Sl_std_string_Sg____setitem____SWIG_2(arg1,SWIG_STD_MOVE(arg2),(std::string const &)*arg3);
-      } catch(std::out_of_range &_e) {
-        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  if (SWIG_IsNewObj(res3)) delete arg3;
-  return resultobj;
-fail:
-  if (SWIG_IsNewObj(res3)) delete arg3;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector___setitem__(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[4] = {
-    0
-  };
-  
-  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector___setitem__", 0, 3, argv))) SWIG_fail;
-  --argc;
-  if (argc == 2) {
-    int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        _v = PySlice_Check(argv[1]);
-      }
-      if (_v) {
-        return _wrap_StringVector___setitem____SWIG_1(self, argc, argv);
-      }
-    }
-  }
-  if (argc == 3) {
-    int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        _v = PySlice_Check(argv[1]);
-      }
-      if (_v) {
-        int res = swig::asptr(argv[2], (std::vector< std::string,std::allocator< std::string > >**)(0));
-        _v = SWIG_CheckState(res);
-        if (_v) {
-          return _wrap_StringVector___setitem____SWIG_0(self, argc, argv);
-        }
-      }
-    }
-  }
-  if (argc == 3) {
-    int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        int res = SWIG_AsPtr_std_string(argv[2], (std::string**)(0));
-        _v = SWIG_CheckState(res);
-        if (_v) {
-          return _wrap_StringVector___setitem____SWIG_2(self, argc, argv);
-        }
-      }
-    }
-  }
-  
-fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector___setitem__'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    std::vector< std::string >::__setitem__(SWIGPY_SLICEOBJECT *,std::vector< std::string,std::allocator< std::string > > const &)\n"
-    "    std::vector< std::string >::__setitem__(SWIGPY_SLICEOBJECT *)\n"
-    "    std::vector< std::string >::__setitem__(std::vector< std::string >::difference_type,std::vector< std::string >::value_type const &)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_pop(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  std::vector< std::string >::value_type result;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_pop" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      try {
-        result = std_vector_Sl_std_string_Sg__pop(arg1);
-      } catch(std::out_of_range &_e) {
-        SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
-      }
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_append(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string >::value_type *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int res2 = SWIG_OLDOBJ ;
-  PyObject *swig_obj[2] ;
-  
-  (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "StringVector_append", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_append" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    std::string *ptr = (std::string *)0;
-    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StringVector_append" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector_append" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
-    }
-    arg2 = ptr;
-  }
-  {
-    try {
-      std_vector_Sl_std_string_Sg__append(arg1,(std::string const &)*arg2);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  if (SWIG_IsNewObj(res2)) delete arg2;
-  return resultobj;
-fail:
-  if (SWIG_IsNewObj(res2)) delete arg2;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_new_StringVector__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *result = 0 ;
-  
-  (void)self;
-  if ((nobjs < 0) || (nobjs > 0)) SWIG_fail;
-  {
-    try {
-      result = (std::vector< std::string > *)new std::vector< std::string >();
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_NEW |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_new_StringVector__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = 0 ;
-  int res1 = SWIG_OLDOBJ ;
-  std::vector< std::string > *result = 0 ;
-  
-  (void)self;
-  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
-  {
-    std::vector< std::string,std::allocator< std::string > > *ptr = (std::vector< std::string,std::allocator< std::string > > *)0;
-    res1 = swig::asptr(swig_obj[0], &ptr);
-    if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_StringVector" "', argument " "1"" of type '" "std::vector< std::string > const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_StringVector" "', argument " "1"" of type '" "std::vector< std::string > const &""'"); 
-    }
-    arg1 = ptr;
-  }
-  {
-    try {
-      result = (std::vector< std::string > *)new std::vector< std::string >((std::vector< std::string > const &)*arg1);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_NEW |  0 );
-  if (SWIG_IsNewObj(res1)) delete arg1;
-  return resultobj;
-fail:
-  if (SWIG_IsNewObj(res1)) delete arg1;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_empty(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  bool result;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_empty" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      result = (bool)((std::vector< std::string > const *)arg1)->empty();
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_From_bool(static_cast< bool >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_size(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  std::vector< std::string >::size_type result;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_size" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      result = ((std::vector< std::string > const *)arg1)->size();
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_swap(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string > *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject *swig_obj[2] ;
-  
-  (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "StringVector_swap", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_swap" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_std__vectorT_std__string_t,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StringVector_swap" "', argument " "2"" of type '" "std::vector< std::string > &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector_swap" "', argument " "2"" of type '" "std::vector< std::string > &""'"); 
-  }
-  arg2 = reinterpret_cast< std::vector< std::string > * >(argp2);
-  {
-    try {
-      (arg1)->swap(*arg2);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_begin(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  std::vector< std::string >::iterator result;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_begin" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      result = (arg1)->begin();
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::iterator & >(result)),
-    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_end(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  std::vector< std::string >::iterator result;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_end" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      result = (arg1)->end();
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::iterator & >(result)),
-    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_rbegin(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  std::vector< std::string >::reverse_iterator result;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_rbegin" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      result = (arg1)->rbegin();
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::reverse_iterator & >(result)),
-    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_rend(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  std::vector< std::string >::reverse_iterator result;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_rend" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      result = (arg1)->rend();
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::reverse_iterator & >(result)),
-    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_clear(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_clear" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      (arg1)->clear();
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_get_allocator(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  SwigValueWrapper< std::allocator< std::string > > result;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_get_allocator" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      result = ((std::vector< std::string > const *)arg1)->get_allocator();
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj((new std::vector< std::string >::allocator_type(result)), SWIGTYPE_p_std__allocatorT_std__string_t, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_new_StringVector__SWIG_2(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string >::size_type arg1 ;
-  size_t val1 ;
-  int ecode1 = 0 ;
-  std::vector< std::string > *result = 0 ;
-  
-  (void)self;
-  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
-  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
-  if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_StringVector" "', argument " "1"" of type '" "std::vector< std::string >::size_type""'");
-  } 
-  arg1 = static_cast< std::vector< std::string >::size_type >(val1);
-  {
-    try {
-      result = (std::vector< std::string > *)new std::vector< std::string >(arg1);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_NEW |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_pop_back(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_pop_back" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      (arg1)->pop_back();
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_resize__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string >::size_type arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  size_t val2 ;
-  int ecode2 = 0 ;
-  
-  (void)self;
-  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_resize" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector_resize" "', argument " "2"" of type '" "std::vector< std::string >::size_type""'");
-  } 
-  arg2 = static_cast< std::vector< std::string >::size_type >(val2);
-  {
-    try {
-      (arg1)->resize(arg2);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_erase__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string >::iterator arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  swig::SwigPyIterator *iter2 = 0 ;
-  int res2 ;
-  std::vector< std::string >::iterator result;
-  
-  (void)self;
-  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_erase" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
-  if (!SWIG_IsOK(res2) || !iter2) {
-    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
-  } else {
-    swig::SwigPyIterator_T<std::vector< std::string >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter2);
-    if (iter_t) {
-      arg2 = iter_t->get_current();
-    } else {
-      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
-    }
-  }
-  {
-    try {
-      result = std_vector_Sl_std_string_Sg__erase__SWIG_0(arg1,SWIG_STD_MOVE(arg2));
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::iterator & >(result)),
-    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_erase__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string >::iterator arg2 ;
-  std::vector< std::string >::iterator arg3 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  swig::SwigPyIterator *iter2 = 0 ;
-  int res2 ;
-  swig::SwigPyIterator *iter3 = 0 ;
-  int res3 ;
-  std::vector< std::string >::iterator result;
-  
-  (void)self;
-  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_erase" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
-  if (!SWIG_IsOK(res2) || !iter2) {
-    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
-  } else {
-    swig::SwigPyIterator_T<std::vector< std::string >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter2);
-    if (iter_t) {
-      arg2 = iter_t->get_current();
-    } else {
-      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
-    }
-  }
-  res3 = SWIG_ConvertPtr(swig_obj[2], SWIG_as_voidptrptr(&iter3), swig::SwigPyIterator::descriptor(), 0);
-  if (!SWIG_IsOK(res3) || !iter3) {
-    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "3"" of type '" "std::vector< std::string >::iterator""'");
-  } else {
-    swig::SwigPyIterator_T<std::vector< std::string >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter3);
-    if (iter_t) {
-      arg3 = iter_t->get_current();
-    } else {
-      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "3"" of type '" "std::vector< std::string >::iterator""'");
-    }
-  }
-  {
-    try {
-      result = std_vector_Sl_std_string_Sg__erase__SWIG_1(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::iterator & >(result)),
-    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_erase(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[4] = {
-    0
-  };
-  
-  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector_erase", 0, 3, argv))) SWIG_fail;
-  --argc;
-  if (argc == 2) {
-    int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      swig::SwigPyIterator *iter = 0;
-      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
-      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter) != 0));
-      if (_v) {
-        return _wrap_StringVector_erase__SWIG_0(self, argc, argv);
-      }
-    }
-  }
-  if (argc == 3) {
-    int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      swig::SwigPyIterator *iter = 0;
-      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
-      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter) != 0));
-      if (_v) {
-        swig::SwigPyIterator *iter = 0;
-        int res = SWIG_ConvertPtr(argv[2], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
-        _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter) != 0));
-        if (_v) {
-          return _wrap_StringVector_erase__SWIG_1(self, argc, argv);
-        }
-      }
-    }
-  }
-  
-fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector_erase'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    std::vector< std::string >::erase(std::vector< std::string >::iterator)\n"
-    "    std::vector< std::string >::erase(std::vector< std::string >::iterator,std::vector< std::string >::iterator)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_new_StringVector__SWIG_3(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string >::size_type arg1 ;
-  std::vector< std::string >::value_type *arg2 = 0 ;
-  size_t val1 ;
-  int ecode1 = 0 ;
-  int res2 = SWIG_OLDOBJ ;
-  std::vector< std::string > *result = 0 ;
-  
-  (void)self;
-  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
-  if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_StringVector" "', argument " "1"" of type '" "std::vector< std::string >::size_type""'");
-  } 
-  arg1 = static_cast< std::vector< std::string >::size_type >(val1);
-  {
-    std::string *ptr = (std::string *)0;
-    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "new_StringVector" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_StringVector" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
-    }
-    arg2 = ptr;
-  }
-  {
-    try {
-      result = (std::vector< std::string > *)new std::vector< std::string >(arg1,(std::vector< std::string >::value_type const &)*arg2);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_NEW |  0 );
-  if (SWIG_IsNewObj(res2)) delete arg2;
-  return resultobj;
-fail:
-  if (SWIG_IsNewObj(res2)) delete arg2;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_new_StringVector(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[3] = {
-    0
-  };
-  
-  if (!(argc = SWIG_Python_UnpackTuple(args, "new_StringVector", 0, 2, argv))) SWIG_fail;
-  --argc;
-  if (argc == 0) {
-    return _wrap_new_StringVector__SWIG_0(self, argc, argv);
-  }
-  if (argc == 1) {
-    int _v = 0;
-    {
-      int res = SWIG_AsVal_size_t(argv[0], NULL);
-      _v = SWIG_CheckState(res);
-    }
-    if (_v) {
-      return _wrap_new_StringVector__SWIG_2(self, argc, argv);
-    }
-  }
-  if (argc == 1) {
-    int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      return _wrap_new_StringVector__SWIG_1(self, argc, argv);
-    }
-  }
-  if (argc == 2) {
-    int _v = 0;
-    {
-      int res = SWIG_AsVal_size_t(argv[0], NULL);
-      _v = SWIG_CheckState(res);
-    }
-    if (_v) {
-      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_new_StringVector__SWIG_3(self, argc, argv);
-      }
-    }
-  }
-  
-fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_StringVector'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    std::vector< std::string >::vector()\n"
-    "    std::vector< std::string >::vector(std::vector< std::string > const &)\n"
-    "    std::vector< std::string >::vector(std::vector< std::string >::size_type)\n"
-    "    std::vector< std::string >::vector(std::vector< std::string >::size_type,std::vector< std::string >::value_type const &)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_push_back(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string >::value_type *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int res2 = SWIG_OLDOBJ ;
-  PyObject *swig_obj[2] ;
-  
-  (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "StringVector_push_back", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_push_back" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    std::string *ptr = (std::string *)0;
-    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StringVector_push_back" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector_push_back" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
-    }
-    arg2 = ptr;
-  }
-  {
-    try {
-      (arg1)->push_back((std::vector< std::string >::value_type const &)*arg2);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  if (SWIG_IsNewObj(res2)) delete arg2;
-  return resultobj;
-fail:
-  if (SWIG_IsNewObj(res2)) delete arg2;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_front(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  std::vector< std::string >::value_type *result = 0 ;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_front" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      result = (std::vector< std::string >::value_type *) &((std::vector< std::string > const *)arg1)->front();
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_From_std_string(static_cast< std::string >(*result));
-  (void)swig::container_owner<swig::traits<std::vector< std::string >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_back(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  std::vector< std::string >::value_type *result = 0 ;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_back" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      result = (std::vector< std::string >::value_type *) &((std::vector< std::string > const *)arg1)->back();
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_From_std_string(static_cast< std::string >(*result));
-  (void)swig::container_owner<swig::traits<std::vector< std::string >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_assign(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string >::size_type arg2 ;
-  std::vector< std::string >::value_type *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  size_t val2 ;
-  int ecode2 = 0 ;
-  int res3 = SWIG_OLDOBJ ;
-  PyObject *swig_obj[3] ;
-  
-  (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "StringVector_assign", 3, 3, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_assign" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector_assign" "', argument " "2"" of type '" "std::vector< std::string >::size_type""'");
-  } 
-  arg2 = static_cast< std::vector< std::string >::size_type >(val2);
-  {
-    std::string *ptr = (std::string *)0;
-    res3 = SWIG_AsPtr_std_string(swig_obj[2], &ptr);
-    if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StringVector_assign" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector_assign" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
-    }
-    arg3 = ptr;
-  }
-  {
-    try {
-      (arg1)->assign(arg2,(std::vector< std::string >::value_type const &)*arg3);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  if (SWIG_IsNewObj(res3)) delete arg3;
-  return resultobj;
-fail:
-  if (SWIG_IsNewObj(res3)) delete arg3;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_resize__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string >::size_type arg2 ;
-  std::vector< std::string >::value_type *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  size_t val2 ;
-  int ecode2 = 0 ;
-  int res3 = SWIG_OLDOBJ ;
-  
-  (void)self;
-  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_resize" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector_resize" "', argument " "2"" of type '" "std::vector< std::string >::size_type""'");
-  } 
-  arg2 = static_cast< std::vector< std::string >::size_type >(val2);
-  {
-    std::string *ptr = (std::string *)0;
-    res3 = SWIG_AsPtr_std_string(swig_obj[2], &ptr);
-    if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StringVector_resize" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector_resize" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
-    }
-    arg3 = ptr;
-  }
-  {
-    try {
-      (arg1)->resize(arg2,(std::vector< std::string >::value_type const &)*arg3);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  if (SWIG_IsNewObj(res3)) delete arg3;
-  return resultobj;
-fail:
-  if (SWIG_IsNewObj(res3)) delete arg3;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_resize(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[4] = {
-    0
-  };
-  
-  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector_resize", 0, 3, argv))) SWIG_fail;
-  --argc;
-  if (argc == 2) {
-    int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_size_t(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_StringVector_resize__SWIG_0(self, argc, argv);
-      }
-    }
-  }
-  if (argc == 3) {
-    int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_size_t(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        int res = SWIG_AsPtr_std_string(argv[2], (std::string**)(0));
-        _v = SWIG_CheckState(res);
-        if (_v) {
-          return _wrap_StringVector_resize__SWIG_1(self, argc, argv);
-        }
-      }
-    }
-  }
-  
-fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector_resize'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    std::vector< std::string >::resize(std::vector< std::string >::size_type)\n"
-    "    std::vector< std::string >::resize(std::vector< std::string >::size_type,std::vector< std::string >::value_type const &)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_insert__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string >::iterator arg2 ;
-  std::vector< std::string >::value_type *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  swig::SwigPyIterator *iter2 = 0 ;
-  int res2 ;
-  int res3 = SWIG_OLDOBJ ;
-  std::vector< std::string >::iterator result;
-  
-  (void)self;
-  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_insert" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
-  if (!SWIG_IsOK(res2) || !iter2) {
-    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_insert" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
-  } else {
-    swig::SwigPyIterator_T<std::vector< std::string >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter2);
-    if (iter_t) {
-      arg2 = iter_t->get_current();
-    } else {
-      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_insert" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
-    }
-  }
-  {
-    std::string *ptr = (std::string *)0;
-    res3 = SWIG_AsPtr_std_string(swig_obj[2], &ptr);
-    if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StringVector_insert" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector_insert" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
-    }
-    arg3 = ptr;
-  }
-  {
-    try {
-      result = std_vector_Sl_std_string_Sg__insert__SWIG_0(arg1,SWIG_STD_MOVE(arg2),(std::string const &)*arg3);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::iterator & >(result)),
-    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
-  if (SWIG_IsNewObj(res3)) delete arg3;
-  return resultobj;
-fail:
-  if (SWIG_IsNewObj(res3)) delete arg3;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_insert__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string >::iterator arg2 ;
-  std::vector< std::string >::size_type arg3 ;
-  std::vector< std::string >::value_type *arg4 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  swig::SwigPyIterator *iter2 = 0 ;
-  int res2 ;
-  size_t val3 ;
-  int ecode3 = 0 ;
-  int res4 = SWIG_OLDOBJ ;
-  
-  (void)self;
-  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_insert" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
-  if (!SWIG_IsOK(res2) || !iter2) {
-    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_insert" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
-  } else {
-    swig::SwigPyIterator_T<std::vector< std::string >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter2);
-    if (iter_t) {
-      arg2 = iter_t->get_current();
-    } else {
-      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_insert" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
-    }
-  }
-  ecode3 = SWIG_AsVal_size_t(swig_obj[2], &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StringVector_insert" "', argument " "3"" of type '" "std::vector< std::string >::size_type""'");
-  } 
-  arg3 = static_cast< std::vector< std::string >::size_type >(val3);
-  {
-    std::string *ptr = (std::string *)0;
-    res4 = SWIG_AsPtr_std_string(swig_obj[3], &ptr);
-    if (!SWIG_IsOK(res4)) {
-      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "StringVector_insert" "', argument " "4"" of type '" "std::vector< std::string >::value_type const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StringVector_insert" "', argument " "4"" of type '" "std::vector< std::string >::value_type const &""'"); 
-    }
-    arg4 = ptr;
-  }
-  {
-    try {
-      std_vector_Sl_std_string_Sg__insert__SWIG_1(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3),(std::string const &)*arg4);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  if (SWIG_IsNewObj(res4)) delete arg4;
-  return resultobj;
-fail:
-  if (SWIG_IsNewObj(res4)) delete arg4;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_insert(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[5] = {
-    0
-  };
-  
-  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector_insert", 0, 4, argv))) SWIG_fail;
-  --argc;
-  if (argc == 3) {
-    int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      swig::SwigPyIterator *iter = 0;
-      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
-      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter) != 0));
-      if (_v) {
-        int res = SWIG_AsPtr_std_string(argv[2], (std::string**)(0));
-        _v = SWIG_CheckState(res);
-        if (_v) {
-          return _wrap_StringVector_insert__SWIG_0(self, argc, argv);
-        }
-      }
-    }
-  }
-  if (argc == 4) {
-    int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      swig::SwigPyIterator *iter = 0;
-      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
-      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter) != 0));
-      if (_v) {
-        {
-          int res = SWIG_AsVal_size_t(argv[2], NULL);
-          _v = SWIG_CheckState(res);
-        }
-        if (_v) {
-          int res = SWIG_AsPtr_std_string(argv[3], (std::string**)(0));
-          _v = SWIG_CheckState(res);
-          if (_v) {
-            return _wrap_StringVector_insert__SWIG_1(self, argc, argv);
-          }
-        }
-      }
-    }
-  }
-  
-fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector_insert'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    std::vector< std::string >::insert(std::vector< std::string >::iterator,std::vector< std::string >::value_type const &)\n"
-    "    std::vector< std::string >::insert(std::vector< std::string >::iterator,std::vector< std::string >::size_type,std::vector< std::string >::value_type const &)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_reserve(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  std::vector< std::string >::size_type arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  size_t val2 ;
-  int ecode2 = 0 ;
-  PyObject *swig_obj[2] ;
-  
-  (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "StringVector_reserve", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_reserve" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector_reserve" "', argument " "2"" of type '" "std::vector< std::string >::size_type""'");
-  } 
-  arg2 = static_cast< std::vector< std::string >::size_type >(val2);
-  {
-    try {
-      (arg1)->reserve(arg2);
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_StringVector_capacity(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  std::vector< std::string >::size_type result;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_capacity" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      result = ((std::vector< std::string > const *)arg1)->capacity();
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_delete_StringVector(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  
-  (void)self;
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_DISOWN |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_StringVector" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
-  }
-  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
-  {
-    try {
-      delete arg1;
-    } catch (std::exception& e) {
-      SWIG_exception_fail(SWIG_RuntimeError, e.what());
-    } catch (...) {
-      SWIG_exception_fail(SWIG_RuntimeError, "Unhandled exception occurred");
-    }
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *StringVector_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *obj;
-  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_std__vectorT_std__string_t, SWIG_NewClientData(obj));
-  return SWIG_Py_Void();
-}
-
-SWIGINTERN PyObject *StringVector_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  return SWIG_Python_InitShadowInstance(args);
-}
-
 static PyMethodDef SwigMethods[] = {
 	 { "delete_MemoryResource", _wrap_delete_MemoryResource, METH_O, NULL},
 	 { "MemoryResource_allocate", _wrap_MemoryResource_allocate, METH_VARARGS, NULL},
@@ -24829,6 +30825,59 @@ static PyMethodDef SwigMethods[] = {
 	 { "MemoryStream_destroy", _wrap_MemoryStream_destroy, METH_O, NULL},
 	 { "delete_MemoryStream", _wrap_delete_MemoryStream, METH_O, NULL},
 	 { "MemoryStream_swigregister", MemoryStream_swigregister, METH_O, NULL},
+	 { "delete_SwigPyIterator", _wrap_delete_SwigPyIterator, METH_O, NULL},
+	 { "SwigPyIterator_value", _wrap_SwigPyIterator_value, METH_O, NULL},
+	 { "SwigPyIterator_incr", _wrap_SwigPyIterator_incr, METH_VARARGS, NULL},
+	 { "SwigPyIterator_decr", _wrap_SwigPyIterator_decr, METH_VARARGS, NULL},
+	 { "SwigPyIterator_distance", _wrap_SwigPyIterator_distance, METH_VARARGS, NULL},
+	 { "SwigPyIterator_equal", _wrap_SwigPyIterator_equal, METH_VARARGS, NULL},
+	 { "SwigPyIterator_copy", _wrap_SwigPyIterator_copy, METH_O, NULL},
+	 { "SwigPyIterator_next", _wrap_SwigPyIterator_next, METH_O, NULL},
+	 { "SwigPyIterator___next__", _wrap_SwigPyIterator___next__, METH_O, NULL},
+	 { "SwigPyIterator_previous", _wrap_SwigPyIterator_previous, METH_O, NULL},
+	 { "SwigPyIterator_advance", _wrap_SwigPyIterator_advance, METH_VARARGS, NULL},
+	 { "SwigPyIterator___eq__", _wrap_SwigPyIterator___eq__, METH_VARARGS, NULL},
+	 { "SwigPyIterator___ne__", _wrap_SwigPyIterator___ne__, METH_VARARGS, NULL},
+	 { "SwigPyIterator___iadd__", _wrap_SwigPyIterator___iadd__, METH_VARARGS, NULL},
+	 { "SwigPyIterator___isub__", _wrap_SwigPyIterator___isub__, METH_VARARGS, NULL},
+	 { "SwigPyIterator___add__", _wrap_SwigPyIterator___add__, METH_VARARGS, NULL},
+	 { "SwigPyIterator___sub__", _wrap_SwigPyIterator___sub__, METH_VARARGS, NULL},
+	 { "SwigPyIterator_swigregister", SwigPyIterator_swigregister, METH_O, NULL},
+	 { "StringVector_iterator", _wrap_StringVector_iterator, METH_O, NULL},
+	 { "StringVector___nonzero__", _wrap_StringVector___nonzero__, METH_O, NULL},
+	 { "StringVector___bool__", _wrap_StringVector___bool__, METH_O, NULL},
+	 { "StringVector___len__", _wrap_StringVector___len__, METH_O, NULL},
+	 { "StringVector___getslice__", _wrap_StringVector___getslice__, METH_VARARGS, NULL},
+	 { "StringVector___setslice__", _wrap_StringVector___setslice__, METH_VARARGS, NULL},
+	 { "StringVector___delslice__", _wrap_StringVector___delslice__, METH_VARARGS, NULL},
+	 { "StringVector___delitem__", _wrap_StringVector___delitem__, METH_VARARGS, NULL},
+	 { "StringVector___getitem__", _wrap_StringVector___getitem__, METH_VARARGS, NULL},
+	 { "StringVector___setitem__", _wrap_StringVector___setitem__, METH_VARARGS, NULL},
+	 { "StringVector_pop", _wrap_StringVector_pop, METH_O, NULL},
+	 { "StringVector_append", _wrap_StringVector_append, METH_VARARGS, NULL},
+	 { "StringVector_empty", _wrap_StringVector_empty, METH_O, NULL},
+	 { "StringVector_size", _wrap_StringVector_size, METH_O, NULL},
+	 { "StringVector_swap", _wrap_StringVector_swap, METH_VARARGS, NULL},
+	 { "StringVector_begin", _wrap_StringVector_begin, METH_O, NULL},
+	 { "StringVector_end", _wrap_StringVector_end, METH_O, NULL},
+	 { "StringVector_rbegin", _wrap_StringVector_rbegin, METH_O, NULL},
+	 { "StringVector_rend", _wrap_StringVector_rend, METH_O, NULL},
+	 { "StringVector_clear", _wrap_StringVector_clear, METH_O, NULL},
+	 { "StringVector_get_allocator", _wrap_StringVector_get_allocator, METH_O, NULL},
+	 { "StringVector_pop_back", _wrap_StringVector_pop_back, METH_O, NULL},
+	 { "StringVector_erase", _wrap_StringVector_erase, METH_VARARGS, NULL},
+	 { "new_StringVector", _wrap_new_StringVector, METH_VARARGS, NULL},
+	 { "StringVector_push_back", _wrap_StringVector_push_back, METH_VARARGS, NULL},
+	 { "StringVector_front", _wrap_StringVector_front, METH_O, NULL},
+	 { "StringVector_back", _wrap_StringVector_back, METH_O, NULL},
+	 { "StringVector_assign", _wrap_StringVector_assign, METH_VARARGS, NULL},
+	 { "StringVector_resize", _wrap_StringVector_resize, METH_VARARGS, NULL},
+	 { "StringVector_insert", _wrap_StringVector_insert, METH_VARARGS, NULL},
+	 { "StringVector_reserve", _wrap_StringVector_reserve, METH_VARARGS, NULL},
+	 { "StringVector_capacity", _wrap_StringVector_capacity, METH_O, NULL},
+	 { "delete_StringVector", _wrap_delete_StringVector, METH_O, NULL},
+	 { "StringVector_swigregister", StringVector_swigregister, METH_O, NULL},
+	 { "StringVector_swiginit", StringVector_swiginit, METH_VARARGS, NULL},
 	 { "StringView_c_str", _wrap_StringView_c_str, METH_O, NULL},
 	 { "StringView___ref__", _wrap_StringView___ref__, METH_O, NULL},
 	 { "new_StringView", _wrap_new_StringView, METH_NOARGS, NULL},
@@ -24972,9 +31021,138 @@ static PyMethodDef SwigMethods[] = {
 	 { "GeometryReader_getBlendShapeTargetDeltaZs", _wrap_GeometryReader_getBlendShapeTargetDeltaZs, METH_VARARGS, NULL},
 	 { "GeometryReader_getBlendShapeTargetVertexIndices", _wrap_GeometryReader_getBlendShapeTargetVertexIndices, METH_VARARGS, NULL},
 	 { "GeometryReader_swigregister", GeometryReader_swigregister, METH_O, NULL},
+	 { "RBFBehaviorReader_getRBFPoseCount", _wrap_RBFBehaviorReader_getRBFPoseCount, METH_O, NULL},
+	 { "RBFBehaviorReader_getRBFPoseName", _wrap_RBFBehaviorReader_getRBFPoseName, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFPoseJointOutputIndices", _wrap_RBFBehaviorReader_getRBFPoseJointOutputIndices, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFPoseBlendShapeChannelOutputIndices", _wrap_RBFBehaviorReader_getRBFPoseBlendShapeChannelOutputIndices, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFPoseAnimatedMapOutputIndices", _wrap_RBFBehaviorReader_getRBFPoseAnimatedMapOutputIndices, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFPoseJointOutputValues", _wrap_RBFBehaviorReader_getRBFPoseJointOutputValues, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFPoseScale", _wrap_RBFBehaviorReader_getRBFPoseScale, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFPoseControlCount", _wrap_RBFBehaviorReader_getRBFPoseControlCount, METH_O, NULL},
+	 { "RBFBehaviorReader_getRBFPoseControlName", _wrap_RBFBehaviorReader_getRBFPoseControlName, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFPoseInputControlIndices", _wrap_RBFBehaviorReader_getRBFPoseInputControlIndices, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFPoseOutputControlIndices", _wrap_RBFBehaviorReader_getRBFPoseOutputControlIndices, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFPoseOutputControlWeights", _wrap_RBFBehaviorReader_getRBFPoseOutputControlWeights, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFSolverCount", _wrap_RBFBehaviorReader_getRBFSolverCount, METH_O, NULL},
+	 { "RBFBehaviorReader_getRBFSolverIndexListCount", _wrap_RBFBehaviorReader_getRBFSolverIndexListCount, METH_O, NULL},
+	 { "RBFBehaviorReader_getRBFSolverIndicesForLOD", _wrap_RBFBehaviorReader_getRBFSolverIndicesForLOD, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFSolverName", _wrap_RBFBehaviorReader_getRBFSolverName, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFSolverRawControlIndices", _wrap_RBFBehaviorReader_getRBFSolverRawControlIndices, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFSolverPoseIndices", _wrap_RBFBehaviorReader_getRBFSolverPoseIndices, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFSolverRawControlValues", _wrap_RBFBehaviorReader_getRBFSolverRawControlValues, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFSolverType", _wrap_RBFBehaviorReader_getRBFSolverType, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFSolverRadius", _wrap_RBFBehaviorReader_getRBFSolverRadius, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFSolverAutomaticRadius", _wrap_RBFBehaviorReader_getRBFSolverAutomaticRadius, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFSolverWeightThreshold", _wrap_RBFBehaviorReader_getRBFSolverWeightThreshold, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFSolverDistanceMethod", _wrap_RBFBehaviorReader_getRBFSolverDistanceMethod, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFSolverNormalizeMethod", _wrap_RBFBehaviorReader_getRBFSolverNormalizeMethod, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFSolverFunctionType", _wrap_RBFBehaviorReader_getRBFSolverFunctionType, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_getRBFSolverTwistAxis", _wrap_RBFBehaviorReader_getRBFSolverTwistAxis, METH_VARARGS, NULL},
+	 { "RBFBehaviorReader_swigregister", RBFBehaviorReader_swigregister, METH_O, NULL},
+	 { "MachineLearnedBehaviorReader_getMLControlCount", _wrap_MachineLearnedBehaviorReader_getMLControlCount, METH_O, NULL},
+	 { "MachineLearnedBehaviorReader_getMLControlName", _wrap_MachineLearnedBehaviorReader_getMLControlName, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorReader_getNeuralNetworkCount", _wrap_MachineLearnedBehaviorReader_getNeuralNetworkCount, METH_O, NULL},
+	 { "MachineLearnedBehaviorReader_getNeuralNetworkIndexListCount", _wrap_MachineLearnedBehaviorReader_getNeuralNetworkIndexListCount, METH_O, NULL},
+	 { "MachineLearnedBehaviorReader_getNeuralNetworkIndicesForLOD", _wrap_MachineLearnedBehaviorReader_getNeuralNetworkIndicesForLOD, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorReader_getMeshRegionCount", _wrap_MachineLearnedBehaviorReader_getMeshRegionCount, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorReader_getMeshRegionName", _wrap_MachineLearnedBehaviorReader_getMeshRegionName, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorReader_getNeuralNetworkIndicesForMeshRegion", _wrap_MachineLearnedBehaviorReader_getNeuralNetworkIndicesForMeshRegion, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorReader_getNeuralNetworkInputIndices", _wrap_MachineLearnedBehaviorReader_getNeuralNetworkInputIndices, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorReader_getNeuralNetworkOutputIndices", _wrap_MachineLearnedBehaviorReader_getNeuralNetworkOutputIndices, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorReader_getNeuralNetworkLayerCount", _wrap_MachineLearnedBehaviorReader_getNeuralNetworkLayerCount, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorReader_getNeuralNetworkLayerActivationFunction", _wrap_MachineLearnedBehaviorReader_getNeuralNetworkLayerActivationFunction, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorReader_getNeuralNetworkLayerActivationFunctionParameters", _wrap_MachineLearnedBehaviorReader_getNeuralNetworkLayerActivationFunctionParameters, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorReader_getNeuralNetworkLayerBiases", _wrap_MachineLearnedBehaviorReader_getNeuralNetworkLayerBiases, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorReader_getNeuralNetworkLayerWeights", _wrap_MachineLearnedBehaviorReader_getNeuralNetworkLayerWeights, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorReader_swigregister", MachineLearnedBehaviorReader_swigregister, METH_O, NULL},
+	 { "JointBehaviorMetadataReader_getJointTranslationRepresentation", _wrap_JointBehaviorMetadataReader_getJointTranslationRepresentation, METH_VARARGS, NULL},
+	 { "JointBehaviorMetadataReader_getJointRotationRepresentation", _wrap_JointBehaviorMetadataReader_getJointRotationRepresentation, METH_VARARGS, NULL},
+	 { "JointBehaviorMetadataReader_getJointScaleRepresentation", _wrap_JointBehaviorMetadataReader_getJointScaleRepresentation, METH_VARARGS, NULL},
+	 { "JointBehaviorMetadataReader_swigregister", JointBehaviorMetadataReader_swigregister, METH_O, NULL},
+	 { "TwistSwingBehaviorReader_getTwistCount", _wrap_TwistSwingBehaviorReader_getTwistCount, METH_O, NULL},
+	 { "TwistSwingBehaviorReader_getTwistSetupTwistAxis", _wrap_TwistSwingBehaviorReader_getTwistSetupTwistAxis, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorReader_getTwistInputControlIndices", _wrap_TwistSwingBehaviorReader_getTwistInputControlIndices, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorReader_getTwistOutputJointIndices", _wrap_TwistSwingBehaviorReader_getTwistOutputJointIndices, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorReader_getTwistBlendWeights", _wrap_TwistSwingBehaviorReader_getTwistBlendWeights, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorReader_getSwingCount", _wrap_TwistSwingBehaviorReader_getSwingCount, METH_O, NULL},
+	 { "TwistSwingBehaviorReader_getSwingSetupTwistAxis", _wrap_TwistSwingBehaviorReader_getSwingSetupTwistAxis, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorReader_getSwingInputControlIndices", _wrap_TwistSwingBehaviorReader_getSwingInputControlIndices, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorReader_getSwingOutputJointIndices", _wrap_TwistSwingBehaviorReader_getSwingOutputJointIndices, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorReader_getSwingBlendWeights", _wrap_TwistSwingBehaviorReader_getSwingBlendWeights, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorReader_swigregister", TwistSwingBehaviorReader_swigregister, METH_O, NULL},
 	 { "delete_Reader", _wrap_delete_Reader, METH_O, NULL},
 	 { "Reader_unload", _wrap_Reader_unload, METH_VARARGS, NULL},
 	 { "Reader_swigregister", Reader_swigregister, METH_O, NULL},
+	 { "HeaderReader_getFileFormatGeneration", _wrap_HeaderReader_getFileFormatGeneration, METH_O, NULL},
+	 { "HeaderReader_getFileFormatVersion", _wrap_HeaderReader_getFileFormatVersion, METH_O, NULL},
+	 { "HeaderReader_swigregister", HeaderReader_swigregister, METH_O, NULL},
+	 { "HeaderWriter_setFileFormatGeneration", _wrap_HeaderWriter_setFileFormatGeneration, METH_VARARGS, NULL},
+	 { "HeaderWriter_setFileFormatVersion", _wrap_HeaderWriter_setFileFormatVersion, METH_VARARGS, NULL},
+	 { "HeaderWriter_swigregister", HeaderWriter_swigregister, METH_O, NULL},
+	 { "RBFBehaviorWriter_clearRBFPoses", _wrap_RBFBehaviorWriter_clearRBFPoses, METH_O, NULL},
+	 { "RBFBehaviorWriter_setRBFPoseName", _wrap_RBFBehaviorWriter_setRBFPoseName, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_setRBFPoseScale", _wrap_RBFBehaviorWriter_setRBFPoseScale, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_clearRBFPoseControlNames", _wrap_RBFBehaviorWriter_clearRBFPoseControlNames, METH_O, NULL},
+	 { "RBFBehaviorWriter_setRBFPoseControlName", _wrap_RBFBehaviorWriter_setRBFPoseControlName, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_setRBFPoseInputControlIndices", _wrap_RBFBehaviorWriter_setRBFPoseInputControlIndices, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_setRBFPoseOutputControlIndices", _wrap_RBFBehaviorWriter_setRBFPoseOutputControlIndices, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_setRBFPoseOutputControlWeights", _wrap_RBFBehaviorWriter_setRBFPoseOutputControlWeights, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_clearRBFSolvers", _wrap_RBFBehaviorWriter_clearRBFSolvers, METH_O, NULL},
+	 { "RBFBehaviorWriter_clearRBFSolverIndices", _wrap_RBFBehaviorWriter_clearRBFSolverIndices, METH_O, NULL},
+	 { "RBFBehaviorWriter_setRBFSolverIndices", _wrap_RBFBehaviorWriter_setRBFSolverIndices, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_clearLODRBFSolverMappings", _wrap_RBFBehaviorWriter_clearLODRBFSolverMappings, METH_O, NULL},
+	 { "RBFBehaviorWriter_setLODRBFSolverMapping", _wrap_RBFBehaviorWriter_setLODRBFSolverMapping, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_setRBFSolverName", _wrap_RBFBehaviorWriter_setRBFSolverName, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_setRBFSolverRawControlIndices", _wrap_RBFBehaviorWriter_setRBFSolverRawControlIndices, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_setRBFSolverPoseIndices", _wrap_RBFBehaviorWriter_setRBFSolverPoseIndices, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_setRBFSolverRawControlValues", _wrap_RBFBehaviorWriter_setRBFSolverRawControlValues, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_setRBFSolverType", _wrap_RBFBehaviorWriter_setRBFSolverType, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_setRBFSolverRadius", _wrap_RBFBehaviorWriter_setRBFSolverRadius, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_setRBFSolverAutomaticRadius", _wrap_RBFBehaviorWriter_setRBFSolverAutomaticRadius, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_setRBFSolverWeightThreshold", _wrap_RBFBehaviorWriter_setRBFSolverWeightThreshold, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_setRBFSolverDistanceMethod", _wrap_RBFBehaviorWriter_setRBFSolverDistanceMethod, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_setRBFSolverNormalizeMethod", _wrap_RBFBehaviorWriter_setRBFSolverNormalizeMethod, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_setRBFSolverFunctionType", _wrap_RBFBehaviorWriter_setRBFSolverFunctionType, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_setRBFSolverTwistAxis", _wrap_RBFBehaviorWriter_setRBFSolverTwistAxis, METH_VARARGS, NULL},
+	 { "RBFBehaviorWriter_swigregister", RBFBehaviorWriter_swigregister, METH_O, NULL},
+	 { "MachineLearnedBehaviorWriter_clearMLControlNames", _wrap_MachineLearnedBehaviorWriter_clearMLControlNames, METH_O, NULL},
+	 { "MachineLearnedBehaviorWriter_setMLControlName", _wrap_MachineLearnedBehaviorWriter_setMLControlName, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorWriter_clearNeuralNetworks", _wrap_MachineLearnedBehaviorWriter_clearNeuralNetworks, METH_O, NULL},
+	 { "MachineLearnedBehaviorWriter_clearNeuralNetworkIndices", _wrap_MachineLearnedBehaviorWriter_clearNeuralNetworkIndices, METH_O, NULL},
+	 { "MachineLearnedBehaviorWriter_setNeuralNetworkIndices", _wrap_MachineLearnedBehaviorWriter_setNeuralNetworkIndices, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorWriter_clearLODNeuralNetworkMappings", _wrap_MachineLearnedBehaviorWriter_clearLODNeuralNetworkMappings, METH_O, NULL},
+	 { "MachineLearnedBehaviorWriter_setLODNeuralNetworkMapping", _wrap_MachineLearnedBehaviorWriter_setLODNeuralNetworkMapping, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorWriter_clearMeshRegionNames", _wrap_MachineLearnedBehaviorWriter_clearMeshRegionNames, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorWriter_setMeshRegionName", _wrap_MachineLearnedBehaviorWriter_setMeshRegionName, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorWriter_clearNeuralNetworkIndicesPerMeshRegion", _wrap_MachineLearnedBehaviorWriter_clearNeuralNetworkIndicesPerMeshRegion, METH_O, NULL},
+	 { "MachineLearnedBehaviorWriter_setNeuralNetworkIndicesForMeshRegion", _wrap_MachineLearnedBehaviorWriter_setNeuralNetworkIndicesForMeshRegion, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorWriter_deleteNeuralNetwork", _wrap_MachineLearnedBehaviorWriter_deleteNeuralNetwork, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorWriter_setNeuralNetworkInputIndices", _wrap_MachineLearnedBehaviorWriter_setNeuralNetworkInputIndices, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorWriter_setNeuralNetworkOutputIndices", _wrap_MachineLearnedBehaviorWriter_setNeuralNetworkOutputIndices, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorWriter_clearNeuralNetworkLayers", _wrap_MachineLearnedBehaviorWriter_clearNeuralNetworkLayers, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunction", _wrap_MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunction, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunctionParameters", _wrap_MachineLearnedBehaviorWriter_setNeuralNetworkLayerActivationFunctionParameters, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorWriter_setNeuralNetworkLayerBiases", _wrap_MachineLearnedBehaviorWriter_setNeuralNetworkLayerBiases, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorWriter_setNeuralNetworkLayerWeights", _wrap_MachineLearnedBehaviorWriter_setNeuralNetworkLayerWeights, METH_VARARGS, NULL},
+	 { "MachineLearnedBehaviorWriter_swigregister", MachineLearnedBehaviorWriter_swigregister, METH_O, NULL},
+	 { "JointBehaviorMetadataWriter_clearJointRepresentations", _wrap_JointBehaviorMetadataWriter_clearJointRepresentations, METH_O, NULL},
+	 { "JointBehaviorMetadataWriter_setJointTranslationRepresentation", _wrap_JointBehaviorMetadataWriter_setJointTranslationRepresentation, METH_VARARGS, NULL},
+	 { "JointBehaviorMetadataWriter_setJointRotationRepresentation", _wrap_JointBehaviorMetadataWriter_setJointRotationRepresentation, METH_VARARGS, NULL},
+	 { "JointBehaviorMetadataWriter_setJointScaleRepresentation", _wrap_JointBehaviorMetadataWriter_setJointScaleRepresentation, METH_VARARGS, NULL},
+	 { "JointBehaviorMetadataWriter_swigregister", JointBehaviorMetadataWriter_swigregister, METH_O, NULL},
+	 { "TwistSwingBehaviorWriter_clearTwists", _wrap_TwistSwingBehaviorWriter_clearTwists, METH_O, NULL},
+	 { "TwistSwingBehaviorWriter_deleteTwist", _wrap_TwistSwingBehaviorWriter_deleteTwist, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorWriter_setTwistSetupTwistAxis", _wrap_TwistSwingBehaviorWriter_setTwistSetupTwistAxis, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorWriter_setTwistInputControlIndices", _wrap_TwistSwingBehaviorWriter_setTwistInputControlIndices, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorWriter_setTwistOutputJointIndices", _wrap_TwistSwingBehaviorWriter_setTwistOutputJointIndices, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorWriter_setTwistBlendWeights", _wrap_TwistSwingBehaviorWriter_setTwistBlendWeights, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorWriter_clearSwings", _wrap_TwistSwingBehaviorWriter_clearSwings, METH_O, NULL},
+	 { "TwistSwingBehaviorWriter_deleteSwing", _wrap_TwistSwingBehaviorWriter_deleteSwing, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorWriter_setSwingSetupTwistAxis", _wrap_TwistSwingBehaviorWriter_setSwingSetupTwistAxis, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorWriter_setSwingInputControlIndices", _wrap_TwistSwingBehaviorWriter_setSwingInputControlIndices, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorWriter_setSwingOutputJointIndices", _wrap_TwistSwingBehaviorWriter_setSwingOutputJointIndices, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorWriter_setSwingBlendWeights", _wrap_TwistSwingBehaviorWriter_setSwingBlendWeights, METH_VARARGS, NULL},
+	 { "TwistSwingBehaviorWriter_swigregister", TwistSwingBehaviorWriter_swigregister, METH_O, NULL},
 	 { "delete_StreamReader", _wrap_delete_StreamReader, METH_O, NULL},
 	 { "StreamReader_read", _wrap_StreamReader_read, METH_O, NULL},
 	 { "StreamReader_swigregister", StreamReader_swigregister, METH_O, NULL},
@@ -25097,106 +31275,92 @@ static PyMethodDef SwigMethods[] = {
 	 { "delete_JSONStreamWriter", _wrap_delete_JSONStreamWriter, METH_O, NULL},
 	 { "JSONStreamWriter_setFrom", _wrap_JSONStreamWriter_setFrom, METH_VARARGS, NULL},
 	 { "JSONStreamWriter_swigregister", JSONStreamWriter_swigregister, METH_O, NULL},
-	 { "delete_SwigPyIterator", _wrap_delete_SwigPyIterator, METH_O, NULL},
-	 { "SwigPyIterator_value", _wrap_SwigPyIterator_value, METH_O, NULL},
-	 { "SwigPyIterator_incr", _wrap_SwigPyIterator_incr, METH_VARARGS, NULL},
-	 { "SwigPyIterator_decr", _wrap_SwigPyIterator_decr, METH_VARARGS, NULL},
-	 { "SwigPyIterator_distance", _wrap_SwigPyIterator_distance, METH_VARARGS, NULL},
-	 { "SwigPyIterator_equal", _wrap_SwigPyIterator_equal, METH_VARARGS, NULL},
-	 { "SwigPyIterator_copy", _wrap_SwigPyIterator_copy, METH_O, NULL},
-	 { "SwigPyIterator_next", _wrap_SwigPyIterator_next, METH_O, NULL},
-	 { "SwigPyIterator___next__", _wrap_SwigPyIterator___next__, METH_O, NULL},
-	 { "SwigPyIterator_previous", _wrap_SwigPyIterator_previous, METH_O, NULL},
-	 { "SwigPyIterator_advance", _wrap_SwigPyIterator_advance, METH_VARARGS, NULL},
-	 { "SwigPyIterator___eq__", _wrap_SwigPyIterator___eq__, METH_VARARGS, NULL},
-	 { "SwigPyIterator___ne__", _wrap_SwigPyIterator___ne__, METH_VARARGS, NULL},
-	 { "SwigPyIterator___iadd__", _wrap_SwigPyIterator___iadd__, METH_VARARGS, NULL},
-	 { "SwigPyIterator___isub__", _wrap_SwigPyIterator___isub__, METH_VARARGS, NULL},
-	 { "SwigPyIterator___add__", _wrap_SwigPyIterator___add__, METH_VARARGS, NULL},
-	 { "SwigPyIterator___sub__", _wrap_SwigPyIterator___sub__, METH_VARARGS, NULL},
-	 { "SwigPyIterator_swigregister", SwigPyIterator_swigregister, METH_O, NULL},
-	 { "StringVector_iterator", _wrap_StringVector_iterator, METH_O, NULL},
-	 { "StringVector___nonzero__", _wrap_StringVector___nonzero__, METH_O, NULL},
-	 { "StringVector___bool__", _wrap_StringVector___bool__, METH_O, NULL},
-	 { "StringVector___len__", _wrap_StringVector___len__, METH_O, NULL},
-	 { "StringVector___getslice__", _wrap_StringVector___getslice__, METH_VARARGS, NULL},
-	 { "StringVector___setslice__", _wrap_StringVector___setslice__, METH_VARARGS, NULL},
-	 { "StringVector___delslice__", _wrap_StringVector___delslice__, METH_VARARGS, NULL},
-	 { "StringVector___delitem__", _wrap_StringVector___delitem__, METH_VARARGS, NULL},
-	 { "StringVector___getitem__", _wrap_StringVector___getitem__, METH_VARARGS, NULL},
-	 { "StringVector___setitem__", _wrap_StringVector___setitem__, METH_VARARGS, NULL},
-	 { "StringVector_pop", _wrap_StringVector_pop, METH_O, NULL},
-	 { "StringVector_append", _wrap_StringVector_append, METH_VARARGS, NULL},
-	 { "StringVector_empty", _wrap_StringVector_empty, METH_O, NULL},
-	 { "StringVector_size", _wrap_StringVector_size, METH_O, NULL},
-	 { "StringVector_swap", _wrap_StringVector_swap, METH_VARARGS, NULL},
-	 { "StringVector_begin", _wrap_StringVector_begin, METH_O, NULL},
-	 { "StringVector_end", _wrap_StringVector_end, METH_O, NULL},
-	 { "StringVector_rbegin", _wrap_StringVector_rbegin, METH_O, NULL},
-	 { "StringVector_rend", _wrap_StringVector_rend, METH_O, NULL},
-	 { "StringVector_clear", _wrap_StringVector_clear, METH_O, NULL},
-	 { "StringVector_get_allocator", _wrap_StringVector_get_allocator, METH_O, NULL},
-	 { "StringVector_pop_back", _wrap_StringVector_pop_back, METH_O, NULL},
-	 { "StringVector_erase", _wrap_StringVector_erase, METH_VARARGS, NULL},
-	 { "new_StringVector", _wrap_new_StringVector, METH_VARARGS, NULL},
-	 { "StringVector_push_back", _wrap_StringVector_push_back, METH_VARARGS, NULL},
-	 { "StringVector_front", _wrap_StringVector_front, METH_O, NULL},
-	 { "StringVector_back", _wrap_StringVector_back, METH_O, NULL},
-	 { "StringVector_assign", _wrap_StringVector_assign, METH_VARARGS, NULL},
-	 { "StringVector_resize", _wrap_StringVector_resize, METH_VARARGS, NULL},
-	 { "StringVector_insert", _wrap_StringVector_insert, METH_VARARGS, NULL},
-	 { "StringVector_reserve", _wrap_StringVector_reserve, METH_VARARGS, NULL},
-	 { "StringVector_capacity", _wrap_StringVector_capacity, METH_O, NULL},
-	 { "delete_StringVector", _wrap_delete_StringVector, METH_O, NULL},
-	 { "StringVector_swigregister", StringVector_swigregister, METH_O, NULL},
-	 { "StringVector_swiginit", StringVector_swiginit, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
 };
 
 
 /* -------- TYPE CONVERSION AND EQUIVALENCE RULES (BEGIN) -------- */
 
+static void *_p_dna__BinaryStreamReaderTo_p_dna__BehaviorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::BehaviorReader *) (dna::RBFBehaviorReader *)(dna::Reader *)(dna::StreamReader *) ((dna::BinaryStreamReader *) x));
+}
+static void *_p_dna__JSONStreamReaderTo_p_dna__BehaviorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::BehaviorReader *) (dna::RBFBehaviorReader *)(dna::Reader *)(dna::StreamReader *) ((dna::JSONStreamReader *) x));
+}
+static void *_p_dna__RBFBehaviorReaderTo_p_dna__BehaviorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::BehaviorReader *)  ((dna::RBFBehaviorReader *) x));
+}
+static void *_p_dna__ReaderTo_p_dna__BehaviorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::BehaviorReader *) (dna::RBFBehaviorReader *) ((dna::Reader *) x));
+}
+static void *_p_dna__StreamReaderTo_p_dna__BehaviorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::BehaviorReader *) (dna::RBFBehaviorReader *)(dna::Reader *) ((dna::StreamReader *) x));
+}
+static void *_p_dna__BinaryStreamWriterTo_p_dna__BehaviorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::BehaviorWriter *) (dna::RBFBehaviorWriter *)(dna::Writer *)(dna::StreamWriter *) ((dna::BinaryStreamWriter *) x));
+}
+static void *_p_dna__JSONStreamWriterTo_p_dna__BehaviorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::BehaviorWriter *) (dna::RBFBehaviorWriter *)(dna::Writer *)(dna::StreamWriter *) ((dna::JSONStreamWriter *) x));
+}
+static void *_p_dna__StreamWriterTo_p_dna__BehaviorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::BehaviorWriter *) (dna::RBFBehaviorWriter *)(dna::Writer *) ((dna::StreamWriter *) x));
+}
+static void *_p_dna__WriterTo_p_dna__BehaviorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::BehaviorWriter *) (dna::RBFBehaviorWriter *) ((dna::Writer *) x));
+}
 static void *_p_dna__BehaviorReaderTo_p_dna__DefinitionReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((dna::DefinitionReader *)  ((dna::BehaviorReader *) x));
 }
 static void *_p_dna__BinaryStreamReaderTo_p_dna__DefinitionReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((dna::DefinitionReader *) (dna::GeometryReader *)(dna::Reader *)(dna::StreamReader *) ((dna::BinaryStreamReader *) x));
+    return (void *)((dna::DefinitionReader *) (dna::BehaviorReader *)(dna::RBFBehaviorReader *)(dna::Reader *)(dna::StreamReader *) ((dna::BinaryStreamReader *) x));
 }
 static void *_p_dna__GeometryReaderTo_p_dna__DefinitionReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((dna::DefinitionReader *)  ((dna::GeometryReader *) x));
 }
 static void *_p_dna__JSONStreamReaderTo_p_dna__DefinitionReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((dna::DefinitionReader *) (dna::GeometryReader *)(dna::Reader *)(dna::StreamReader *) ((dna::JSONStreamReader *) x));
+    return (void *)((dna::DefinitionReader *) (dna::BehaviorReader *)(dna::RBFBehaviorReader *)(dna::Reader *)(dna::StreamReader *) ((dna::JSONStreamReader *) x));
+}
+static void *_p_dna__JointBehaviorMetadataReaderTo_p_dna__DefinitionReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::DefinitionReader *)  ((dna::JointBehaviorMetadataReader *) x));
+}
+static void *_p_dna__MachineLearnedBehaviorReaderTo_p_dna__DefinitionReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::DefinitionReader *)  ((dna::MachineLearnedBehaviorReader *) x));
+}
+static void *_p_dna__RBFBehaviorReaderTo_p_dna__DefinitionReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::DefinitionReader *) (dna::BehaviorReader *) ((dna::RBFBehaviorReader *) x));
 }
 static void *_p_dna__ReaderTo_p_dna__DefinitionReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((dna::DefinitionReader *) (dna::GeometryReader *) ((dna::Reader *) x));
+    return (void *)((dna::DefinitionReader *) (dna::BehaviorReader *)(dna::RBFBehaviorReader *) ((dna::Reader *) x));
 }
 static void *_p_dna__StreamReaderTo_p_dna__DefinitionReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((dna::DefinitionReader *) (dna::GeometryReader *)(dna::Reader *) ((dna::StreamReader *) x));
+    return (void *)((dna::DefinitionReader *) (dna::BehaviorReader *)(dna::RBFBehaviorReader *)(dna::Reader *) ((dna::StreamReader *) x));
+}
+static void *_p_dna__TwistSwingBehaviorReaderTo_p_dna__DefinitionReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::DefinitionReader *)  ((dna::TwistSwingBehaviorReader *) x));
 }
 static void *_p_dna__BehaviorWriterTo_p_dna__DefinitionWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((dna::DefinitionWriter *)  ((dna::BehaviorWriter *) x));
 }
 static void *_p_dna__BinaryStreamWriterTo_p_dna__DefinitionWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((dna::DefinitionWriter *) (dna::GeometryWriter *)(dna::Writer *)(dna::StreamWriter *) ((dna::BinaryStreamWriter *) x));
+    return (void *)((dna::DefinitionWriter *) (dna::BehaviorWriter *)(dna::RBFBehaviorWriter *)(dna::Writer *)(dna::StreamWriter *) ((dna::BinaryStreamWriter *) x));
 }
 static void *_p_dna__GeometryWriterTo_p_dna__DefinitionWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((dna::DefinitionWriter *)  ((dna::GeometryWriter *) x));
 }
 static void *_p_dna__JSONStreamWriterTo_p_dna__DefinitionWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((dna::DefinitionWriter *) (dna::GeometryWriter *)(dna::Writer *)(dna::StreamWriter *) ((dna::JSONStreamWriter *) x));
+    return (void *)((dna::DefinitionWriter *) (dna::BehaviorWriter *)(dna::RBFBehaviorWriter *)(dna::Writer *)(dna::StreamWriter *) ((dna::JSONStreamWriter *) x));
 }
 static void *_p_dna__StreamWriterTo_p_dna__DefinitionWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((dna::DefinitionWriter *) (dna::GeometryWriter *)(dna::Writer *) ((dna::StreamWriter *) x));
+    return (void *)((dna::DefinitionWriter *) (dna::BehaviorWriter *)(dna::RBFBehaviorWriter *)(dna::Writer *) ((dna::StreamWriter *) x));
 }
 static void *_p_dna__WriterTo_p_dna__DefinitionWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((dna::DefinitionWriter *) (dna::GeometryWriter *) ((dna::Writer *) x));
+    return (void *)((dna::DefinitionWriter *) (dna::BehaviorWriter *)(dna::RBFBehaviorWriter *) ((dna::Writer *) x));
 }
 static void *_p_dna__BehaviorReaderTo_p_dna__DescriptorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((dna::DescriptorReader *) (dna::DefinitionReader *) ((dna::BehaviorReader *) x));
 }
 static void *_p_dna__BinaryStreamReaderTo_p_dna__DescriptorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((dna::DescriptorReader *) (dna::DefinitionReader *)(dna::GeometryReader *)(dna::Reader *)(dna::StreamReader *) ((dna::BinaryStreamReader *) x));
+    return (void *)((dna::DescriptorReader *) (dna::DefinitionReader *)(dna::BehaviorReader *)(dna::RBFBehaviorReader *)(dna::Reader *)(dna::StreamReader *) ((dna::BinaryStreamReader *) x));
 }
 static void *_p_dna__DefinitionReaderTo_p_dna__DescriptorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((dna::DescriptorReader *)  ((dna::DefinitionReader *) x));
@@ -25205,19 +31369,31 @@ static void *_p_dna__GeometryReaderTo_p_dna__DescriptorReader(void *x, int *SWIG
     return (void *)((dna::DescriptorReader *) (dna::DefinitionReader *) ((dna::GeometryReader *) x));
 }
 static void *_p_dna__JSONStreamReaderTo_p_dna__DescriptorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((dna::DescriptorReader *) (dna::DefinitionReader *)(dna::GeometryReader *)(dna::Reader *)(dna::StreamReader *) ((dna::JSONStreamReader *) x));
+    return (void *)((dna::DescriptorReader *) (dna::DefinitionReader *)(dna::BehaviorReader *)(dna::RBFBehaviorReader *)(dna::Reader *)(dna::StreamReader *) ((dna::JSONStreamReader *) x));
+}
+static void *_p_dna__JointBehaviorMetadataReaderTo_p_dna__DescriptorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::DescriptorReader *) (dna::DefinitionReader *) ((dna::JointBehaviorMetadataReader *) x));
+}
+static void *_p_dna__MachineLearnedBehaviorReaderTo_p_dna__DescriptorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::DescriptorReader *) (dna::DefinitionReader *) ((dna::MachineLearnedBehaviorReader *) x));
+}
+static void *_p_dna__RBFBehaviorReaderTo_p_dna__DescriptorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::DescriptorReader *) (dna::DefinitionReader *)(dna::BehaviorReader *) ((dna::RBFBehaviorReader *) x));
 }
 static void *_p_dna__ReaderTo_p_dna__DescriptorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((dna::DescriptorReader *) (dna::DefinitionReader *)(dna::GeometryReader *) ((dna::Reader *) x));
+    return (void *)((dna::DescriptorReader *) (dna::DefinitionReader *)(dna::BehaviorReader *)(dna::RBFBehaviorReader *) ((dna::Reader *) x));
 }
 static void *_p_dna__StreamReaderTo_p_dna__DescriptorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((dna::DescriptorReader *) (dna::DefinitionReader *)(dna::GeometryReader *)(dna::Reader *) ((dna::StreamReader *) x));
+    return (void *)((dna::DescriptorReader *) (dna::DefinitionReader *)(dna::BehaviorReader *)(dna::RBFBehaviorReader *)(dna::Reader *) ((dna::StreamReader *) x));
+}
+static void *_p_dna__TwistSwingBehaviorReaderTo_p_dna__DescriptorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::DescriptorReader *) (dna::DefinitionReader *) ((dna::TwistSwingBehaviorReader *) x));
 }
 static void *_p_dna__BehaviorWriterTo_p_dna__DescriptorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((dna::DescriptorWriter *) (dna::DefinitionWriter *) ((dna::BehaviorWriter *) x));
 }
 static void *_p_dna__BinaryStreamWriterTo_p_dna__DescriptorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((dna::DescriptorWriter *) (dna::DefinitionWriter *)(dna::GeometryWriter *)(dna::Writer *)(dna::StreamWriter *) ((dna::BinaryStreamWriter *) x));
+    return (void *)((dna::DescriptorWriter *) (dna::DefinitionWriter *)(dna::BehaviorWriter *)(dna::RBFBehaviorWriter *)(dna::Writer *)(dna::StreamWriter *) ((dna::BinaryStreamWriter *) x));
 }
 static void *_p_dna__DefinitionWriterTo_p_dna__DescriptorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((dna::DescriptorWriter *)  ((dna::DefinitionWriter *) x));
@@ -25226,13 +31402,13 @@ static void *_p_dna__GeometryWriterTo_p_dna__DescriptorWriter(void *x, int *SWIG
     return (void *)((dna::DescriptorWriter *) (dna::DefinitionWriter *) ((dna::GeometryWriter *) x));
 }
 static void *_p_dna__JSONStreamWriterTo_p_dna__DescriptorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((dna::DescriptorWriter *) (dna::DefinitionWriter *)(dna::GeometryWriter *)(dna::Writer *)(dna::StreamWriter *) ((dna::JSONStreamWriter *) x));
+    return (void *)((dna::DescriptorWriter *) (dna::DefinitionWriter *)(dna::BehaviorWriter *)(dna::RBFBehaviorWriter *)(dna::Writer *)(dna::StreamWriter *) ((dna::JSONStreamWriter *) x));
 }
 static void *_p_dna__StreamWriterTo_p_dna__DescriptorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((dna::DescriptorWriter *) (dna::DefinitionWriter *)(dna::GeometryWriter *)(dna::Writer *) ((dna::StreamWriter *) x));
+    return (void *)((dna::DescriptorWriter *) (dna::DefinitionWriter *)(dna::BehaviorWriter *)(dna::RBFBehaviorWriter *)(dna::Writer *) ((dna::StreamWriter *) x));
 }
 static void *_p_dna__WriterTo_p_dna__DescriptorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((dna::DescriptorWriter *) (dna::DefinitionWriter *)(dna::GeometryWriter *) ((dna::Writer *) x));
+    return (void *)((dna::DescriptorWriter *) (dna::DefinitionWriter *)(dna::BehaviorWriter *)(dna::RBFBehaviorWriter *) ((dna::Writer *) x));
 }
 static void *_p_dna__BinaryStreamReaderTo_p_dna__GeometryReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((dna::GeometryReader *) (dna::Reader *)(dna::StreamReader *) ((dna::BinaryStreamReader *) x));
@@ -25258,6 +31434,111 @@ static void *_p_dna__StreamWriterTo_p_dna__GeometryWriter(void *x, int *SWIGUNUS
 static void *_p_dna__WriterTo_p_dna__GeometryWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((dna::GeometryWriter *)  ((dna::Writer *) x));
 }
+static void *_p_dna__BinaryStreamReaderTo_p_dna__HeaderReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::HeaderReader *) (dna::DescriptorReader *)(dna::DefinitionReader *)(dna::BehaviorReader *)(dna::RBFBehaviorReader *)(dna::Reader *)(dna::StreamReader *) ((dna::BinaryStreamReader *) x));
+}
+static void *_p_dna__JSONStreamReaderTo_p_dna__HeaderReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::HeaderReader *) (dna::DescriptorReader *)(dna::DefinitionReader *)(dna::BehaviorReader *)(dna::RBFBehaviorReader *)(dna::Reader *)(dna::StreamReader *) ((dna::JSONStreamReader *) x));
+}
+static void *_p_dna__StreamReaderTo_p_dna__HeaderReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::HeaderReader *) (dna::DescriptorReader *)(dna::DefinitionReader *)(dna::BehaviorReader *)(dna::RBFBehaviorReader *)(dna::Reader *) ((dna::StreamReader *) x));
+}
+static void *_p_dna__BehaviorWriterTo_p_dna__HeaderWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::HeaderWriter *) (dna::DescriptorWriter *)(dna::DefinitionWriter *) ((dna::BehaviorWriter *) x));
+}
+static void *_p_dna__BinaryStreamWriterTo_p_dna__HeaderWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::HeaderWriter *) (dna::DescriptorWriter *)(dna::DefinitionWriter *)(dna::BehaviorWriter *)(dna::RBFBehaviorWriter *)(dna::Writer *)(dna::StreamWriter *) ((dna::BinaryStreamWriter *) x));
+}
+static void *_p_dna__DefinitionWriterTo_p_dna__HeaderWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::HeaderWriter *) (dna::DescriptorWriter *) ((dna::DefinitionWriter *) x));
+}
+static void *_p_dna__DescriptorWriterTo_p_dna__HeaderWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::HeaderWriter *)  ((dna::DescriptorWriter *) x));
+}
+static void *_p_dna__GeometryWriterTo_p_dna__HeaderWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::HeaderWriter *) (dna::DescriptorWriter *)(dna::DefinitionWriter *) ((dna::GeometryWriter *) x));
+}
+static void *_p_dna__JSONStreamWriterTo_p_dna__HeaderWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::HeaderWriter *) (dna::DescriptorWriter *)(dna::DefinitionWriter *)(dna::BehaviorWriter *)(dna::RBFBehaviorWriter *)(dna::Writer *)(dna::StreamWriter *) ((dna::JSONStreamWriter *) x));
+}
+static void *_p_dna__StreamWriterTo_p_dna__HeaderWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::HeaderWriter *) (dna::DescriptorWriter *)(dna::DefinitionWriter *)(dna::BehaviorWriter *)(dna::RBFBehaviorWriter *)(dna::Writer *) ((dna::StreamWriter *) x));
+}
+static void *_p_dna__WriterTo_p_dna__HeaderWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::HeaderWriter *) (dna::DescriptorWriter *)(dna::DefinitionWriter *)(dna::BehaviorWriter *)(dna::RBFBehaviorWriter *) ((dna::Writer *) x));
+}
+static void *_p_dna__BinaryStreamReaderTo_p_dna__JointBehaviorMetadataReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::JointBehaviorMetadataReader *) (dna::Reader *)(dna::StreamReader *) ((dna::BinaryStreamReader *) x));
+}
+static void *_p_dna__JSONStreamReaderTo_p_dna__JointBehaviorMetadataReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::JointBehaviorMetadataReader *) (dna::Reader *)(dna::StreamReader *) ((dna::JSONStreamReader *) x));
+}
+static void *_p_dna__ReaderTo_p_dna__JointBehaviorMetadataReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::JointBehaviorMetadataReader *)  ((dna::Reader *) x));
+}
+static void *_p_dna__StreamReaderTo_p_dna__JointBehaviorMetadataReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::JointBehaviorMetadataReader *) (dna::Reader *) ((dna::StreamReader *) x));
+}
+static void *_p_dna__BinaryStreamWriterTo_p_dna__JointBehaviorMetadataWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::JointBehaviorMetadataWriter *) (dna::Writer *)(dna::StreamWriter *) ((dna::BinaryStreamWriter *) x));
+}
+static void *_p_dna__JSONStreamWriterTo_p_dna__JointBehaviorMetadataWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::JointBehaviorMetadataWriter *) (dna::Writer *)(dna::StreamWriter *) ((dna::JSONStreamWriter *) x));
+}
+static void *_p_dna__StreamWriterTo_p_dna__JointBehaviorMetadataWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::JointBehaviorMetadataWriter *) (dna::Writer *) ((dna::StreamWriter *) x));
+}
+static void *_p_dna__WriterTo_p_dna__JointBehaviorMetadataWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::JointBehaviorMetadataWriter *)  ((dna::Writer *) x));
+}
+static void *_p_dna__BinaryStreamReaderTo_p_dna__MachineLearnedBehaviorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::MachineLearnedBehaviorReader *) (dna::Reader *)(dna::StreamReader *) ((dna::BinaryStreamReader *) x));
+}
+static void *_p_dna__JSONStreamReaderTo_p_dna__MachineLearnedBehaviorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::MachineLearnedBehaviorReader *) (dna::Reader *)(dna::StreamReader *) ((dna::JSONStreamReader *) x));
+}
+static void *_p_dna__ReaderTo_p_dna__MachineLearnedBehaviorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::MachineLearnedBehaviorReader *)  ((dna::Reader *) x));
+}
+static void *_p_dna__StreamReaderTo_p_dna__MachineLearnedBehaviorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::MachineLearnedBehaviorReader *) (dna::Reader *) ((dna::StreamReader *) x));
+}
+static void *_p_dna__BinaryStreamWriterTo_p_dna__MachineLearnedBehaviorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::MachineLearnedBehaviorWriter *) (dna::Writer *)(dna::StreamWriter *) ((dna::BinaryStreamWriter *) x));
+}
+static void *_p_dna__JSONStreamWriterTo_p_dna__MachineLearnedBehaviorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::MachineLearnedBehaviorWriter *) (dna::Writer *)(dna::StreamWriter *) ((dna::JSONStreamWriter *) x));
+}
+static void *_p_dna__StreamWriterTo_p_dna__MachineLearnedBehaviorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::MachineLearnedBehaviorWriter *) (dna::Writer *) ((dna::StreamWriter *) x));
+}
+static void *_p_dna__WriterTo_p_dna__MachineLearnedBehaviorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::MachineLearnedBehaviorWriter *)  ((dna::Writer *) x));
+}
+static void *_p_dna__BinaryStreamReaderTo_p_dna__RBFBehaviorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::RBFBehaviorReader *) (dna::Reader *)(dna::StreamReader *) ((dna::BinaryStreamReader *) x));
+}
+static void *_p_dna__JSONStreamReaderTo_p_dna__RBFBehaviorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::RBFBehaviorReader *) (dna::Reader *)(dna::StreamReader *) ((dna::JSONStreamReader *) x));
+}
+static void *_p_dna__ReaderTo_p_dna__RBFBehaviorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::RBFBehaviorReader *)  ((dna::Reader *) x));
+}
+static void *_p_dna__StreamReaderTo_p_dna__RBFBehaviorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::RBFBehaviorReader *) (dna::Reader *) ((dna::StreamReader *) x));
+}
+static void *_p_dna__BinaryStreamWriterTo_p_dna__RBFBehaviorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::RBFBehaviorWriter *) (dna::Writer *)(dna::StreamWriter *) ((dna::BinaryStreamWriter *) x));
+}
+static void *_p_dna__JSONStreamWriterTo_p_dna__RBFBehaviorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::RBFBehaviorWriter *) (dna::Writer *)(dna::StreamWriter *) ((dna::JSONStreamWriter *) x));
+}
+static void *_p_dna__StreamWriterTo_p_dna__RBFBehaviorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::RBFBehaviorWriter *) (dna::Writer *) ((dna::StreamWriter *) x));
+}
+static void *_p_dna__WriterTo_p_dna__RBFBehaviorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::RBFBehaviorWriter *)  ((dna::Writer *) x));
+}
 static void *_p_dna__BinaryStreamReaderTo_p_dna__Reader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((dna::Reader *) (dna::StreamReader *) ((dna::BinaryStreamReader *) x));
 }
@@ -25278,6 +31559,30 @@ static void *_p_dna__BinaryStreamWriterTo_p_dna__StreamWriter(void *x, int *SWIG
 }
 static void *_p_dna__JSONStreamWriterTo_p_dna__StreamWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((dna::StreamWriter *)  ((dna::JSONStreamWriter *) x));
+}
+static void *_p_dna__BinaryStreamReaderTo_p_dna__TwistSwingBehaviorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::TwistSwingBehaviorReader *) (dna::Reader *)(dna::StreamReader *) ((dna::BinaryStreamReader *) x));
+}
+static void *_p_dna__JSONStreamReaderTo_p_dna__TwistSwingBehaviorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::TwistSwingBehaviorReader *) (dna::Reader *)(dna::StreamReader *) ((dna::JSONStreamReader *) x));
+}
+static void *_p_dna__ReaderTo_p_dna__TwistSwingBehaviorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::TwistSwingBehaviorReader *)  ((dna::Reader *) x));
+}
+static void *_p_dna__StreamReaderTo_p_dna__TwistSwingBehaviorReader(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::TwistSwingBehaviorReader *) (dna::Reader *) ((dna::StreamReader *) x));
+}
+static void *_p_dna__BinaryStreamWriterTo_p_dna__TwistSwingBehaviorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::TwistSwingBehaviorWriter *) (dna::Writer *)(dna::StreamWriter *) ((dna::BinaryStreamWriter *) x));
+}
+static void *_p_dna__JSONStreamWriterTo_p_dna__TwistSwingBehaviorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::TwistSwingBehaviorWriter *) (dna::Writer *)(dna::StreamWriter *) ((dna::JSONStreamWriter *) x));
+}
+static void *_p_dna__StreamWriterTo_p_dna__TwistSwingBehaviorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::TwistSwingBehaviorWriter *) (dna::Writer *) ((dna::StreamWriter *) x));
+}
+static void *_p_dna__WriterTo_p_dna__TwistSwingBehaviorWriter(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((dna::TwistSwingBehaviorWriter *)  ((dna::Writer *) x));
 }
 static void *_p_dna__BinaryStreamWriterTo_p_dna__Writer(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((dna::Writer *) (dna::StreamWriter *) ((dna::BinaryStreamWriter *) x));
@@ -25403,12 +31708,19 @@ static void *_p_trio__MemoryStreamTo_p_trio__Writable(void *x, int *SWIGUNUSEDPA
     return (void *)((trio::Writable *) (trio::BoundedIOStream *) ((trio::MemoryStream *) x));
 }
 static swig_type_info _swigt__p_AccessMode = {"_p_AccessMode", "AccessMode *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_ActivationFunction = {"_p_ActivationFunction", "ActivationFunction *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_AutomaticRadius = {"_p_AutomaticRadius", "AutomaticRadius *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Base = {"_p_Base", "Base *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_OpenMode = {"_p_OpenMode", "OpenMode *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_RBFDistanceMethod = {"_p_RBFDistanceMethod", "RBFDistanceMethod *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_RBFFunctionType = {"_p_RBFFunctionType", "RBFFunctionType *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_RBFNormalizeMethod = {"_p_RBFNormalizeMethod", "RBFNormalizeMethod *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_RBFSolverType = {"_p_RBFSolverType", "RBFSolverType *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_RotationRepresentation = {"_p_RotationRepresentation", "RotationRepresentation *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_ScaleRepresentation = {"_p_ScaleRepresentation", "ScaleRepresentation *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TranslationRepresentation = {"_p_TranslationRepresentation", "TranslationRepresentation *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TwistAxis = {"_p_TwistAxis", "TwistAxis *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_allocator_type = {"_p_allocator_type", "allocator_type *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_av__ConstArrayViewT_float_t = {"_p_av__ConstArrayViewT_float_t", "av::ConstArrayView< float > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_av__ConstArrayViewT_unsigned_int_t = {"_p_av__ConstArrayViewT_unsigned_int_t", "av::ConstArrayView< std::uint32_t > *|av::ConstArrayView< unsigned int > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_av__ConstArrayViewT_unsigned_short_t = {"_p_av__ConstArrayViewT_unsigned_short_t", "av::ConstArrayView< std::uint16_t > *|av::ConstArrayView< unsigned short > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_av__StringView = {"_p_av__StringView", "av::StringView *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_difference_type = {"_p_difference_type", "difference_type *", 0, 0, (void*)0, 0};
@@ -25423,13 +31735,23 @@ static swig_type_info _swigt__p_dna__DescriptorReader = {"_p_dna__DescriptorRead
 static swig_type_info _swigt__p_dna__DescriptorWriter = {"_p_dna__DescriptorWriter", "dna::DescriptorWriter *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_dna__GeometryReader = {"_p_dna__GeometryReader", "dna::GeometryReader *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_dna__GeometryWriter = {"_p_dna__GeometryWriter", "dna::GeometryWriter *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_dna__HeaderReader = {"_p_dna__HeaderReader", "dna::HeaderReader *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_dna__HeaderWriter = {"_p_dna__HeaderWriter", "dna::HeaderWriter *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_dna__JSONStreamReader = {"_p_dna__JSONStreamReader", "dna::JSONStreamReader *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_dna__JSONStreamWriter = {"_p_dna__JSONStreamWriter", "dna::JSONStreamWriter *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_dna__JointBehaviorMetadataReader = {"_p_dna__JointBehaviorMetadataReader", "dna::JointBehaviorMetadataReader *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_dna__JointBehaviorMetadataWriter = {"_p_dna__JointBehaviorMetadataWriter", "dna::JointBehaviorMetadataWriter *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_dna__MachineLearnedBehaviorReader = {"_p_dna__MachineLearnedBehaviorReader", "dna::MachineLearnedBehaviorReader *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_dna__MachineLearnedBehaviorWriter = {"_p_dna__MachineLearnedBehaviorWriter", "dna::MachineLearnedBehaviorWriter *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_dna__MeshBlendShapeChannelMapping = {"_p_dna__MeshBlendShapeChannelMapping", "dna::MeshBlendShapeChannelMapping *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_dna__RBFBehaviorReader = {"_p_dna__RBFBehaviorReader", "dna::RBFBehaviorReader *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_dna__RBFBehaviorWriter = {"_p_dna__RBFBehaviorWriter", "dna::RBFBehaviorWriter *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_dna__Reader = {"_p_dna__Reader", "dna::Reader *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_dna__StreamReader = {"_p_dna__StreamReader", "dna::StreamReader *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_dna__StreamWriter = {"_p_dna__StreamWriter", "dna::StreamWriter *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_dna__TextureCoordinate = {"_p_dna__TextureCoordinate", "dna::TextureCoordinate *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_dna__TwistSwingBehaviorReader = {"_p_dna__TwistSwingBehaviorReader", "dna::TwistSwingBehaviorReader *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_dna__TwistSwingBehaviorWriter = {"_p_dna__TwistSwingBehaviorWriter", "dna::TwistSwingBehaviorWriter *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_dna__Vector3 = {"_p_dna__Vector3", "dna::Delta *|dna::Normal *|dna::Position *|dna::Vector3 *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_dna__VertexLayout = {"_p_dna__VertexLayout", "dna::VertexLayout *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_dna__Writer = {"_p_dna__Writer", "dna::Writer *", 0, 0, (void*)0, 0};
@@ -25473,12 +31795,19 @@ static swig_type_info _swigt__p_void = {"_p_void", "void *", 0, 0, (void*)0, 0};
 
 static swig_type_info *swig_type_initial[] = {
   &_swigt__p_AccessMode,
+  &_swigt__p_ActivationFunction,
+  &_swigt__p_AutomaticRadius,
   &_swigt__p_Base,
   &_swigt__p_OpenMode,
+  &_swigt__p_RBFDistanceMethod,
+  &_swigt__p_RBFFunctionType,
+  &_swigt__p_RBFNormalizeMethod,
+  &_swigt__p_RBFSolverType,
+  &_swigt__p_RotationRepresentation,
+  &_swigt__p_ScaleRepresentation,
+  &_swigt__p_TranslationRepresentation,
+  &_swigt__p_TwistAxis,
   &_swigt__p_allocator_type,
-  &_swigt__p_av__ConstArrayViewT_float_t,
-  &_swigt__p_av__ConstArrayViewT_unsigned_int_t,
-  &_swigt__p_av__ConstArrayViewT_unsigned_short_t,
   &_swigt__p_av__StringView,
   &_swigt__p_char,
   &_swigt__p_difference_type,
@@ -25493,13 +31822,23 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_dna__DescriptorWriter,
   &_swigt__p_dna__GeometryReader,
   &_swigt__p_dna__GeometryWriter,
+  &_swigt__p_dna__HeaderReader,
+  &_swigt__p_dna__HeaderWriter,
   &_swigt__p_dna__JSONStreamReader,
   &_swigt__p_dna__JSONStreamWriter,
+  &_swigt__p_dna__JointBehaviorMetadataReader,
+  &_swigt__p_dna__JointBehaviorMetadataWriter,
+  &_swigt__p_dna__MachineLearnedBehaviorReader,
+  &_swigt__p_dna__MachineLearnedBehaviorWriter,
   &_swigt__p_dna__MeshBlendShapeChannelMapping,
+  &_swigt__p_dna__RBFBehaviorReader,
+  &_swigt__p_dna__RBFBehaviorWriter,
   &_swigt__p_dna__Reader,
   &_swigt__p_dna__StreamReader,
   &_swigt__p_dna__StreamWriter,
   &_swigt__p_dna__TextureCoordinate,
+  &_swigt__p_dna__TwistSwingBehaviorReader,
+  &_swigt__p_dna__TwistSwingBehaviorWriter,
   &_swigt__p_dna__Vector3,
   &_swigt__p_dna__VertexLayout,
   &_swigt__p_dna__Writer,
@@ -25543,33 +31882,50 @@ static swig_type_info *swig_type_initial[] = {
 };
 
 static swig_cast_info _swigc__p_AccessMode[] = {  {&_swigt__p_AccessMode, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_ActivationFunction[] = {  {&_swigt__p_ActivationFunction, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_AutomaticRadius[] = {  {&_swigt__p_AutomaticRadius, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Base[] = {  {&_swigt__p_Base, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_OpenMode[] = {  {&_swigt__p_OpenMode, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_RBFDistanceMethod[] = {  {&_swigt__p_RBFDistanceMethod, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_RBFFunctionType[] = {  {&_swigt__p_RBFFunctionType, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_RBFNormalizeMethod[] = {  {&_swigt__p_RBFNormalizeMethod, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_RBFSolverType[] = {  {&_swigt__p_RBFSolverType, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_RotationRepresentation[] = {  {&_swigt__p_RotationRepresentation, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_ScaleRepresentation[] = {  {&_swigt__p_ScaleRepresentation, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TranslationRepresentation[] = {  {&_swigt__p_TranslationRepresentation, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TwistAxis[] = {  {&_swigt__p_TwistAxis, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_allocator_type[] = {  {&_swigt__p_allocator_type, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_av__ConstArrayViewT_float_t[] = {  {&_swigt__p_av__ConstArrayViewT_float_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_av__ConstArrayViewT_unsigned_int_t[] = {  {&_swigt__p_av__ConstArrayViewT_unsigned_int_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_av__ConstArrayViewT_unsigned_short_t[] = {  {&_swigt__p_av__ConstArrayViewT_unsigned_short_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_av__StringView[] = {  {&_swigt__p_av__StringView, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_difference_type[] = {  {&_swigt__p_difference_type, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_dna__BehaviorReader[] = {  {&_swigt__p_dna__BehaviorReader, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_dna__BehaviorWriter[] = {  {&_swigt__p_dna__BehaviorWriter, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_dna__BehaviorReader[] = {  {&_swigt__p_dna__BehaviorReader, 0, 0, 0},  {&_swigt__p_dna__BinaryStreamReader, _p_dna__BinaryStreamReaderTo_p_dna__BehaviorReader, 0, 0},  {&_swigt__p_dna__JSONStreamReader, _p_dna__JSONStreamReaderTo_p_dna__BehaviorReader, 0, 0},  {&_swigt__p_dna__RBFBehaviorReader, _p_dna__RBFBehaviorReaderTo_p_dna__BehaviorReader, 0, 0},  {&_swigt__p_dna__Reader, _p_dna__ReaderTo_p_dna__BehaviorReader, 0, 0},  {&_swigt__p_dna__StreamReader, _p_dna__StreamReaderTo_p_dna__BehaviorReader, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_dna__BehaviorWriter[] = {  {&_swigt__p_dna__BehaviorWriter, 0, 0, 0},  {&_swigt__p_dna__BinaryStreamWriter, _p_dna__BinaryStreamWriterTo_p_dna__BehaviorWriter, 0, 0},  {&_swigt__p_dna__JSONStreamWriter, _p_dna__JSONStreamWriterTo_p_dna__BehaviorWriter, 0, 0},  {&_swigt__p_dna__StreamWriter, _p_dna__StreamWriterTo_p_dna__BehaviorWriter, 0, 0},  {&_swigt__p_dna__Writer, _p_dna__WriterTo_p_dna__BehaviorWriter, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_dna__BinaryStreamReader[] = {  {&_swigt__p_dna__BinaryStreamReader, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_dna__BinaryStreamWriter[] = {  {&_swigt__p_dna__BinaryStreamWriter, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_dna__CoordinateSystem[] = {  {&_swigt__p_dna__CoordinateSystem, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_dna__DefinitionReader[] = {  {&_swigt__p_dna__DefinitionReader, 0, 0, 0},  {&_swigt__p_dna__BehaviorReader, _p_dna__BehaviorReaderTo_p_dna__DefinitionReader, 0, 0},  {&_swigt__p_dna__BinaryStreamReader, _p_dna__BinaryStreamReaderTo_p_dna__DefinitionReader, 0, 0},  {&_swigt__p_dna__GeometryReader, _p_dna__GeometryReaderTo_p_dna__DefinitionReader, 0, 0},  {&_swigt__p_dna__JSONStreamReader, _p_dna__JSONStreamReaderTo_p_dna__DefinitionReader, 0, 0},  {&_swigt__p_dna__Reader, _p_dna__ReaderTo_p_dna__DefinitionReader, 0, 0},  {&_swigt__p_dna__StreamReader, _p_dna__StreamReaderTo_p_dna__DefinitionReader, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_dna__DefinitionReader[] = {  {&_swigt__p_dna__DefinitionReader, 0, 0, 0},  {&_swigt__p_dna__BehaviorReader, _p_dna__BehaviorReaderTo_p_dna__DefinitionReader, 0, 0},  {&_swigt__p_dna__BinaryStreamReader, _p_dna__BinaryStreamReaderTo_p_dna__DefinitionReader, 0, 0},  {&_swigt__p_dna__GeometryReader, _p_dna__GeometryReaderTo_p_dna__DefinitionReader, 0, 0},  {&_swigt__p_dna__JSONStreamReader, _p_dna__JSONStreamReaderTo_p_dna__DefinitionReader, 0, 0},  {&_swigt__p_dna__JointBehaviorMetadataReader, _p_dna__JointBehaviorMetadataReaderTo_p_dna__DefinitionReader, 0, 0},  {&_swigt__p_dna__MachineLearnedBehaviorReader, _p_dna__MachineLearnedBehaviorReaderTo_p_dna__DefinitionReader, 0, 0},  {&_swigt__p_dna__RBFBehaviorReader, _p_dna__RBFBehaviorReaderTo_p_dna__DefinitionReader, 0, 0},  {&_swigt__p_dna__Reader, _p_dna__ReaderTo_p_dna__DefinitionReader, 0, 0},  {&_swigt__p_dna__StreamReader, _p_dna__StreamReaderTo_p_dna__DefinitionReader, 0, 0},  {&_swigt__p_dna__TwistSwingBehaviorReader, _p_dna__TwistSwingBehaviorReaderTo_p_dna__DefinitionReader, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_dna__DefinitionWriter[] = {  {&_swigt__p_dna__DefinitionWriter, 0, 0, 0},  {&_swigt__p_dna__BehaviorWriter, _p_dna__BehaviorWriterTo_p_dna__DefinitionWriter, 0, 0},  {&_swigt__p_dna__BinaryStreamWriter, _p_dna__BinaryStreamWriterTo_p_dna__DefinitionWriter, 0, 0},  {&_swigt__p_dna__GeometryWriter, _p_dna__GeometryWriterTo_p_dna__DefinitionWriter, 0, 0},  {&_swigt__p_dna__JSONStreamWriter, _p_dna__JSONStreamWriterTo_p_dna__DefinitionWriter, 0, 0},  {&_swigt__p_dna__StreamWriter, _p_dna__StreamWriterTo_p_dna__DefinitionWriter, 0, 0},  {&_swigt__p_dna__Writer, _p_dna__WriterTo_p_dna__DefinitionWriter, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_dna__DescriptorReader[] = {  {&_swigt__p_dna__DescriptorReader, 0, 0, 0},  {&_swigt__p_dna__BehaviorReader, _p_dna__BehaviorReaderTo_p_dna__DescriptorReader, 0, 0},  {&_swigt__p_dna__BinaryStreamReader, _p_dna__BinaryStreamReaderTo_p_dna__DescriptorReader, 0, 0},  {&_swigt__p_dna__DefinitionReader, _p_dna__DefinitionReaderTo_p_dna__DescriptorReader, 0, 0},  {&_swigt__p_dna__GeometryReader, _p_dna__GeometryReaderTo_p_dna__DescriptorReader, 0, 0},  {&_swigt__p_dna__JSONStreamReader, _p_dna__JSONStreamReaderTo_p_dna__DescriptorReader, 0, 0},  {&_swigt__p_dna__Reader, _p_dna__ReaderTo_p_dna__DescriptorReader, 0, 0},  {&_swigt__p_dna__StreamReader, _p_dna__StreamReaderTo_p_dna__DescriptorReader, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_dna__DescriptorReader[] = {  {&_swigt__p_dna__DescriptorReader, 0, 0, 0},  {&_swigt__p_dna__BehaviorReader, _p_dna__BehaviorReaderTo_p_dna__DescriptorReader, 0, 0},  {&_swigt__p_dna__BinaryStreamReader, _p_dna__BinaryStreamReaderTo_p_dna__DescriptorReader, 0, 0},  {&_swigt__p_dna__DefinitionReader, _p_dna__DefinitionReaderTo_p_dna__DescriptorReader, 0, 0},  {&_swigt__p_dna__GeometryReader, _p_dna__GeometryReaderTo_p_dna__DescriptorReader, 0, 0},  {&_swigt__p_dna__JSONStreamReader, _p_dna__JSONStreamReaderTo_p_dna__DescriptorReader, 0, 0},  {&_swigt__p_dna__JointBehaviorMetadataReader, _p_dna__JointBehaviorMetadataReaderTo_p_dna__DescriptorReader, 0, 0},  {&_swigt__p_dna__MachineLearnedBehaviorReader, _p_dna__MachineLearnedBehaviorReaderTo_p_dna__DescriptorReader, 0, 0},  {&_swigt__p_dna__RBFBehaviorReader, _p_dna__RBFBehaviorReaderTo_p_dna__DescriptorReader, 0, 0},  {&_swigt__p_dna__Reader, _p_dna__ReaderTo_p_dna__DescriptorReader, 0, 0},  {&_swigt__p_dna__StreamReader, _p_dna__StreamReaderTo_p_dna__DescriptorReader, 0, 0},  {&_swigt__p_dna__TwistSwingBehaviorReader, _p_dna__TwistSwingBehaviorReaderTo_p_dna__DescriptorReader, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_dna__DescriptorWriter[] = {  {&_swigt__p_dna__DescriptorWriter, 0, 0, 0},  {&_swigt__p_dna__BehaviorWriter, _p_dna__BehaviorWriterTo_p_dna__DescriptorWriter, 0, 0},  {&_swigt__p_dna__BinaryStreamWriter, _p_dna__BinaryStreamWriterTo_p_dna__DescriptorWriter, 0, 0},  {&_swigt__p_dna__DefinitionWriter, _p_dna__DefinitionWriterTo_p_dna__DescriptorWriter, 0, 0},  {&_swigt__p_dna__GeometryWriter, _p_dna__GeometryWriterTo_p_dna__DescriptorWriter, 0, 0},  {&_swigt__p_dna__JSONStreamWriter, _p_dna__JSONStreamWriterTo_p_dna__DescriptorWriter, 0, 0},  {&_swigt__p_dna__StreamWriter, _p_dna__StreamWriterTo_p_dna__DescriptorWriter, 0, 0},  {&_swigt__p_dna__Writer, _p_dna__WriterTo_p_dna__DescriptorWriter, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_dna__GeometryReader[] = {  {&_swigt__p_dna__GeometryReader, 0, 0, 0},  {&_swigt__p_dna__BinaryStreamReader, _p_dna__BinaryStreamReaderTo_p_dna__GeometryReader, 0, 0},  {&_swigt__p_dna__JSONStreamReader, _p_dna__JSONStreamReaderTo_p_dna__GeometryReader, 0, 0},  {&_swigt__p_dna__Reader, _p_dna__ReaderTo_p_dna__GeometryReader, 0, 0},  {&_swigt__p_dna__StreamReader, _p_dna__StreamReaderTo_p_dna__GeometryReader, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_dna__GeometryWriter[] = {  {&_swigt__p_dna__GeometryWriter, 0, 0, 0},  {&_swigt__p_dna__BinaryStreamWriter, _p_dna__BinaryStreamWriterTo_p_dna__GeometryWriter, 0, 0},  {&_swigt__p_dna__JSONStreamWriter, _p_dna__JSONStreamWriterTo_p_dna__GeometryWriter, 0, 0},  {&_swigt__p_dna__StreamWriter, _p_dna__StreamWriterTo_p_dna__GeometryWriter, 0, 0},  {&_swigt__p_dna__Writer, _p_dna__WriterTo_p_dna__GeometryWriter, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_dna__HeaderReader[] = {  {&_swigt__p_dna__HeaderReader, 0, 0, 0},  {&_swigt__p_dna__BinaryStreamReader, _p_dna__BinaryStreamReaderTo_p_dna__HeaderReader, 0, 0},  {&_swigt__p_dna__JSONStreamReader, _p_dna__JSONStreamReaderTo_p_dna__HeaderReader, 0, 0},  {&_swigt__p_dna__StreamReader, _p_dna__StreamReaderTo_p_dna__HeaderReader, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_dna__HeaderWriter[] = {  {&_swigt__p_dna__HeaderWriter, 0, 0, 0},  {&_swigt__p_dna__BehaviorWriter, _p_dna__BehaviorWriterTo_p_dna__HeaderWriter, 0, 0},  {&_swigt__p_dna__BinaryStreamWriter, _p_dna__BinaryStreamWriterTo_p_dna__HeaderWriter, 0, 0},  {&_swigt__p_dna__DefinitionWriter, _p_dna__DefinitionWriterTo_p_dna__HeaderWriter, 0, 0},  {&_swigt__p_dna__DescriptorWriter, _p_dna__DescriptorWriterTo_p_dna__HeaderWriter, 0, 0},  {&_swigt__p_dna__GeometryWriter, _p_dna__GeometryWriterTo_p_dna__HeaderWriter, 0, 0},  {&_swigt__p_dna__JSONStreamWriter, _p_dna__JSONStreamWriterTo_p_dna__HeaderWriter, 0, 0},  {&_swigt__p_dna__StreamWriter, _p_dna__StreamWriterTo_p_dna__HeaderWriter, 0, 0},  {&_swigt__p_dna__Writer, _p_dna__WriterTo_p_dna__HeaderWriter, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_dna__JSONStreamReader[] = {  {&_swigt__p_dna__JSONStreamReader, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_dna__JSONStreamWriter[] = {  {&_swigt__p_dna__JSONStreamWriter, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_dna__JointBehaviorMetadataReader[] = {  {&_swigt__p_dna__JointBehaviorMetadataReader, 0, 0, 0},  {&_swigt__p_dna__BinaryStreamReader, _p_dna__BinaryStreamReaderTo_p_dna__JointBehaviorMetadataReader, 0, 0},  {&_swigt__p_dna__JSONStreamReader, _p_dna__JSONStreamReaderTo_p_dna__JointBehaviorMetadataReader, 0, 0},  {&_swigt__p_dna__Reader, _p_dna__ReaderTo_p_dna__JointBehaviorMetadataReader, 0, 0},  {&_swigt__p_dna__StreamReader, _p_dna__StreamReaderTo_p_dna__JointBehaviorMetadataReader, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_dna__JointBehaviorMetadataWriter[] = {  {&_swigt__p_dna__JointBehaviorMetadataWriter, 0, 0, 0},  {&_swigt__p_dna__BinaryStreamWriter, _p_dna__BinaryStreamWriterTo_p_dna__JointBehaviorMetadataWriter, 0, 0},  {&_swigt__p_dna__JSONStreamWriter, _p_dna__JSONStreamWriterTo_p_dna__JointBehaviorMetadataWriter, 0, 0},  {&_swigt__p_dna__StreamWriter, _p_dna__StreamWriterTo_p_dna__JointBehaviorMetadataWriter, 0, 0},  {&_swigt__p_dna__Writer, _p_dna__WriterTo_p_dna__JointBehaviorMetadataWriter, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_dna__MachineLearnedBehaviorReader[] = {  {&_swigt__p_dna__MachineLearnedBehaviorReader, 0, 0, 0},  {&_swigt__p_dna__BinaryStreamReader, _p_dna__BinaryStreamReaderTo_p_dna__MachineLearnedBehaviorReader, 0, 0},  {&_swigt__p_dna__JSONStreamReader, _p_dna__JSONStreamReaderTo_p_dna__MachineLearnedBehaviorReader, 0, 0},  {&_swigt__p_dna__Reader, _p_dna__ReaderTo_p_dna__MachineLearnedBehaviorReader, 0, 0},  {&_swigt__p_dna__StreamReader, _p_dna__StreamReaderTo_p_dna__MachineLearnedBehaviorReader, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_dna__MachineLearnedBehaviorWriter[] = {  {&_swigt__p_dna__MachineLearnedBehaviorWriter, 0, 0, 0},  {&_swigt__p_dna__BinaryStreamWriter, _p_dna__BinaryStreamWriterTo_p_dna__MachineLearnedBehaviorWriter, 0, 0},  {&_swigt__p_dna__JSONStreamWriter, _p_dna__JSONStreamWriterTo_p_dna__MachineLearnedBehaviorWriter, 0, 0},  {&_swigt__p_dna__StreamWriter, _p_dna__StreamWriterTo_p_dna__MachineLearnedBehaviorWriter, 0, 0},  {&_swigt__p_dna__Writer, _p_dna__WriterTo_p_dna__MachineLearnedBehaviorWriter, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_dna__MeshBlendShapeChannelMapping[] = {  {&_swigt__p_dna__MeshBlendShapeChannelMapping, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_dna__RBFBehaviorReader[] = {  {&_swigt__p_dna__RBFBehaviorReader, 0, 0, 0},  {&_swigt__p_dna__BinaryStreamReader, _p_dna__BinaryStreamReaderTo_p_dna__RBFBehaviorReader, 0, 0},  {&_swigt__p_dna__JSONStreamReader, _p_dna__JSONStreamReaderTo_p_dna__RBFBehaviorReader, 0, 0},  {&_swigt__p_dna__Reader, _p_dna__ReaderTo_p_dna__RBFBehaviorReader, 0, 0},  {&_swigt__p_dna__StreamReader, _p_dna__StreamReaderTo_p_dna__RBFBehaviorReader, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_dna__RBFBehaviorWriter[] = {  {&_swigt__p_dna__RBFBehaviorWriter, 0, 0, 0},  {&_swigt__p_dna__BinaryStreamWriter, _p_dna__BinaryStreamWriterTo_p_dna__RBFBehaviorWriter, 0, 0},  {&_swigt__p_dna__JSONStreamWriter, _p_dna__JSONStreamWriterTo_p_dna__RBFBehaviorWriter, 0, 0},  {&_swigt__p_dna__StreamWriter, _p_dna__StreamWriterTo_p_dna__RBFBehaviorWriter, 0, 0},  {&_swigt__p_dna__Writer, _p_dna__WriterTo_p_dna__RBFBehaviorWriter, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_dna__Reader[] = {  {&_swigt__p_dna__Reader, 0, 0, 0},  {&_swigt__p_dna__BinaryStreamReader, _p_dna__BinaryStreamReaderTo_p_dna__Reader, 0, 0},  {&_swigt__p_dna__JSONStreamReader, _p_dna__JSONStreamReaderTo_p_dna__Reader, 0, 0},  {&_swigt__p_dna__StreamReader, _p_dna__StreamReaderTo_p_dna__Reader, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_dna__StreamReader[] = {  {&_swigt__p_dna__StreamReader, 0, 0, 0},  {&_swigt__p_dna__BinaryStreamReader, _p_dna__BinaryStreamReaderTo_p_dna__StreamReader, 0, 0},  {&_swigt__p_dna__JSONStreamReader, _p_dna__JSONStreamReaderTo_p_dna__StreamReader, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_dna__StreamWriter[] = {  {&_swigt__p_dna__StreamWriter, 0, 0, 0},  {&_swigt__p_dna__BinaryStreamWriter, _p_dna__BinaryStreamWriterTo_p_dna__StreamWriter, 0, 0},  {&_swigt__p_dna__JSONStreamWriter, _p_dna__JSONStreamWriterTo_p_dna__StreamWriter, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_dna__TextureCoordinate[] = {  {&_swigt__p_dna__TextureCoordinate, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_dna__TwistSwingBehaviorReader[] = {  {&_swigt__p_dna__TwistSwingBehaviorReader, 0, 0, 0},  {&_swigt__p_dna__BinaryStreamReader, _p_dna__BinaryStreamReaderTo_p_dna__TwistSwingBehaviorReader, 0, 0},  {&_swigt__p_dna__JSONStreamReader, _p_dna__JSONStreamReaderTo_p_dna__TwistSwingBehaviorReader, 0, 0},  {&_swigt__p_dna__Reader, _p_dna__ReaderTo_p_dna__TwistSwingBehaviorReader, 0, 0},  {&_swigt__p_dna__StreamReader, _p_dna__StreamReaderTo_p_dna__TwistSwingBehaviorReader, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_dna__TwistSwingBehaviorWriter[] = {  {&_swigt__p_dna__TwistSwingBehaviorWriter, 0, 0, 0},  {&_swigt__p_dna__BinaryStreamWriter, _p_dna__BinaryStreamWriterTo_p_dna__TwistSwingBehaviorWriter, 0, 0},  {&_swigt__p_dna__JSONStreamWriter, _p_dna__JSONStreamWriterTo_p_dna__TwistSwingBehaviorWriter, 0, 0},  {&_swigt__p_dna__StreamWriter, _p_dna__StreamWriterTo_p_dna__TwistSwingBehaviorWriter, 0, 0},  {&_swigt__p_dna__Writer, _p_dna__WriterTo_p_dna__TwistSwingBehaviorWriter, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_dna__Vector3[] = {  {&_swigt__p_dna__Vector3, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_dna__VertexLayout[] = {  {&_swigt__p_dna__VertexLayout, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_dna__Writer[] = {  {&_swigt__p_dna__Writer, 0, 0, 0},  {&_swigt__p_dna__BinaryStreamWriter, _p_dna__BinaryStreamWriterTo_p_dna__Writer, 0, 0},  {&_swigt__p_dna__JSONStreamWriter, _p_dna__JSONStreamWriterTo_p_dna__Writer, 0, 0},  {&_swigt__p_dna__StreamWriter, _p_dna__StreamWriterTo_p_dna__Writer, 0, 0},{0, 0, 0, 0}};
@@ -25613,12 +31969,19 @@ static swig_cast_info _swigc__p_void[] = {  {&_swigt__p_void, 0, 0, 0},{0, 0, 0,
 
 static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_AccessMode,
+  _swigc__p_ActivationFunction,
+  _swigc__p_AutomaticRadius,
   _swigc__p_Base,
   _swigc__p_OpenMode,
+  _swigc__p_RBFDistanceMethod,
+  _swigc__p_RBFFunctionType,
+  _swigc__p_RBFNormalizeMethod,
+  _swigc__p_RBFSolverType,
+  _swigc__p_RotationRepresentation,
+  _swigc__p_ScaleRepresentation,
+  _swigc__p_TranslationRepresentation,
+  _swigc__p_TwistAxis,
   _swigc__p_allocator_type,
-  _swigc__p_av__ConstArrayViewT_float_t,
-  _swigc__p_av__ConstArrayViewT_unsigned_int_t,
-  _swigc__p_av__ConstArrayViewT_unsigned_short_t,
   _swigc__p_av__StringView,
   _swigc__p_char,
   _swigc__p_difference_type,
@@ -25633,13 +31996,23 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_dna__DescriptorWriter,
   _swigc__p_dna__GeometryReader,
   _swigc__p_dna__GeometryWriter,
+  _swigc__p_dna__HeaderReader,
+  _swigc__p_dna__HeaderWriter,
   _swigc__p_dna__JSONStreamReader,
   _swigc__p_dna__JSONStreamWriter,
+  _swigc__p_dna__JointBehaviorMetadataReader,
+  _swigc__p_dna__JointBehaviorMetadataWriter,
+  _swigc__p_dna__MachineLearnedBehaviorReader,
+  _swigc__p_dna__MachineLearnedBehaviorWriter,
   _swigc__p_dna__MeshBlendShapeChannelMapping,
+  _swigc__p_dna__RBFBehaviorReader,
+  _swigc__p_dna__RBFBehaviorWriter,
   _swigc__p_dna__Reader,
   _swigc__p_dna__StreamReader,
   _swigc__p_dna__StreamWriter,
   _swigc__p_dna__TextureCoordinate,
+  _swigc__p_dna__TwistSwingBehaviorReader,
+  _swigc__p_dna__TwistSwingBehaviorWriter,
   _swigc__p_dna__Vector3,
   _swigc__p_dna__VertexLayout,
   _swigc__p_dna__Writer,
@@ -26166,6 +32539,10 @@ SWIG_init(void) {
   SWIG_Python_SetConstant(d, "AccessMode_ReadWrite",SWIG_From_int(static_cast< int >(trio::AccessMode::ReadWrite)));
   SWIG_Python_SetConstant(d, "OpenMode_Binary",SWIG_From_int(static_cast< int >(trio::OpenMode::Binary)));
   SWIG_Python_SetConstant(d, "OpenMode_Text",SWIG_From_int(static_cast< int >(trio::OpenMode::Text)));
+  
+  // thread safe initialization
+  swig::container_owner_attribute();
+  
   SWIG_Python_SetConstant(d, "DataLayer_Descriptor",SWIG_From_int(static_cast< int >(dna::DataLayer::Descriptor)));
   SWIG_Python_SetConstant(d, "DataLayer_Definition",SWIG_From_int(static_cast< int >(dna::DataLayer::Definition)));
   SWIG_Python_SetConstant(d, "DataLayer_Behavior",SWIG_From_int(static_cast< int >(dna::DataLayer::Behavior)));
@@ -26197,13 +32574,36 @@ SWIG_init(void) {
   SWIG_Python_SetConstant(d, "Direction_down",SWIG_From_int(static_cast< int >(dna::Direction::down)));
   SWIG_Python_SetConstant(d, "Direction_front",SWIG_From_int(static_cast< int >(dna::Direction::front)));
   SWIG_Python_SetConstant(d, "Direction_back",SWIG_From_int(static_cast< int >(dna::Direction::back)));
+  SWIG_Python_SetConstant(d, "RBFSolverType_Additive",SWIG_From_int(static_cast< int >(dna::RBFSolverType::Additive)));
+  SWIG_Python_SetConstant(d, "RBFSolverType_Interpolative",SWIG_From_int(static_cast< int >(dna::RBFSolverType::Interpolative)));
+  SWIG_Python_SetConstant(d, "RBFFunctionType_Gaussian",SWIG_From_int(static_cast< int >(dna::RBFFunctionType::Gaussian)));
+  SWIG_Python_SetConstant(d, "RBFFunctionType_Exponential",SWIG_From_int(static_cast< int >(dna::RBFFunctionType::Exponential)));
+  SWIG_Python_SetConstant(d, "RBFFunctionType_Linear",SWIG_From_int(static_cast< int >(dna::RBFFunctionType::Linear)));
+  SWIG_Python_SetConstant(d, "RBFFunctionType_Cubic",SWIG_From_int(static_cast< int >(dna::RBFFunctionType::Cubic)));
+  SWIG_Python_SetConstant(d, "RBFFunctionType_Quintic",SWIG_From_int(static_cast< int >(dna::RBFFunctionType::Quintic)));
+  SWIG_Python_SetConstant(d, "RBFDistanceMethod_Euclidean",SWIG_From_int(static_cast< int >(dna::RBFDistanceMethod::Euclidean)));
+  SWIG_Python_SetConstant(d, "RBFDistanceMethod_Quaternion",SWIG_From_int(static_cast< int >(dna::RBFDistanceMethod::Quaternion)));
+  SWIG_Python_SetConstant(d, "RBFDistanceMethod_SwingAngle",SWIG_From_int(static_cast< int >(dna::RBFDistanceMethod::SwingAngle)));
+  SWIG_Python_SetConstant(d, "RBFDistanceMethod_TwistAngle",SWIG_From_int(static_cast< int >(dna::RBFDistanceMethod::TwistAngle)));
+  SWIG_Python_SetConstant(d, "RBFNormalizeMethod_OnlyNormalizeAboveOne",SWIG_From_int(static_cast< int >(dna::RBFNormalizeMethod::OnlyNormalizeAboveOne)));
+  SWIG_Python_SetConstant(d, "RBFNormalizeMethod_AlwaysNormalize",SWIG_From_int(static_cast< int >(dna::RBFNormalizeMethod::AlwaysNormalize)));
+  SWIG_Python_SetConstant(d, "AutomaticRadius_On",SWIG_From_int(static_cast< int >(dna::AutomaticRadius::On)));
+  SWIG_Python_SetConstant(d, "AutomaticRadius_Off",SWIG_From_int(static_cast< int >(dna::AutomaticRadius::Off)));
+  SWIG_Python_SetConstant(d, "ActivationFunction_linear",SWIG_From_int(static_cast< int >(dna::ActivationFunction::linear)));
+  SWIG_Python_SetConstant(d, "ActivationFunction_relu",SWIG_From_int(static_cast< int >(dna::ActivationFunction::relu)));
+  SWIG_Python_SetConstant(d, "ActivationFunction_leakyrelu",SWIG_From_int(static_cast< int >(dna::ActivationFunction::leakyrelu)));
+  SWIG_Python_SetConstant(d, "ActivationFunction_tanh",SWIG_From_int(static_cast< int >(dna::ActivationFunction::tanh)));
+  SWIG_Python_SetConstant(d, "ActivationFunction_sigmoid",SWIG_From_int(static_cast< int >(dna::ActivationFunction::sigmoid)));
+  SWIG_Python_SetConstant(d, "TranslationRepresentation_Vector",SWIG_From_int(static_cast< int >(dna::TranslationRepresentation::Vector)));
+  SWIG_Python_SetConstant(d, "RotationRepresentation_EulerAngles",SWIG_From_int(static_cast< int >(dna::RotationRepresentation::EulerAngles)));
+  SWIG_Python_SetConstant(d, "RotationRepresentation_Quaternion",SWIG_From_int(static_cast< int >(dna::RotationRepresentation::Quaternion)));
+  SWIG_Python_SetConstant(d, "ScaleRepresentation_Vector",SWIG_From_int(static_cast< int >(dna::ScaleRepresentation::Vector)));
+  SWIG_Python_SetConstant(d, "TwistAxis_X",SWIG_From_int(static_cast< int >(dna::TwistAxis::X)));
+  SWIG_Python_SetConstant(d, "TwistAxis_Y",SWIG_From_int(static_cast< int >(dna::TwistAxis::Y)));
+  SWIG_Python_SetConstant(d, "TwistAxis_Z",SWIG_From_int(static_cast< int >(dna::TwistAxis::Z)));
   SWIG_addvarlink(globals, "StreamReader_SignatureMismatchError", Swig_var_StreamReader_SignatureMismatchError_get, Swig_var_StreamReader_SignatureMismatchError_set);
   SWIG_addvarlink(globals, "StreamReader_VersionMismatchError", Swig_var_StreamReader_VersionMismatchError_get, Swig_var_StreamReader_VersionMismatchError_set);
   SWIG_addvarlink(globals, "StreamReader_InvalidDataError", Swig_var_StreamReader_InvalidDataError_get, Swig_var_StreamReader_InvalidDataError_set);
-  
-  // thread safe initialization
-  swig::container_owner_attribute();
-  
 #if PY_VERSION_HEX >= 0x03000000
   return m;
 #else
